@@ -1,0 +1,22 @@
+.search-bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  border: none;
+}
+
+.search-bar-input {
+  height: 56px;
+  width: 360px;
+  border: 1px solid $myGreen;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+input:focus.search-bar {
+  outline: none;
+  border: 2px solid black;
+}
