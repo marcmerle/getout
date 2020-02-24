@@ -1,0 +1,54 @@
+.search-card {
+  overflow: hidden;
+  width: 360px;
+  height: 80px;
+  background: #FFFDF7;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.search-card img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+
+.search-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.search-card p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.search-card .search-card-infos {
+  padding: 20px;
+  position: relative;
+}
+
+.place-rating i {
+  color: yellow;
+}
+
+.place-type {
+  padding: 0px;
+  background-color: #DBCAA2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  position: absolute;
+  left: -17px;
+  border: solid white 1.5px;
+  text-align: center;
+}
+
+.place-type i {
+  color: white;
+}
