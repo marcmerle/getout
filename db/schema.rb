@@ -36,6 +36,46 @@ ActiveRecord::Schema.define(version: 2020_02_24_145227) do
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
   end
 
+  create_table "places", force: :cascade do |t|
+    t.string "name"
+    t.string "address"
+    t.float "latitude"
+    t.float "longitude"
+    t.string "type"
+    t.text "description"
+    t.time "opening_start"
+    t.time "opening_end"
+
+  create_table "genres", force: :cascade do |t|
+    t.string "name"
+
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "place_genres", force: :cascade do |t|
+    t.float "broadcasting_percentage"
+    t.bigint "place_id", null: false
+    t.bigint "genre_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["genre_id"], name: "index_place_genres_on_genre_id"
+    t.index ["place_id"], name: "index_place_genres_on_place_id"
+  end
+
+  create_table "places", force: :cascade do |t|
+    t.string "name"
+    t.string "address"
+    t.float "latitude"
+    t.float "longitude"
+    t.string "type"
+    t.text "description"
+    t.time "opening_start"
+    t.time "opening_end"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -50,4 +90,6 @@ ActiveRecord::Schema.define(version: 2020_02_24_145227) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "place_genres", "genres"
+  add_foreign_key "place_genres", "places"
 end
