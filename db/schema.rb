@@ -76,6 +76,16 @@ ActiveRecord::Schema.define(version: 2020_02_24_145227) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "user_genres", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "genre_id", null: false
+    t.float "listening_percentage"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["genre_id"], name: "index_user_genres_on_genre_id"
+    t.index ["user_id"], name: "index_user_genres_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -90,6 +100,8 @@ ActiveRecord::Schema.define(version: 2020_02_24_145227) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "user_genres", "genres"
+  add_foreign_key "user_genres", "users"
   add_foreign_key "place_genres", "genres"
   add_foreign_key "place_genres", "places"
 end
