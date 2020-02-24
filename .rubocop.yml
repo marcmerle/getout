@@ -9,6 +9,9 @@ AllCops:
     - 'tmp/**/*'
     - 'test/**/*'
 
+require:
+  - rubocop-rails
+  - rubocop-performance
 ConditionalAssignment:
   Enabled: false
 StringLiterals:
