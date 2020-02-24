@@ -36,19 +36,8 @@ ActiveRecord::Schema.define(version: 2020_02_24_145227) do
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
   end
 
-  create_table "places", force: :cascade do |t|
-    t.string "name"
-    t.string "address"
-    t.float "latitude"
-    t.float "longitude"
-    t.string "type"
-    t.text "description"
-    t.time "opening_start"
-    t.time "opening_end"
-
   create_table "genres", force: :cascade do |t|
     t.string "name"
-
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -100,8 +89,8 @@ ActiveRecord::Schema.define(version: 2020_02_24_145227) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
-  add_foreign_key "user_genres", "genres"
-  add_foreign_key "user_genres", "users"
   add_foreign_key "place_genres", "genres"
   add_foreign_key "place_genres", "places"
+  add_foreign_key "user_genres", "genres"
+  add_foreign_key "user_genres", "users"
 end
