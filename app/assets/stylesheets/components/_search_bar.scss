@@ -18,6 +18,7 @@
   .fas.fa-search {
     align-items: center;
     background: $white;
+    background-color: $light-80;
     color: $my-green;
     display: flex;
     flex-direction: column;
@@ -30,6 +31,7 @@
 }
 
 .search-bar-input {
+  background-color: $light-80;
   border: 0;
   color: $gray;
   height: 100%;
