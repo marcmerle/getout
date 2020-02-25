@@ -1,1 +1,4 @@
 // Specific CSS for your home-page
+.content-wrapper {
+  min-height: calc(100vh - 66px - 56px);
+}

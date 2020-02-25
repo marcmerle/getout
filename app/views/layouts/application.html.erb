@@ -15,7 +15,9 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
-
-    <%= yield %>
+    <div class="content-wrapper">
+      <%= yield %>
+    </div>
+     <%= render 'shared/bottom_navbar' %>
   </body>
 </html>
