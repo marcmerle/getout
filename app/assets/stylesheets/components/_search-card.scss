@@ -2,8 +2,8 @@
   overflow: hidden;
   width: 360px;
   height: 80px;
-  background: #FFFDF7;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background: $myWhite;
+  box-shadow: 0 0 15px $shadow-20;
   display: flex;
   align-items: center;
 }
@@ -36,13 +36,13 @@
 }
 
 .place-rating i {
-  color: yellow;
+  color: $mySand;
   font-size: 14px;
 }
 
 .place-type {
   padding: 0px;
-  background: #DBCAA2;
+  background: $mySand;
   width: 25px;
   height: 25px;
   border-radius: 50px;
@@ -71,11 +71,11 @@
 }
 
 .place-tag.short-tag {
-  border: 2px #49AF91 solid;
+  border: 2px $myGreen solid;
   width: 35px;
 }
 
 .place-tag.longer-tag {
-  border: 2px #EF798A solid;
+  border: 2px $myPink solid;
   width: 60px;
 }
