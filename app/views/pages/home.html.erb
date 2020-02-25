@@ -1,3 +1,33 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="home-grid">
 
+  <section class="home-header">
+    <div class="title">
+      <div>Where do you want to </div>
+      <%= image_tag("logo.svg") %> <span>GetOut</span> tonight?
+    </div>
+    <%= render "shared/background_logo" %> 
+  </section>
+
+  <section class="search">
+    <div>Find easily a place with the music you like!</div>
+    <div><%= render "shared/search_bar" %></div>
+  </section>
+
+
+  <section class="selection">
+    <div class="cat-title">Selection of bars for me</div>
+    <div>Insert here carousel of bars</div>
+  </section>
+
+
+  <section class="artists">
+    <div class="cat-title">Go and listen to these artists</div>
+    <div>Insert here carousel of artists</div>
+  </section>
+
+
+  <section class="events">
+    <div class="cat-title">Around me</div>
+    <div>Insert here carousel of events</div>
+  </section>
+</div>
