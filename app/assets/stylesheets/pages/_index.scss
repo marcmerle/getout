@@ -1,2 +1,8 @@
-// Import page-specific CSS files here.
 @import "home";
+
+.places {
+  display: grid;
+  grid-column: 1fr;
+  grid-gap: 8px;
+  justify-content: center;
+}

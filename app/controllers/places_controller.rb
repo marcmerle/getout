@@ -2,7 +2,7 @@
 
 class PlacesController < ApplicationController
   def index
-    @places = Place.all
+    @places = policy_scope(Place)
   end
 
   def show
