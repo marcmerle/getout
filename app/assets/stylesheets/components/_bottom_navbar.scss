@@ -1,5 +1,5 @@
 .bottom-navbar {
-  background: $myBlack;
+  background: $my-black;
   font-size: 25px;
   height: 56px;
   display: flex;
@@ -9,10 +9,10 @@
   text-decoration: none;
 
   .navbar-button {
-    color: $myWhite;
+    color: $my-white;
   }
 
   .navbar-button.active {
-    color: $myGreen;
+    color: $my-green;
   }
 }
