@@ -1,4 +1,15 @@
 // Specific CSS for your home-page
-.content-wrapper {
-  min-height: calc(100vh - 66px - 56px);
+.grid-content {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "content" "navbar";
+}
+
+.bottom-navbar {
+  grid-area: "navbar"
+}
+
+.content {
+  grid-area: "content"
 }
