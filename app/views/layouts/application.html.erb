@@ -28,6 +28,8 @@
   <body id="<%= controller.controller_name%>-<%= controller.action_name%>">
     <div class="grid-content">
       <div class="content">
+        <%= render 'shared/flashes' %>
+        <%= render 'shared/avatar' if current_user %>
         <%= yield %>
       </div>
       <div class="app-navbar">
