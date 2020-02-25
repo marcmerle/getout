@@ -3,13 +3,21 @@
   height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  grid-template-areas: "content" "navbar";
+  grid-template-areas:  "header"
+                        "content"
+                        "footer";
 }
 
-.bottom-navbar {
-  grid-area: "navbar"
+.header {
+  grid-area: "header"
+}
+
+.footer {
+  grid-area: "footer"
 }
 
 .content {
   grid-area: "content"
 }
+
+
