@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+.grid-content {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:  "header"
+                        "content"
+                        "footer";
+}
+
+.header {
+  grid-area: "header"
+}
+
+.footer {
+  grid-area: "footer"
+}
+
+.content {
+  grid-area: "content"
+}
+
+
