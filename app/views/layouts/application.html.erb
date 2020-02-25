@@ -14,7 +14,7 @@
 
   <body>
     <%= render 'shared/flashes' %>
-
+    <%= render 'shared/avatar' if current_user %>
     <%= yield %>
   </body>
 </html>
