@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
+  margin-bottom: 5px;
 
   i {
     color: $my-green;
@@ -15,6 +16,13 @@
   .index-search {
     flex-grow: 1;
     text-align: center;
+  }
+
+  .logo-back {
+    width: 25px;
+    height: 25px;
+    transform: rotate(180deg);
+    filter: contrast(150%);
   }
 }
 
@@ -37,13 +45,13 @@
   h4 {
     color: $my-white;
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 12px;
   }
 }
 
 .filter-search {
   margin: 0 auto;
-  width: 150px;
+  width: 200px;
   display: flex;
 
   .place-tag {
