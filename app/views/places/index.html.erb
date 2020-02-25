@@ -1,5 +1,48 @@
-<div class="places">
-  <% @places.each do |place| %>
-    <%= render "components/search-card", place: place %>
-  <% end %>
+<div class="index-container">
+  <div class="top-search">
+    <div class="back-button">
+      <%= link_to "/" do  %>
+        <%= image_tag "logo_with_arrow.png", alt: "logo", class:"logo-back"%>
+      <% end %>
+    </div>
+    <div class="index-search">
+      Search bar ?
+    </div>
+  </div>
+  <div class="filter-search">
+    <%= render 'components/tag', text: "Rate", class: "filter-tag" %>
+    <%= render 'components/tag', text: "Genre", class: "filter-tag" %>
+    <%= render 'components/tag', text: "Category", class: "filter-tag" %>
+  </div>
+  <div class="precised-search mb-3">
+    <div class="title-section">
+      <h4>Bars that played this artist this week</h4>
+    </div>
+    <div class="places">
+      <%= render "components/search-card", place: @places.sample %>
+      <%= render "components/search-card", place: @places.sample %>
+    </div>
+  </div>
+
+  <div class="large-search mb-3">
+    <div class="title-section">
+      <h4>Bars by same music style</h4>
+    </div>
+    <div class="places">
+      <%= render "components/search-card", place: @places.sample %>
+      <%= render "components/search-card", place: @places.sample %>
+    </div>
+  </div>
+
+  <div class="concerts mb-3">
+    <div class="title-section">
+      <h4>Concerts & Show</h4>
+    </div>
+    <div class="places">
+      <%= render "components/search-card", place: @places.sample %>
+      <%= render "components/search-card", place: @places.sample %>
+    </div>
+  </div>
 </div>
+
+
