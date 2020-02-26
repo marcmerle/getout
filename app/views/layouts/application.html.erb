@@ -31,7 +31,7 @@
     <div class="grid-content">
       <div class="content">
         <%= render 'shared/flashes' %>
-        <%= render 'shared/avatar' if current_user && current_user.avatar.attached? %>
+        <%= render 'shared/avatar' if current_user %>
         <%= yield %>
       </div>
       <div class="app-navbar">
