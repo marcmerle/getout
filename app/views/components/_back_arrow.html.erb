@@ -1,1 +1,5 @@
-<i class="fas fa-arrow-left"></i>
+<% link = local_assigns.fetch(:link, 'javascript:;') %>
+
+<%= link_to link do %>
+  <i class="fas fa-arrow-left"></i>
+<% end %>
