@@ -1,2 +1,69 @@
-<h1>Places#show</h1>
-<p>Find me in app/views/places/show.html.erb</p>
+<div class="show-container">
+  <div class="photos-carroussel">
+    <%= cl_image_tag @place.photos.first.key, height: 240, width: 411, crop: :fill %>
+  </div>
+  <div class="place-details">
+    <div class="place-name">
+      <h2><%= @place.name %></h2>
+    </div>
+    <div class="place-address">
+      <h4>Address</h4>
+      <p><%= @place.address %></p>
+    </div>
+    <div class="place-tags">
+      <%= render 'components/tag', text: "Pop", class: "pop-tag selected" %>
+      <%= render 'components/tag', text: "Hard Rock", class: "hard-rock-tag selected" %>
+    </div>
+    <div class="place-distance">
+      <h4>Distance</h4>
+      <p>342 m   <%= icon("fas", "map-marked-alt") %></p>
+    </div>
+    <h4>On Air</h4>
+    <div class="place-music">
+      <div class="before-music">
+        <h4>Before</h4>
+        <%= image_tag "https://static.actu.fr/uploads/2018/10/25061-181029164228186-0-854x942.jpg", class:"playing-img" %>
+        <p>La Compagnie Cré..</p>
+        <p>Ca fait rire les ois..</p>
+      </div>
+      <div class="now-music">
+        <h4>Now</h4>
+        <%= image_tag "logo_with_arrow.png", class:"playing-img bg-white" %>
+        <p>Soulwax</p>
+        <p>Close to paradise</p>
+      </div>
+      <div class="next-music">
+        <h4>Next</h4>
+        <%= image_tag "https://img.discogs.com/TBN_nuyviiYIj8Uj5vUQu4M2pSM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10321142-1495286691-4531.jpeg.jpg", class:"playing-img" %>
+        <p>Jacques</p>
+        <p>Tout est magnifique</p>
+      </div>
+    </div>
+    <div class="place-top-tracks">
+      <h4>Top tracks you like played here recently</h4>
+      <ol>
+        <li>
+          Céline Dion<br>
+          Sous le vent
+        </li>
+        <li>
+          Maitre Gims<br>
+          Bella
+        </li>
+        <li>
+          Bourvil<br>
+          Salade de fruits
+        </li>
+        <li>
+          Title
+        </li>
+        <li>
+          Title
+        </li>
+      </ol>
+    </div>
+    <div class="place-opening-info">
+      <h4>Opening infos</h4>
+    </div>
+  </div>
+</div>

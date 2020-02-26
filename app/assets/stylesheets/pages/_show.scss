@@ -1,0 +1,46 @@
+.show-container {
+  background: #00171f;
+  height: 100%;
+  color: $my-white;
+  overflow-y: scroll;
+
+  .place-details {
+    margin: 25px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+
+  p {
+    font-size: 12px;
+    margin: 0px;
+  }
+
+  .place-tags {
+    width: 200px;
+    display: flex;
+  }
+
+  .place-music {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  ol {
+    font-size: 12px;
+  }
+
+  .playing-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
