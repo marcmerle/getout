@@ -26,7 +26,7 @@ class User < ApplicationRecord
         password: Devise.friendly_token[0, 20]
       )
     end
-    user.replace_user_picture(auth)
+    user.replace_user_picture(auth) if auth.info.image
     user
   end
 
