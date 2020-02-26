@@ -1,9 +1,5 @@
+<%= render 'components/back_arrow' %>
 <div class="show-container">
-  <div class="back-button">
-    <%= link_to "/" do  %>
-      <%= image_tag "logo_with_arrow.png", alt: "logo", class:"logo-back"%>
-    <% end %>
-  </div>
   <div class="carousel-photos">
     <% @place.photos.each do |photo| %>
       <div class="place-photo">
@@ -48,7 +44,7 @@
       </div>
       <div class="now-music">
         <h4 class="now">Now</h4>
-        <%= image_tag "logo_with_arrow.png", class:"playing-img bg-white" %>
+        <%= image_tag "logo_with_arrow.svg", class:"playing-img bg-white" %>
         <p>Soulwax</p>
         <p>Close to paradise</p>
       </div>
