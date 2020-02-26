@@ -36,6 +36,7 @@ gem 'simple_form'
 
 gem 'cloudinary', '~> 1.12.0'
 gem 'pundit'
+gem 'omniauth-spotify'
 gem 'faker'
 
 group :development, :test do
