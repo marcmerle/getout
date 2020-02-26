@@ -2,10 +2,16 @@
 
 <div class="search-bar-container">
   <div class="search-bar">
-    <form action="/" id="search-form" method="get" accept-charset="utf-8">
-      <div class="search-bar-all">
+    <form action="/places" id="search-form" method="get" accept-charset="utf-8">
+      <div class="search-bar-all" data-controller="places-search">
         <%= icon("fas", "search") %>
-        <input class="search-bar-input" type="text" placeholder="Genre, Artist, Track, Address...">
+        <input class="search-bar-input"
+               type="search"
+               placeholder="Genre, Artist, Track, Address..."
+               data-target="places-search.input"
+               name="query"
+               id="search_query" 
+               >
       </div>
     </form>
   </div>
