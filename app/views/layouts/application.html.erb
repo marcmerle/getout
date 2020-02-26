@@ -31,12 +31,12 @@
   <body id="<%= controller.controller_name%>-<%= controller.action_name%>">
     <div class="grid-content">
       <div class="content">
-        <%= render 'shared/flashes' %>
-        <%= render 'shared/avatar' if current_user %>
+        <%= render 'components/flashes' %>
+        <%= render 'components/avatar' if current_user %>
         <%= yield %>
       </div>
       <div class="app-navbar">
-        <%= render 'shared/bottom_navbar' %>
+        <%= render 'components/bottom_navbar' %>
       </div>
     </div>
   </body>
