@@ -1,4 +1,4 @@
-<% 
+<%
     image = !place.photos.first ? image_path("logo_with_arrow") : cl_image_path(place.photos.first.key)
 %>
 
@@ -14,12 +14,8 @@
     <div class="place-infos d-flex justify-content-between align-items-center">
       <div class="place-rating"><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star-half-alt") %></div>
       <div class="place-tags d-flex flex-end">
-        <div class="place-tag short-tag">
-          Tag
-        </div>
-        <div class="place-tag longer-tag">
-          Longer Tag
-        </div>
+        <%= render 'components/tag', text: "Rock", class:'rock-tag selected' %>
+        <%= render 'components/tag', text: "Electro", class:'electro-tag selected' %>
       </div>
     </div>
   </div>
