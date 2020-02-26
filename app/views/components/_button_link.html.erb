@@ -1,0 +1,9 @@
+<%#
+  Usage:
+  <%= render 'components/_button_link', text: "ButtonText", link: "link", class: "Classes" %>
+
+<% text = local_assigns.fetch(:text, "OK") %>
+<% link = local_assigns.fetch(:link, 'javascript:;') %>
+<% classes = local_assigns.fetch(:class, "") %>
+
+<%= link_to text, link, class: "btn btn-default #{classes}" %>

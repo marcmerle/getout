@@ -1,6 +1,6 @@
 <%#
   Usage:
-  <%= render 'components/primary_button', text: "button text", class: "classes", form: "form_id", type: "type" %>
+  <%= render 'components/button', text: "button text", class: "classes", form: "form_id", type: "type" %>
 
 <% text = yield.presence || local_assigns.fetch(:text, "OK") %>
 <% classes = local_assigns.fetch(:class, "") %>
@@ -16,7 +16,7 @@
   data-action="<%= action %>"
   data-target="<%= target %>"
   form="<%= form %>"
-  class="btn btn-primary <%= classes %>"
+  class="btn btn-default <%= classes %>"
 >
   <%= text %>
 </button>

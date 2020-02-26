@@ -34,7 +34,7 @@
         <%= yield %>
       </div>
       <div class="app-navbar">
-        <%= render 'components/bottom_navbar' %>
+        <%= render 'components/bottom_navbar' unless "#{controller.controller_name}-#{controller.action_name}" == "pages-home" && current_user.nil? %>
       </div>
     </div>
   </body>
