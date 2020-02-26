@@ -1,22 +1,38 @@
 <div class="show-container">
+  <div class="back-button">
+    <%= link_to "/" do  %>
+      <%= image_tag "logo_with_arrow.png", alt: "logo", class:"logo-back"%>
+    <% end %>
+  </div>
   <div class="photos-carroussel">
     <%= cl_image_tag @place.photos.first.key, height: 240, width: 411, crop: :fill %>
   </div>
   <div class="place-details">
-    <div class="place-name">
-      <h2><%= @place.name %></h2>
+    <div class="general-infos">
+      <div class="place-name"><h2><%= @place.name %></h2></div>
+      <div class="place-like">
+        <%= render 'components/tag', text: "Open", class: "pop-tag selected" %>
+        <%= icon("far", "heart") %>
+      </div>
     </div>
     <div class="place-address">
       <h4>Address</h4>
       <p><%= @place.address %></p>
     </div>
     <div class="place-tags">
-      <%= render 'components/tag', text: "Pop", class: "pop-tag selected" %>
-      <%= render 'components/tag', text: "Hard Rock", class: "hard-rock-tag selected" %>
+      <%= render 'components/tag', text: "Jazz", class: "jazz-tag selected" %>
+      <%= render 'components/tag', text: "Techno", class: "techno-tag selected" %>
     </div>
     <div class="place-distance">
-      <h4>Distance</h4>
-      <p>342 m   <%= icon("fas", "map-marked-alt") %></p>
+      <div class="distance">
+        <h4>Distance</h4>
+        <p>342 m </p>
+      </div>
+      <div class="link-map">
+        <%= link_to "https://maps.google.com/?q=#{@place.address}", class:"text-decoration-none link-map" do  %>
+          <%= icon("fas", "map-marked-alt") %>
+        <% end %>
+      </div>
     </div>
     <h4>On Air</h4>
     <div class="place-music">
@@ -27,7 +43,7 @@
         <p>Ca fait rire les ois..</p>
       </div>
       <div class="now-music">
-        <h4>Now</h4>
+        <h4 class="now">Now</h4>
         <%= image_tag "logo_with_arrow.png", class:"playing-img bg-white" %>
         <p>Soulwax</p>
         <p>Close to paradise</p>
@@ -41,29 +57,74 @@
     </div>
     <div class="place-top-tracks">
       <h4>Top tracks you like played here recently</h4>
-      <ol>
-        <li>
-          Céline Dion<br>
-          Sous le vent
-        </li>
-        <li>
-          Maitre Gims<br>
-          Bella
-        </li>
-        <li>
-          Bourvil<br>
-          Salade de fruits
-        </li>
-        <li>
-          Title
-        </li>
-        <li>
-          Title
-        </li>
-      </ol>
+      <div class="row">
+        <div class="col">
+          1
+        </div>
+        <div class="col">
+          Titre
+        </div>
+        <div class="col">
+          2 hours ago
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          2
+        </div>
+        <div class="col">
+          Titre
+        </div>
+        <div class="col">
+          yesterday
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          3
+        </div>
+        <div class="col">
+          Titre
+        </div>
+        <div class="col">
+          2 days ago
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          4
+        </div>
+        <div class="col">
+          Titre
+        </div>
+        <div class="col">
+          3 days ago
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          5
+        </div>
+        <div class="col">
+          Titre
+        </div>
+        <div class="col">
+          1 week ago
+        </div>
+      </div>
+
     </div>
     <div class="place-opening-info">
       <h4>Opening infos</h4>
+      <ul class="list-inline text-center">
+        <li class="list-inline-item">Mon</li>
+        <li class="list-inline-item">Tue</li>
+        <li class="list-inline-item">Wed</li>
+        <li class="list-inline-item">Thu</li>
+        <li class="list-inline-item">Fri</li>
+        <li class="list-inline-item">Sat</li>
+        <li class="list-inline-item">Sun</li>
+      </ul>
     </div>
   </div>
 </div>
