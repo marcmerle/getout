@@ -1,0 +1,24 @@
+#sessions-new {
+  .grid-content .app-navbar .bottom-navbar {
+    visibility: hidden;
+  }
+}
+
+.sessions-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .vertical-logo {
+    margin-top: 124px;
+    margin-bottom: 16px;
+  }
+
+  .btn-signin {
+    margin-top: 72px;
+  }
+
+  .white-text {
+    color: $my-white;
+  }
+}

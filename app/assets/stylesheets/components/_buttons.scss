@@ -1,0 +1,50 @@
+.btn {
+  line-height: 31px;
+  padding: 5px 22px;
+  border: 0;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  outline: none !important;
+  transition: 0.2s ease-out;
+  vertical-align: middle;
+}
+
+.btn-default {
+  color: $my-white;
+  background-color: $my-pink;
+  min-width: 160px;
+  min-height: 64px;
+}
+
+.btn-signin {
+  color: $my-white;
+  background-color: $my-green;
+  min-width: 160px;
+  min-height: 64px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  width: calc(100% - 27px - 27px);
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: $my-stronger-pink !important;
+  color: $my-white !important;
+}
+
+.btn-signin:hover,
+.btn-signin:focus {
+  background-color: $my-stronger-green !important;
+  color: $my-white !important;
+}
