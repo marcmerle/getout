@@ -28,7 +28,7 @@
     <div class="grid-content">
       <div class="header">
         <%= render 'shared/flashes' %>
-        <%= render 'shared/avatar' if current_user %>
+        <%= render 'shared/avatar' if current_user && current_user.avatar.attached? %>
       </div>
       <div class="content">
         <%= yield %>
