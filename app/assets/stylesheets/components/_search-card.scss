@@ -60,22 +60,3 @@
 .place-distance {
   font-size: 13px;
 }
-
-.place-tag {
-  border-radius: 7px;
-  font-size: 10px;
-  height: 20px;
-  margin: 3px;
-  padding: 2px;
-  text-align: center;
-
-  &.short-tag {
-    border: 2px $my-green solid;
-    width: 35px;
-  }
-
-  &.longer-tag {
-    border: 2px $my-pink solid;
-    width: 60px;
-  }
-}

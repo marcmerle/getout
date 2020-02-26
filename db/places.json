@@ -1,0 +1,5331 @@
+[
+  {
+    "display_address": "7 Rue de Berri, 75008 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3132/app_Bar1.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "7 Rue de Berri, 75008 Paris, France",
+    "has_offer": false,
+    "id": 169,
+    "latitude": 48.8723438,
+    "longitude": 2.30333780000001,
+    "name": "Le Bar du Lancaster",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3132/app_Bar1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3133/app_17629607_1290121341023767_1191137408388730759_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3134/app_28576994_1614493105253254_970478930324619264_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3135/app_27894310_1923099601353265_4382569158366199808_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3136/app_127c92e1ff381f8f012c6eb9a409f70c.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "85 Rue de Dunkerque, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3768/app_325.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "85 Rue de Dunkerque, 75009 Paris, France",
+    "has_offer": false,
+    "id": 516,
+    "latitude": 48.8821749,
+    "longitude": 2.34568839999997,
+    "name": "Sparks",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3778/app_290.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3768/app_325.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3769/app_379.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3770/app_OL-xl.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3771/app_Ef-xl.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "3 Rue Marcadet, 75018 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/409/app_devanture_zps619ea5cb.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "3 Rue Marcadet, 75018 Paris, France",
+    "has_offer": false,
+    "id": 69,
+    "latitude": 48.8903174,
+    "longitude": 2.35559009999997,
+    "name": "Café Lomi",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/409/app_devanture_zps619ea5cb.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/410/app_Caf_-Lomi-2.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1369/app_cafe-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1370/app_110A9013.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1371/app_art.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "14 Rue Crespin du Gast, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2763/app_18056190_1449164911817890_8864456158026281641_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "14 Rue Crespin du Gast, 75011 Paris, France",
+    "has_offer": false,
+    "id": 45,
+    "latitude": 48.8654569,
+    "longitude": 2.38202490000003,
+    "name": "Le Perchoir ",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2433/app_DSC_0283.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2434/app_DSC_0278.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2763/app_18056190_1449164911817890_8864456158026281641_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2764/app_18077154_1455533671181014_4066748674217580866_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1391/app_200815-perchoir-marais-2016-2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "9 Rue Greneta, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2449/app_16836544_333790080355959_809802805138205970_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "9 Rue Greneta, 75003 Paris, France",
+    "has_offer": false,
+    "id": 301,
+    "latitude": 48.8652844,
+    "longitude": 2.35260870000002,
+    "name": "Madame Pervenche",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2449/app_16836544_333790080355959_809802805138205970_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2450/app_17191933_340754512992849_8533935682257990801_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2451/app_17157847_340753672992933_6179105042922314189_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2452/app_17098101_340754536326180_7166188407326707571_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2453/app_17192349_340754806326153_6852466437336243586_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "10 Rue Frochot, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2255/app_481688_540458842660773_1168489680_n.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "10 Rue Frochot, 75009 Paris, France",
+    "has_offer": false,
+    "id": 273,
+    "latitude": 48.881546,
+    "longitude": 2.33759540000005,
+    "name": "Dirty Dick",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2255/app_481688_540458842660773_1168489680_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2256/app_578534_540457812660876_239358971_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2257/app_577977_540457729327551_1590871297_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2258/app_HiP-Paris-SOPI-Dirty-Dick-Facebook-Dirty-Dick-3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2259/app_485122_537593092947348_3406688_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "20 Rue Beautreillis, 75004 Paris",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/389/app_11872079_882028825178205_3632661042909003133_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "20 Rue Beautreillis, 75004 Paris",
+    "has_offer": false,
+    "id": 65,
+    "latitude": 48.8532466,
+    "longitude": 2.36414779999996,
+    "name": "Sherry Butt",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/389/app_11872079_882028825178205_3632661042909003133_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/390/app_sherry-butt-03.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/391/app_53880_429944420386650_499164799_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/392/app_f8f770003b2bd731605c9940403a8f4a.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/393/app_617123_430300653684360_490322074_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "21 Rue Alsace Lorraine, 69001 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2341/app_Baratine-Moi-Monsieur-Bazin-blogueuse-lyonnnaise-france-away-hostel-brunch-8-1080x720.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "21 Rue Alsace Lorraine, 69001 Lyon, France",
+    "has_offer": false,
+    "id": 286,
+    "latitude": 45.770689,
+    "longitude": 4.83675800000003,
+    "name": "Away Hostel & Coffee Shop",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2341/app_Baratine-Moi-Monsieur-Bazin-blogueuse-lyonnnaise-france-away-hostel-brunch-8-1080x720.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2342/app_Away_Hostel___Coffee_Shop_-_www.lacrememagazine.com.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2343/app_9674938-15581569.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2344/app_Baratine-Moi-Monsieur-Bazin-blogueuse-lyonnnaise-france-away-hostel-brunch-9.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2345/app_m87_lyon_jardin_fld.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "9 Rue Antoine Vollon, 75012 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3788/app_dl20181106081-2.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "9 Rue Antoine Vollon, 75012 Paris, France",
+    "has_offer": false,
+    "id": 520,
+    "latitude": 48.8507158,
+    "longitude": 2.37679219999995,
+    "name": "Hostaria Urbana",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3792/app_dl20181106001-HDR.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3790/app_dl20181106136-2-HDR.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3788/app_dl20181106081-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3791/app_dl20181106011-2-HDR.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3793/app_dl20181106021-2-HDR.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "86 Avenue Parmentier, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2642/app_DSC_0096.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "86 Avenue Parmentier, 75011 Paris, France",
+    "has_offer": false,
+    "id": 313,
+    "latitude": 48.8648756,
+    "longitude": 2.37522309999997,
+    "name": "Arômes Coffee Shop",
+    "nfc_tag": "7024F3DE-AAAE-42E4-B965-7C1E490C06B8",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2642/app_DSC_0096.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2643/app_DSC_0065.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2645/app_DSC_0062.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2647/app_DSC_0101.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2648/app_DSC_0086.jpg"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "0.5"
+  },
+  {
+    "display_address": "19 Rue Royale, 69001 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1808/app_slidernew11.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "19 Rue Royale, 69001 Lyon, France",
+    "has_offer": false,
+    "id": 238,
+    "latitude": 45.7710101,
+    "longitude": 4.83738389999996,
+    "name": "Le Fantôme de l'Opéra",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1810/app_E560B115-5EE8-4B83-9CED-B0FF082754E1.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1808/app_slidernew11.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1809/app_bar-fantome-opera-lyon__Julien_Tixier.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1811/app_12031548_904637049613487_1515428460926657323_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1812/app_cocktails_010_1000.png"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "14 Rue Hautefeuille, 75006 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/21/app_Castor_Club.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "14 Rue Hautefeuille, 75006 Paris, France",
+    "has_offer": false,
+    "id": 14,
+    "latitude": 48.8519895,
+    "longitude": 2.34240139999997,
+    "name": "Castor Club",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/21/app_Castor_Club.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/61/app_MG_9867.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/62/app_653x368.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/63/app_529454_434548033315061_2026682825_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4232/app_54428416_1656376101132242_2805009077631975424_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "177 Boulevard Voltaire, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2730/app_cafe-moco-cityguide-paris-cafe-loose-project-brunch-vegan-healthy-coffee-shop-couverture--1080x675.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "177 Boulevard Voltaire, 75011 Paris, France",
+    "has_offer": false,
+    "id": 335,
+    "latitude": 48.8541575,
+    "longitude": 2.3865452,
+    "name": "Café Moco",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2724/app_Moco11_zpsamuz1qdv.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2726/app_Moco3_zpsp4weco2i.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2727/app_Moco5_zpsn67wlgrk.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2730/app_cafe-moco-cityguide-paris-cafe-loose-project-brunch-vegan-healthy-coffee-shop-couverture--1080x675.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2731/app_Moco2_zpsun308aia.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "12 Rue Frochot, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1540/app_653x368.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "12 Rue Frochot, 75009 Paris, France",
+    "has_offer": false,
+    "id": 60,
+    "latitude": 48.8817622,
+    "longitude": 2.3374513,
+    "name": "Lulu White",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1538/app_img_6007-2048x1365.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1540/app_653x368.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1541/app_image.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1542/app_7204575-11056359.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1543/app_img_5978.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "Chaussée de Charleroi 196, 1060 Saint-Gilles, Belgique",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2685/app_forcado-pastelaria-portuguese-portugaise-pasteis-nata-bruxelles-brusselskitchen-chaussee-charleroi-ixelles-saint-gilles-salon-de-the05.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Chaussée de Charleroi 196, 1060 Saint-Gilles, Belgique",
+    "has_offer": false,
+    "id": 330,
+    "latitude": 50.8245325,
+    "longitude": 4.35449410000001,
+    "name": "Forcado",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2685/app_forcado-pastelaria-portuguese-portugaise-pasteis-nata-bruxelles-brusselskitchen-chaussee-charleroi-ixelles-saint-gilles-salon-de-the05.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2686/app_forcadobis.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2688/app_67897105_IqkxNI-E8-mm_PsW_scEMBJCmT12vzpsyiBZvUzaSvI.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2689/app_forcado-1312.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2690/app_IMG_8653.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "32 Rue Tête d'Or, 69006 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3549/app_IMG-2783.JPG"
+        }
+      }
+    ],
+    "geoloc_address": "32 Rue Tête d'Or, 69006 Lyon, France",
+    "has_offer": false,
+    "id": 458,
+    "latitude": 45.7704967,
+    "longitude": 4.85189869999999,
+    "name": "Un Rêve de Gosses",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3549/app_IMG-2783.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3550/app_revedegosse3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3551/app_revedegosse2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "12 Rue Buffault, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3823/app_40805_0001_f_1540509559.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "12 Rue Buffault, 75009 Paris, France",
+    "has_offer": false,
+    "id": 524,
+    "latitude": 48.8755745,
+    "longitude": 2.34200039999996,
+    "name": "Les Bariolés de Maud",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3823/app_40805_0001_f_1540509559.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3826/app_planche1_sept2018_web.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3825/app_L1025127_2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3827/app_bariole%CC%81s-noel-empile%CC%81s.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3880/app_3957_Light.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "Avenue Winston Churchill, 75008 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2649/app_img_1884_md.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Avenue Winston Churchill, 75008 Paris, France",
+    "has_offer": false,
+    "id": 324,
+    "latitude": 48.8659003,
+    "longitude": 2.31380749999994,
+    "name": "Le Jardin du Petit Palais",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2649/app_img_1884_md.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2652/app_img_1864_md.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2653/app_Jardin_du_Petit_Palais.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "4 Bis Cité Véron, 75018 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1715/app_55615-bar-a-bulles-1-article_diapo-2__1_.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "4 Bis Cité Véron, 75018 Paris, France",
+    "has_offer": false,
+    "id": 118,
+    "latitude": 48.8845634,
+    "longitude": 2.33221600000002,
+    "name": "Le Bar à Bulles",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/668/app_12109992_1722084238022801_1916169998119715365_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/669/app_11895126_1706409819590243_5647738993638891880_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/670/app_10534727_1723612521203306_3746010689987929653_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1715/app_55615-bar-a-bulles-1-article_diapo-2__1_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1716/app_spots-ete-2016-bar-a-bulles-paris-capitale.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "31 Rue de Mogador, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4221/app_54256700_580726142443850_8098797973531525120_n.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "31 Rue de Mogador, 75009 Paris, France",
+    "has_offer": false,
+    "id": 598,
+    "latitude": 48.8757283,
+    "longitude": 2.33112259999996,
+    "name": "Braun Notes",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4225/app_54523816_580159265833871_5792486044083421184_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4221/app_54256700_580726142443850_8098797973531525120_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4222/app_54798818_584602812056183_788310035653459968_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4223/app_53735667_577945789388552_7188528995728621568_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4224/app_MG_8111-1-4-1-940x1410.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "11 Rue Pierre Fontaine, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2820/app_mange-debout-tamise.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "11 Rue Pierre Fontaine, 75009 Paris, France",
+    "has_offer": false,
+    "id": 291,
+    "latitude": 48.8811565,
+    "longitude": 2.33432579999999,
+    "name": "Barbiche",
+    "nfc_tag": "5FE503E6-82BB-4914-93F5-EBA4E37B7C7F",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2816/app_cocktails.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2819/app_tartare-d-espadon-asperge.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2820/app_mange-debout-tamise.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2822/app_vue-d-ensemble.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2823/app_vins-d-artisans-vignerons.jpg"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "1.0"
+  },
+  {
+    "display_address": "41 Rue Servan, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3488/app_26756581_775791582606222_4423895862085736828_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "41 Rue Servan, 75011 Paris, France",
+    "has_offer": false,
+    "id": 472,
+    "latitude": 48.8616258,
+    "longitude": 2.38238090000004,
+    "name": "La Poudrière",
+    "nfc_tag": "7411707B-B14C-478F-9CBD-B2F73904C554",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3389/app_La_poudri%C3%A8re_1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3488/app_26756581_775791582606222_4423895862085736828_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3489/app_26001186_767222080129839_5745202071108960118_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3490/app_nhiko.PNG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3492/app_28058626_795070984011615_2336839870941661253_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": "1.0"
+  },
+  {
+    "display_address": "37 Rue des Remparts d'Ainay, 69002 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1746/app_slika-galerie-art-urbain-lyon-ampere.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "37 Rue des Remparts d'Ainay, 69002 Lyon, France",
+    "has_offer": false,
+    "id": 165,
+    "latitude": 45.7526236,
+    "longitude": 4.83172869999999,
+    "name": "Slika",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1746/app_slika-galerie-art-urbain-lyon-ampere.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1747/app_mur-galerie-slika-coffee-shop-street-art-e1468016596925.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/913/app_coffee-shop-slika1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1744/app_66a9ba2-slika-5.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1745/app_f9071b6-slika-4.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "64 Rue Jean-Baptiste Pigalle, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4352/app_12622558_1682638368642751_984788959646748902_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "64 Rue Jean-Baptiste Pigalle, 75009 Paris, France",
+    "has_offer": false,
+    "id": 610,
+    "latitude": 48.8816541,
+    "longitude": 2.33695910000006,
+    "name": "Mini Pong",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4352/app_12622558_1682638368642751_984788959646748902_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4353/app_minipong_1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4354/app_minipong_3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4355/app_minipong_5.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4356/app_minipong_4.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "36 Rue Ferrandière, 69002 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1798/app_coffee-shop-lyon-cafetiers.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "36 Rue Ferrandière, 69002 Lyon, France",
+    "has_offer": false,
+    "id": 236,
+    "latitude": 45.7620187,
+    "longitude": 4.83640179999998,
+    "name": "Les Cafetiers ",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1798/app_coffee-shop-lyon-cafetiers.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1799/app_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1800/app_cafetiers-coffeeshop-lyon.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1801/app_La-Ptite-Bulle-d-Elo_Les-Cafetiers_Lyon__7_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1802/app_o-1.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "19 Rue Moret, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4368/app_tiz-ane-11-HD.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "19 Rue Moret, 75011 Paris, France",
+    "has_offer": false,
+    "id": 612,
+    "latitude": 48.867371,
+    "longitude": 2.37912749999998,
+    "name": "Tiz'Âne",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4368/app_tiz-ane-11-HD.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4369/app_tiz-ane-09-HD.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4370/app_254A1933.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4371/app_254A1828.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4372/app_254A1891.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "1 Rue Scribe, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3013/app_HotelScribeParis_Bar_l_Obscur.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "1 Rue Scribe, 75009 Paris, France",
+    "has_offer": false,
+    "id": 391,
+    "latitude": 48.870763,
+    "longitude": 2.32975970000007,
+    "name": "Bar de l'Hôtel Scribe",
+    "nfc_tag": "5F45DF1C-BB0F-4AC7-921C-23298B8BD352",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3016/app_HotelScribeParis_Bar_l_Obscur__1_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3017/app_Cocktails_-_Bar_l_Obscur__16_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3013/app_HotelScribeParis_Bar_l_Obscur.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3014/app__C0A1119.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3015/app_Cocktails_-_Bar_l_Obscur__6_.jpg"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "2.0"
+  },
+  {
+    "display_address": "30 Rue des Vignes, 33800 Bordeaux, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3533/app_unnamed.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "30 Rue des Vignes, 33800 Bordeaux, France",
+    "has_offer": false,
+    "id": 491,
+    "latitude": 44.8323964,
+    "longitude": -0.56514279999999,
+    "name": "Quartier Libre",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3533/app_unnamed.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3534/app_unnamed-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3535/app_unnamed-16.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3536/app_unnamed-18.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3537/app_unnamed-14.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "8 Rue Jean Goujon, 75008 Paris",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2805/app_IMG_2179.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "8 Rue Jean Goujon, 75008 Paris",
+    "has_offer": false,
+    "id": 103,
+    "latitude": 48.8666057,
+    "longitude": 2.30907120000006,
+    "name": "Blind Bar",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2805/app_IMG_2179.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2806/app_308021.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2807/app_image.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2808/app_308041.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2809/app_307991.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "8 Rue de Beauce, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3920/app_fat-4339.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "8 Rue de Beauce, 75003 Paris, France",
+    "has_offer": false,
+    "id": 535,
+    "latitude": 48.8626707,
+    "longitude": 2.36131239999997,
+    "name": "Fat.",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3936/app_unnamed__2_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3920/app_fat-4339.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3921/app_fat-3579.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3922/app_Attachment-1__1_.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3923/app_fat-3575.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "1 Quai Claude Bernard, 69007 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2585/app_1597706.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "1 Quai Claude Bernard, 69007 Lyon, France",
+    "has_offer": false,
+    "id": 316,
+    "latitude": 45.7544938,
+    "longitude": 4.83969460000003,
+    "name": "Le Mondrian",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2585/app_1597706.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2586/app_1597692.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2587/app_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2588/app_1597711.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2589/app_terrasse_wet_cut_20160714_130619__1_.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "32 Rue Pierre Fontaine, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4373/app_alohacafe-2.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "32 Rue Pierre Fontaine, 75009 Paris, France",
+    "has_offer": false,
+    "id": 613,
+    "latitude": 48.8825699,
+    "longitude": 2.33359569999993,
+    "name": "Aloha Café",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4373/app_alohacafe-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4378/app_alohacafe-11.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4379/app_aloha-cafe.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4380/app_img_6393.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4382/app_45282988_2177354099208935_2370268407711924224_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "48 Rue du Montparnasse, 75014 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2414/app_DSC_0405.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "48 Rue du Montparnasse, 75014 Paris, France",
+    "has_offer": false,
+    "id": 203,
+    "latitude": 48.8424687,
+    "longitude": 2.32577289999995,
+    "name": "48 Cocktail Club",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2418/app_DSC_0400.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2414/app_DSC_0405.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2415/app_DSC_0397.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2416/app_DSC_0401.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2417/app_DSC_0408.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "62 Rue Notre Dame de Lorette, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1513/app_29248-baton-rouge-pigalle-ambiance-vaudou-et-article_diapo-1.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "62 Rue Notre Dame de Lorette, 75009 Paris, France",
+    "has_offer": false,
+    "id": 130,
+    "latitude": 48.880146,
+    "longitude": 2.33564860000001,
+    "name": "Bâton Rouge",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1513/app_29248-baton-rouge-pigalle-ambiance-vaudou-et-article_diapo-1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1514/app_baton-rouge-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1515/app_2-bar-cocktail-paris-baton-rouge-lousiane-france-ambiance-pigalle-creditphoto-stephaniechermont-parisbouge-2498185193.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1516/app_5-bar-cocktail-paris-baton-rouge-lousiane-france-ambiance-pigalle-creditphoto-stephaniechermont-parisbouge-823249008.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1517/app_DCS.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "74 Rue Amelot, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2915/app_Terrace-5-Les-Jardins-du-Marais.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "74 Rue Amelot, 75011 Paris, France",
+    "has_offer": false,
+    "id": 358,
+    "latitude": 48.8605219,
+    "longitude": 2.36802390000003,
+    "name": "Les Jardins du Marais",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2909/app_64275A.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2912/app_992321.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3110/app_19030266_10154381535570633_618730068221484452_n.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3111/app_17917226_10154331895615633_291072201344767744_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2915/app_Terrace-5-Les-Jardins-du-Marais.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "80 Boulevard de Belleville, 75020 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1682/app_212710-la-commune-a-paris-1230x680-1__1_.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "80 Boulevard de Belleville, 75020 Paris, France",
+    "has_offer": false,
+    "id": 229,
+    "latitude": 48.8698948,
+    "longitude": 2.37990289999993,
+    "name": "La Commune",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3847/app_IMG_4927.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3848/app_L1003026_EricAnton.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3851/app_IMG_5061.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3850/app_IMG_20181019_152325.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1682/app_212710-la-commune-a-paris-1230x680-1__1_.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "52 Galerie de Montpensier, 75001 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3098/app_cafe-kitsune-1024x683.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "52 Galerie de Montpensier, 75001 Paris, France",
+    "has_offer": false,
+    "id": 252,
+    "latitude": 48.8655036,
+    "longitude": 2.33737359999998,
+    "name": "Café Kitsuné",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2109/app_cafe-kitsune-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3098/app_cafe-kitsune-1024x683.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3099/app_cafe-kitsune-4-1024x683.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3100/app_cafe-kitsune-2-550x373.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3101/app_28947534_10156689316334769_8728969415045948868_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "33 Rue Gaspard Philippe, 33000 Bordeaux, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3509/app_jkgk.PNG"
+        }
+      }
+    ],
+    "geoloc_address": "33 Rue Gaspard Philippe, 33000 Bordeaux, France",
+    "has_offer": false,
+    "id": 485,
+    "latitude": 44.8329341,
+    "longitude": -0.567024899999979,
+    "name": "Michel MaBelle",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3815/app_35971387_471236029998865_3965226971465515008_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3509/app_jkgk.PNG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3510/app_nl.PNG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3513/app_18119044_278808882574915_7812894048207278663_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 7,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3816/app_18739827_294894494299687_5167652377627950360_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "18 Rue Parlement Saint-Pierre, 33000 Bordeaux, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3429/app_41684343_2102504716732110_6262841287196540928_n.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "18 Rue Parlement Saint-Pierre, 33000 Bordeaux, France",
+    "has_offer": false,
+    "id": 476,
+    "latitude": 44.8401473,
+    "longitude": -0.57111610000004,
+    "name": "Le Vertige",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3429/app_41684343_2102504716732110_6262841287196540928_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3430/app_Le_Vertige_Bar.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3431/app_40441124_331050164308426_2203415327763595264_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3432/app_40483072_296701137784467_3585057382914326528_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3433/app_40493894_322058968548083_1286702773735260160_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "11 Rue Jean Mermoz, 75008 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3862/app_IMGP0360.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "11 Rue Jean Mermoz, 75008 Paris, France",
+    "has_offer": false,
+    "id": 528,
+    "latitude": 48.8710357,
+    "longitude": 2.31157989999997,
+    "name": "Gentlemen 1919",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3864/app_IMGP0261.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3865/app_IMGP0325.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3866/app_IMGP0309.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3867/app__U3A5667.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3862/app_IMGP0360.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "6 Rue de Rochechouart, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4103/app_Capture_d_%C3%A9cran_2019-03-04_%C3%A0_12.03.21.png"
+        }
+      }
+    ],
+    "geoloc_address": "6 Rue de Rochechouart, 75009 Paris, France",
+    "has_offer": false,
+    "id": 554,
+    "latitude": 48.8768102,
+    "longitude": 2.34462289999999,
+    "name": "Chai Parisien",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4103/app_Capture_d_%C3%A9cran_2019-03-04_%C3%A0_12.03.21.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4106/app_Capture_d_%C3%A9cran_2019-03-04_%C3%A0_12.03.10.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4104/app_Capture_d_%C3%A9cran_2019-03-04_%C3%A0_12.03.58.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4107/app_Capture_d_%C3%A9cran_2019-03-04_%C3%A0_12.03.00_1.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4105/app_Capture_d_%C3%A9cran_2019-03-04_%C3%A0_12.02.48.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4108/app_Capture_d_%C3%A9cran_2019-03-04_%C3%A0_12.03.32.png"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "82 Rue Antoine Bréart, 1060 Saint-Gilles, Belgique",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2304/app_prelude-bruxelles-resto-brussels-kitchen-saint-gilles-apero-bento-restaurant12.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "82 Rue Antoine Bréart, 1060 Saint-Gilles, Belgique",
+    "has_offer": false,
+    "id": 283,
+    "latitude": 50.8233281,
+    "longitude": 4.34654560000001,
+    "name": "Le Prélude Café",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2304/app_prelude-bruxelles-resto-brussels-kitchen-saint-gilles-apero-bento-restaurant12.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2305/app_prelude-bruxelles-resto-brussels-kitchen-saint-gilles-apero-bento-restaurant10.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2306/app_prelude-bruxelles-resto-brussels-kitchen-saint-gilles-apero-bento-restaurant07.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2307/app_524c49f5abbdef998c6b35f5dcd9a2e5.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2308/app_prelude_7.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "25 Rue des Gravilliers, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2091/app_le-wild-lab-de-wild-and-the-moon.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "25 Rue des Gravilliers, 75003 Paris, France",
+    "has_offer": false,
+    "id": 249,
+    "latitude": 48.8638277,
+    "longitude": 2.3565294,
+    "name": "Wild & The Moon - Wild Lab ",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2091/app_le-wild-lab-de-wild-and-the-moon.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2092/app_IMG_8880_f-1024x683.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2093/app_header-slider-photo6.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2094/app_juices.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2095/app_joelix-wild-and-the-moon-paris-2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "10 Rue de la Grange aux Belles, 75010 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3003/app_boutique.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "10 Rue de la Grange aux Belles, 75010 Paris, France",
+    "has_offer": false,
+    "id": 361,
+    "latitude": 48.8737153,
+    "longitude": 2.36508739999999,
+    "name": "Myrthe",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3112/app_16584056_1743709272609156_5003280881410899968_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3113/app_17494517_205347063286359_6987992986948730880_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3003/app_boutique.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3004/app_boutique-3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3005/app_boutique-4.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "108 Rue Mouffetard, 75005 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3283/app_Sweet_spot_1.JPG"
+        }
+      }
+    ],
+    "geoloc_address": "108 Rue Mouffetard, 75005 Paris, France",
+    "has_offer": false,
+    "id": 448,
+    "latitude": 48.840944,
+    "longitude": 2.34951820000003,
+    "name": "SweetSpot",
+    "nfc_tag": "C9C5AC81-B019-45B1-B075-B8660B0EAD05",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3283/app_Sweet_spot_1.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3284/app_Sweet_spot_2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3285/app_Sweet_spot_3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3286/app_Sweet_spot_c1.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3287/app_Sweet_spot_c12.JPG"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "0.5"
+  },
+  {
+    "display_address": "5 Rue Rampon, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2031/app_3648361-1134211_0_56_1600_899_1600_900.rc.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "5 Rue Rampon, 75011 Paris, France",
+    "has_offer": false,
+    "id": 200,
+    "latitude": 48.8662226,
+    "longitude": 2.36687410000002,
+    "name": "Le Général Hôtel",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2031/app_3648361-1134211_0_56_1600_899_1600_900.rc.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2032/app_15138391_1331974886826236_3513085574373236642_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2033/app_215219399.JPEG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2034/app_general_1_8eb20fdfd1.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "12 Rue Perrée, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2231/app_restaurant-the-broken-arm-paris.jpeg"
+        }
+      }
+    ],
+    "geoloc_address": "12 Rue Perrée, 75003 Paris, France",
+    "has_offer": false,
+    "id": 270,
+    "latitude": 48.864713,
+    "longitude": 2.36159559999999,
+    "name": "The Broken Arm",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2231/app_restaurant-the-broken-arm-paris.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2232/app_the_broken_arm_about_2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2233/app_sessun-broken-arm-06.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2234/app_interior-20140304204431.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2235/app_The_BrokenArm_c.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "18 Rue Saint-Ambroise, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4262/app_Le_P_tit_Pinard_devanture_comp..jpeg"
+        }
+      }
+    ],
+    "geoloc_address": "18 Rue Saint-Ambroise, 75011 Paris, France",
+    "has_offer": false,
+    "id": 378,
+    "latitude": 48.8623743,
+    "longitude": 2.37814130000004,
+    "name": "Le P'tit Pinard",
+    "nfc_tag": "B28B1A16-7069-4106-B7D7-2CB5ADEBEA8C",
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4262/app_Le_P_tit_Pinard_devanture_comp..jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4263/app_Le_P_tit_Pinard_bar_comp..jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4264/app_Le_P_tit_Pinard_salle_4_comp.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4265/app_Le_P_tit_Pinard_salle_comp..jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4266/app_Le_P_tit_Pinard_salle_2_comp..jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4267/app_Le_P_tit_Pinard_boulettes_comp.jpg"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "1.0"
+  },
+  {
+    "display_address": "22 Avenue de Tourville, 75007 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2529/app_15936358_1419487884737237_3157541709301369959_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "22 Avenue de Tourville, 75007 Paris, France",
+    "has_offer": false,
+    "id": 310,
+    "latitude": 48.8542707,
+    "longitude": 2.30718560000003,
+    "name": "Zia",
+    "nfc_tag": "FE8F89DE-3DFC-4EF1-A5D7-562D4CC4EC4C",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2529/app_15936358_1419487884737237_3157541709301369959_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2531/app_18034107_1522434194442605_4286750923167528359_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2532/app_15875170_1412658312086861_166379441842147637_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2533/app_17202740_1475758069110218_9004275183272808146_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2535/app_IMG_20170413_184719.jpg"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "0.5"
+  },
+  {
+    "display_address": "Coudenberg 66, 1000 Bruxelles, Belgique",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1700/app_2Hendricks-COTC-BXL1002.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Coudenberg 66, 1000 Bruxelles, Belgique",
+    "has_offer": false,
+    "id": 123,
+    "latitude": 50.8432734,
+    "longitude": 4.35858510000003,
+    "name": "La Pharmacie Anglaise",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1700/app_2Hendricks-COTC-BXL1002.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1701/app_hendricks-bar-bruxelles-8.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1702/app_hendricks-cotc-bxl0954.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1703/app_1hendricks-cotc-bxl0994.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "43 Rue des Petits Carreaux, 75002 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3214/app_DSC_0232.JPG"
+        }
+      }
+    ],
+    "geoloc_address": "43 Rue des Petits Carreaux, 75002 Paris, France",
+    "has_offer": false,
+    "id": 449,
+    "latitude": 48.8680967,
+    "longitude": 2.34742700000004,
+    "name": "Lemon Iceland",
+    "nfc_tag": "DB71B7BC-51B6-4C2F-9CC2-E5DE0A635118",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3214/app_DSC_0232.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3216/app__MG_4169.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3217/app_Sandwich_and_juice_2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3218/app_Combo_1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3219/app_image.png"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "0.5"
+  },
+  {
+    "display_address": "66 Rue du Cherche-Midi, 75006 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2221/app_mamie-gateau-entete.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "66 Rue du Cherche-Midi, 75006 Paris, France",
+    "has_offer": false,
+    "id": 268,
+    "latitude": 48.8485489,
+    "longitude": 2.32440399999996,
+    "name": "Mamie Gâteaux",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2221/app_mamie-gateau-entete.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2222/app_3H4A4972.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2223/app_top-10-places-the-ladies-will-love-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2224/app_salon-de-the-mamie-gateaux-1024x768.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2225/app_dscn9761.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "55 Rue Montmartre, 75002 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4197/app_13177395_988355344553206_2920399289535635498_n.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "55 Rue Montmartre, 75002 Paris, France",
+    "has_offer": false,
+    "id": 596,
+    "latitude": 48.8660008,
+    "longitude": 2.3444538,
+    "name": "Coeur Fou",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4198/app_48902263_1938191536236244_3975218796267831296_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4197/app_13177395_988355344553206_2920399289535635498_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "59 Rue Jean-Baptiste Pigalle, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1872/app_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "59 Rue Jean-Baptiste Pigalle, 75009 Paris, France",
+    "has_offer": false,
+    "id": 245,
+    "latitude": 48.8808928,
+    "longitude": 2.33561269999996,
+    "name": "Pratz",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1872/app_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1873/app_the-proprio.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1874/app_16298974_1825094941083654_4229945810195548160_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1875/app_plan-charcuterie-480x480.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1876/app_pratz-bar-pigalle-paris-3-e1412764045140.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "19 Rue du Bourg Tibourg, 75004 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3562/app_03-hotel-luxe-marais-paris.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "19 Rue du Bourg Tibourg, 75004 Paris, France",
+    "has_offer": false,
+    "id": 36,
+    "latitude": 48.8572447,
+    "longitude": 2.35586179999996,
+    "name": "Bourg Tibourg",
+    "nfc_tag": "F6C19AB9-7F9B-4131-AA9B-F326A7A4B4D1",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2975/app_btbHD_salon_vinyle.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2977/app_BTBsalonpdj.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2978/app_BTBHDsalonm_ridienne.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2979/app_DSC_0051.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3562/app_03-hotel-luxe-marais-paris.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "1 Rue Frochot, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2121/app_103067-les-justes-1-rue-frochot-75009-paris-article_diapo-1.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "1 Rue Frochot, 75009 Paris, France",
+    "has_offer": false,
+    "id": 126,
+    "latitude": 48.8811318,
+    "longitude": 2.33753019999995,
+    "name": "Les Justes                                                   ",
+    "nfc_tag": "05045941-7A79-4235-BC20-6C12F61C0429",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2121/app_103067-les-justes-1-rue-frochot-75009-paris-article_diapo-1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2122/app_103092-les-justes-1-rue-frochot-75009-paris-article_top-1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2123/app_bar-pigalle-les-justes.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2125/app_les-justes-felix-millory-18-1130x678.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2127/app_194060-richie-ritch-560x0-2.png"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "1.0"
+  },
+  {
+    "display_address": "24 Rue de Sèvres, 75007 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2260/app_6_Rose-Bakery_DRSophieDerrien1.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "24 Rue de Sèvres, 75007 Paris, France",
+    "has_offer": false,
+    "id": 275,
+    "latitude": 48.8510258,
+    "longitude": 2.32450919999997,
+    "name": "Rose Bakery Tea room",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2260/app_6_Rose-Bakery_DRSophieDerrien1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2261/app_bonm5.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2262/app_bonm9.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2263/app_le-bon-marche-rive-gauche-rose-bakery-tea-room-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2264/app_IMG_82892.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "41 Rue Saint-Maur, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3504/app_dcdsq.PNG"
+        }
+      }
+    ],
+    "geoloc_address": "41 Rue Saint-Maur, 75011 Paris, France",
+    "has_offer": false,
+    "id": 488,
+    "latitude": 48.8614542,
+    "longitude": 2.38060489999998,
+    "name": "Enkore",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3504/app_dcdsq.PNG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3507/app_25550340_517131668659125_3475824779657674702_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3508/app_30530593_566735650365393_5841812394858250240_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3558/app_FEL_3502_OK.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3559/app_19961514_452928388412787_8484697423221008340_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "4 Boulevard de Ménullmontant, 75020 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2832/app_18670751_1555569621133836_1763599117802266742_n.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "4 Boulevard de Ménullmontant, 75020 Paris, France",
+    "has_offer": false,
+    "id": 345,
+    "latitude": 48.8586018,
+    "longitude": 2.3899447,
+    "name": "Apéronome",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2828/app_DSC_0012.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2829/app_DSC_0025.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2832/app_18670751_1555569621133836_1763599117802266742_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2833/app_DSC_0016.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2834/app_11779809_1024099490947521_2253715184328873666_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "21 Rue Richard Lenoir, 75011 Paris",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4010/app_49650816_1893496644112516_1178629409314177024_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "21 Rue Richard Lenoir, 75011 Paris",
+    "has_offer": false,
+    "id": 39,
+    "latitude": 48.8554002,
+    "longitude": 2.38155380000001,
+    "name": "Bears & Raccoons",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4013/app_thumb_Bears-and-raccoons-paris-gluten-free-MB.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4014/app_47478062_1837389949723186_4629264336022405120_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4010/app_49650816_1893496644112516_1178629409314177024_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4015/app_thumb_Bears-and-raccoons-paris-gluten-free-MB8.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4011/app_42966861_1747520718710110_3066991697457053696_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4012/app_thumb_dsc08623-2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "28 Place des Vosges, 75003 Paris",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2568/app_Front_Spring.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "28 Place des Vosges, 75003 Paris",
+    "has_offer": false,
+    "id": 256,
+    "latitude": 48.8562725,
+    "longitude": 2.36604120000004,
+    "name": "Le Pavillon de la Reine",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3989/app_le-pavillon-de-la-reine-3__1_.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2161/app_library.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2568/app_Front_Spring.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2569/app_The_fire_place_lounge.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 8,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3992/app_le-pavillon-de-la-reine-4.jpeg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "Place Eugène Flagey 18, 1050 Ixelles, Belgique",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/749/app_4957583287_d398b4092d_b.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Place Eugène Flagey 18, 1050 Ixelles, Belgique",
+    "has_offer": false,
+    "id": 134,
+    "latitude": 50.8271016,
+    "longitude": 4.37279899999999,
+    "name": "Café Belga",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/749/app_4957583287_d398b4092d_b.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/750/app_belga_02.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/751/app_immagine-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/752/app_6341920566_f41bcd4ea7_b.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/753/app_1752321625.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "Avenue Emile De Mot 19, 1000 Bruxelles, Belgique",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/685/app_1053109_473049032790106_922155336_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Avenue Emile De Mot 19, 1000 Bruxelles, Belgique",
+    "has_offer": false,
+    "id": 122,
+    "latitude": 50.8164039,
+    "longitude": 4.37454189999994,
+    "name": "Etiquette ",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/685/app_1053109_473049032790106_922155336_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/686/app_10365579_734568903304783_5736366188530626528_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/687/app_11879026_905454572882881_1863203705559621814_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/688/app_1898766_597988856962789_517984258_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/689/app_461023_275646949196983_982819718_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "14 Rue Bochart de Saron, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2267/app_MG_8133.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "14 Rue Bochart de Saron, 75009 Paris, France",
+    "has_offer": false,
+    "id": 277,
+    "latitude": 48.8810064,
+    "longitude": 2.34273489999998,
+    "name": "Artisan",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2267/app_MG_8133.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2268/app_MG_8129-1024x682.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2269/app_artisan-bar-paris-cocktail-drink-1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2270/app_10997708_442463329262978_997687630385143978_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2271/app_14232627_649962961846346_3558015327816068445_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "17 Rue de Sèvres, 75006 Paris",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1967/app_le-plongeoir-hermes-1043944_origin.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "17 Rue de Sèvres, 75006 Paris",
+    "has_offer": false,
+    "id": 138,
+    "latitude": 48.8514118,
+    "longitude": 2.32796559999997,
+    "name": "Plongeoir Hermès",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1967/app_le-plongeoir-hermes-1043944_origin.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1968/app_hermes-paris.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1969/app_IMG_1596.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1970/app_IMG_00051.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1971/app_big_315194_7251_-_brunoclergue_BCL7181_low2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "17 Rue du Pont Louis-Philippe, 75004 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4142/app_53617074_1009685139216317_4538105660914532352_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "17 Rue du Pont Louis-Philippe, 75004 Paris, France",
+    "has_offer": false,
+    "id": 588,
+    "latitude": 48.8555316,
+    "longitude": 2.35593340000003,
+    "name": "Peloton Café",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4142/app_53617074_1009685139216317_4538105660914532352_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4144/app_48389936_962192423965589_1429296916323106816_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4146/app_42723482_917848891733276_2328043630742208512_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4143/app_48403779_961051514079680_5901111036924133376_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4145/app_47375835_951609215023910_9050279610670907392_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "Avenue Louise 71, 1060 Bruxelles, Belgique",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1910/app_105_SHR_Brussel_rest_5c05a03512a819057f37d22.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Avenue Louise 71, 1060 Bruxelles, Belgique",
+    "has_offer": false,
+    "id": 141,
+    "latitude": 50.8324776,
+    "longitude": 4.35747370000001,
+    "name": "Loui Bar & D Lounge",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1910/app_105_SHR_Brussel_rest_5c05a03512a819057f37d22.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1911/app_105_shr_brussel_restaurant_louibar1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/799/app_Frankfurt_SHR_Frankf_8d05a027350022d56558584.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/800/app_11232914_447261128806403_3257769778063216469_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/801/app_105_SHR_Brussel_exte_ca05a027450022d5670272a.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "3 Rue Lafaurie Monbadon, 33000 Bordeaux, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3807/app_DSC_9220.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "3 Rue Lafaurie Monbadon, 33000 Bordeaux, France",
+    "has_offer": false,
+    "id": 522,
+    "latitude": 44.8430531,
+    "longitude": -0.579614900000024,
+    "name": "Wine Bar",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 8,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3817/app_DSC_9155.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3807/app_DSC_9220.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 7,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3813/app_DSC_9735.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3812/app_DSC_9188.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3810/app_DSC_9616.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "Rue Rémi Belleau, 33400 Talence, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3454/app_DDR_Cabane5.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Rue Rémi Belleau, 33400 Talence, France",
+    "has_offer": false,
+    "id": 481,
+    "latitude": 44.7953828,
+    "longitude": -0.601941600000032,
+    "name": "La Cabane de Raba",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3453/app_DDR_Cabane1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3454/app_DDR_Cabane5.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3455/app_DDR_Cabane2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3456/app_DDR_Cabane3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3457/app_DDR_Cabane4.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "5 Rue Crespin du Gast, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4343/app_3-le-gast.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "5 Rue Crespin du Gast, 75011 Paris, France",
+    "has_offer": false,
+    "id": 609,
+    "latitude": 48.8661628,
+    "longitude": 2.38172689999999,
+    "name": "Le Gast",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4343/app_3-le-gast.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4344/app_6-le-gast.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4345/app_22007458_1747936221915640_8681024905820215013_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4346/app_5-le-gast.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "7 Rue du Bourg l'Abbé, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2892/app_bar-les-bains-paris.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "7 Rue du Bourg l'Abbé, 75003 Paris, France",
+    "has_offer": false,
+    "id": 355,
+    "latitude": 48.8638281,
+    "longitude": 2.35193449999997,
+    "name": "Les Bains",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2892/app_bar-les-bains-paris.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2893/app_HiP-Paris-A-La-Francaise-cocktails-downstairs-e1479206327891.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2894/app_rdai___les_bains_2_3296.jpeg_north_1160x_white-e1436442836251.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2895/app_les_bains_restaurant.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2896/app_les-bains-paris.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "58 Rue de la Fontaine au Roi, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2243/app_steel-011Lead.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "58 Rue de la Fontaine au Roi, 75011 Paris, France",
+    "has_offer": false,
+    "id": 272,
+    "latitude": 48.8680751,
+    "longitude": 2.37388920000001,
+    "name": "Steel Cyclewear & Coffee Shop",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2243/app_steel-011Lead.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2244/app_steel-cyclewear-coffeeshop-paris-by-le-polyedre_14.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2245/app_steel-cyclewear-coffeeshop-paris-by-le-polyedre_13.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2246/app_steel-006.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2247/app_steel4.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "44 Rue des Vinaigriers, 75010 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2078/app_20790285382_4978b9ddf0_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "44 Rue des Vinaigriers, 75010 Paris, France",
+    "has_offer": false,
+    "id": 50,
+    "latitude": 48.873629,
+    "longitude": 2.36114620000001,
+    "name": "Gravity Bar",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/316/app_12009776_954184847972846_7670025565705579498_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2030/app_gravity-bar-paris-cocktails-8-w1200-h800.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2078/app_20790285382_4978b9ddf0_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2079/app_gravity-bar-paris-cocktails-2-w1200-h800.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1125/app_14352397_1178347638889898_6742242089086350135_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "72 Cours de la Somme, 33800 Bordeaux, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3469/app_IMG_20180912_155026.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "72 Cours de la Somme, 33800 Bordeaux, France",
+    "has_offer": false,
+    "id": 471,
+    "latitude": 44.8280106,
+    "longitude": -0.572202599999969,
+    "name": "Musette Bicycles & Coffee",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3407/app_bicycles-and-flowers.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3408/app_pink-light.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3409/app_bicycles-and-coffee.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3410/app_black-bean-soup.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3469/app_IMG_20180912_155026.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "111 Boulevard Beaumarchais, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2766/app_pb203775.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "111 Boulevard Beaumarchais, 75003 Paris, France",
+    "has_offer": false,
+    "id": 339,
+    "latitude": 48.8607587,
+    "longitude": 2.36693690000004,
+    "name": "Used Book Café",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2766/app_pb203775.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2767/app_img_8882.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2768/app_the-used-book-cafe-at-merci-concept-store-paris-conde-nast-traveller-14dec16-pr.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2769/app_Prioritaire-Merci-boutique-piece-livres-et-table-shopping-paris-myroomin.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2770/app_IMG_6508.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "20 Avenue de Saint-Ouen, 75018 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2938/app_cozette-dry-bar.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "20 Avenue de Saint-Ouen, 75018 Paris, France",
+    "has_offer": false,
+    "id": 381,
+    "latitude": 48.8883455,
+    "longitude": 2.32615080000005,
+    "name": "Cozette",
+    "nfc_tag": "",
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2968/app_4b7c2cec-3923-46c3-96a9-1a8829a8f9ca.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2938/app_cozette-dry-bar.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2939/app_15037158_1328089430537432_1429159486896248870_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2940/app_17795956_1389287717798990_6434521042907434032_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2941/app_coz.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "25 Avenue Montaigne, 75008 Paris",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1972/app_Entrance_of_Le_bar_du_plaza_athenee.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "25 Avenue Montaigne, 75008 Paris",
+    "has_offer": false,
+    "id": 215,
+    "latitude": 48.8661932,
+    "longitude": 2.30421409999997,
+    "name": "Plaza Athénée",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1972/app_Entrance_of_Le_bar_du_plaza_athenee.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1973/app_christophe-sion_retouche-numerique_architecture_plazza-athenee-bar_luc-boegly_photographe_01.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1974/app_21366-perspective-au-bar-de-l-hotel-plaza-article_diapo-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1975/app_Alainducasse-4500800-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1976/app_baa9098c62afb2933c6562ff93c50984.png"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "54 Boulevard de la Tour-Maubourg, 75007 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4401/app_SMILZZ_BARNABY_04-10-2018-3.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "54 Boulevard de la Tour-Maubourg, 75007 Paris, France",
+    "has_offer": false,
+    "id": 617,
+    "latitude": 48.8586622,
+    "longitude": 2.30975250000006,
+    "name": "Fitzgerald",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4401/app_SMILZZ_BARNABY_04-10-2018-3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4402/app_SMILZZ_BARNABY_04-10-2018-26.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4403/app_SMILZZ_BARNABY_04-10-2018-27.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4404/app_SMILZZ_BARNABY_04-10-2018-97.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4405/app_SMILZZ_BARNABY_04-10-2018-117.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "78 Rue de Cléry, 75002 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4226/app_50930201_883715298686663_8945243303524171776_n.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "78 Rue de Cléry, 75002 Paris, France",
+    "has_offer": false,
+    "id": 599,
+    "latitude": 48.8690332,
+    "longitude": 2.35010779999993,
+    "name": "The Good Game",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4226/app_50930201_883715298686663_8945243303524171776_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4231/app_Capture_d_e%CC%81cran_2019-04-02_a%CC%80_15.13.16.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4230/app_50267738_883715275353332_7036392135888732160_n__1_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4227/app_50589435_883711292020397_6028786889782198272_n__1_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4229/app_50938186_883715278686665_4627318256275816448_o.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "22 Passage Dauphine, 75006 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1659/app_Photo6.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "22 Passage Dauphine, 75006 Paris, France",
+    "has_offer": false,
+    "id": 19,
+    "latitude": 48.8548681,
+    "longitude": 2.3384916,
+    "name": "L'Heure Gourmande",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1655/app_90624383_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1656/app_leap-hop-blog-paris-lheure-gourmande-chocola.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1658/app_l-heure-gourmande-paris-14292796410.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1659/app_Photo6.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1660/app_Sign_of_L_Heure_Gourmande.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "Rue Dejoncker 45, 1060 Saint-Gilles, Belgique",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1931/app_EA-0008.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "Rue Dejoncker 45, 1060 Saint-Gilles, Belgique",
+    "has_offer": false,
+    "id": 95,
+    "latitude": 50.8334614,
+    "longitude": 4.35548570000003,
+    "name": "The Vintage Wine Bar",
+    "nfc_tag": null,
+    "open": null,
+    "open?": null,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1931/app_EA-0008.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1932/app_Hotel-Design-Brussels-Breakfast-Room.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/549/app_Vintage_Hotel_Wine_Bar.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/550/app_VintageH-JJSEROL2899.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/551/app_55279d023570fde9b29dc9b2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "29 Rue de l'Arbre Sec, 69001 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2710/app_DSF3835-1024x683.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "29 Rue de l'Arbre Sec, 69001 Lyon, France",
+    "has_offer": false,
+    "id": 334,
+    "latitude": 45.7668502,
+    "longitude": 4.83751729999994,
+    "name": "Black Forest Society",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2710/app_DSF3835-1024x683.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2711/app_7e6f4bb05446b6935b7583c8132db6e1_black-forest-society-lyon-bar-a-cocktail.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2712/app_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2713/app_heurebleue_blackforestsociety4.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2714/app_o-2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "22 Rue Béranger, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2065/app_umami-matcha-cafe-paris-660x373.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "22 Rue Béranger, 75003 Paris, France",
+    "has_offer": false,
+    "id": 193,
+    "latitude": 48.8665548,
+    "longitude": 2.3636103,
+    "name": "Umami Matcha Café",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2065/app_umami-matcha-cafe-paris-660x373.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2066/app_umami1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2067/app_umami-matcha-cafe-restaurant-boutique-paris-by-le-polyedre-2-940x627.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2068/app_umami-matcha-cafe-restaurant-boutique-paris-by-le-polyedre-1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2069/app_umami-matcha-cafe-restaurant-boutique-paris-by-le-polyedre-3-940x627.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "10 Place du Marché Chartrons, 33000 Bordeaux, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3434/app_facebook_1536929483029.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "10 Place du Marché Chartrons, 33000 Bordeaux, France",
+    "has_offer": false,
+    "id": 469,
+    "latitude": 44.852065,
+    "longitude": -0.572054999999978,
+    "name": "La Réserve ",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3434/app_facebook_1536929483029.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3435/app_IMG_20180630_125805_resized_20180914_025438291.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3436/app_facebook_1536929279855.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3437/app_facebook_1536929342237.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3438/app_facebook_1536929526885.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "17 Place du Trocadéro et du 11 Novembre, 75116 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1163/app_14055045_1662565917394075_5876293796909038143_n.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "17 Place du Trocadéro et du 11 Novembre, 75116 Paris, France",
+    "has_offer": false,
+    "id": 187,
+    "latitude": 48.8622808,
+    "longitude": 2.28755960000001,
+    "name": "Café de l'Homme",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1161/app_14642307_1693547587629241_2244766876917133031_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1162/app_14040010_1666929900291010_4380643334524937163_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1163/app_14055045_1662565917394075_5876293796909038143_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1164/app_14040206_1663324640651536_221982010809801938_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1165/app_14063937_1661502827500384_8472141893008775202_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2804/app_2.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "3 Rue de l'Abbé Rozier, 69001 Lyon, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2705/app_rtd0xyiflfnkxhfjimvk.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "3 Rue de l'Abbé Rozier, 69001 Lyon, France",
+    "has_offer": false,
+    "id": 333,
+    "latitude": 45.769497,
+    "longitude": 4.83411649999994,
+    "name": "La Boîte à Café",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2705/app_rtd0xyiflfnkxhfjimvk.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2706/app_18057653_804888816336808_6701759835975795353_n.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2707/app_boite_a_cafe_4.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2708/app_Lyon_HighRes44-1100x734.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2709/app_3a0f0ca65b412a29ca243e7460b2e770.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "3 Rue Rougemont, 75009 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4052/app_Capture_d_%C3%A9cran_2019-02-18_%C3%A0_17.47.59.png"
+        }
+      }
+    ],
+    "geoloc_address": "3 Rue Rougemont, 75009 Paris, France",
+    "has_offer": false,
+    "id": 548,
+    "latitude": 48.8714522,
+    "longitude": 2.34571249999999,
+    "name": "Meriggio",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4052/app_Capture_d_%C3%A9cran_2019-02-18_%C3%A0_17.47.59.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4053/app_Capture_d_%C3%A9cran_2019-02-18_%C3%A0_17.48.50.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4056/app_Capture_d_%C3%A9cran_2019-02-18_%C3%A0_17.50.39.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4054/app_Capture_d_%C3%A9cran_2019-02-18_%C3%A0_17.49.08.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4055/app_Capture_d_%C3%A9cran_2019-02-18_%C3%A0_17.49.23.png"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "15 Rue des Trois Frères, 75018 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3910/app_image_lps_.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "15 Rue des Trois Frères, 75018 Paris, France",
+    "has_offer": false,
+    "id": 527,
+    "latitude": 48.8843644,
+    "longitude": 2.34109349999994,
+    "name": "La P'tite Soeur",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3910/app_image_lps_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 7,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3911/app_DSCF3295.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 8,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3912/app_DSCF3297.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 9,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3913/app_image.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 10,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3914/app_unnamed__1_.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "87 Rue de Turbigo, 75003 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4389/app_Portrait_AGU-5254.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "87 Rue de Turbigo, 75003 Paris, France",
+    "has_offer": false,
+    "id": 615,
+    "latitude": 48.8667627,
+    "longitude": 2.36130660000003,
+    "name": "Shake N'Smash",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4389/app_Portrait_AGU-5254.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4391/app_IMG_7437.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4392/app_FullSizeRender_2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4393/app_Portrait_AGU-5268.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/4394/app_25090.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "60 Rue Jean-Jacques Rousseau, 75001 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3978/app_isadora-bar-2__1_.jpeg"
+        }
+      }
+    ],
+    "geoloc_address": "60 Rue Jean-Jacques Rousseau, 75001 Paris, France",
+    "has_offer": false,
+    "id": 540,
+    "latitude": 48.8641183,
+    "longitude": 2.3435023,
+    "name": "Isadora",
+    "nfc_tag": null,
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3994/app_unnamed__26_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3995/app_unnamed__27_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3996/app_unnamed__28_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3978/app_isadora-bar-2__1_.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3993/app_unnamed__25_.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "33 Rue du Sommerard, 75005 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1363/app_13020372914_7bb723832e_b.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "33 Rue du Sommerard, 75005 Paris, France",
+    "has_offer": false,
+    "id": 72,
+    "latitude": 48.8502959,
+    "longitude": 2.3434135,
+    "name": "Instituutti - Le Café de l'Institut Finlandais ",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1363/app_13020372914_7bb723832e_b.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1364/app_institut-finlandais-instituutti-cafe-paris-5-by-le-polyedre_2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1365/app_IMG_7164-1024x683.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1367/app_IMG_7153-1024x682.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1368/app_IMG_7141.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "134 Quai de Bacalan, 33300 Bordeaux, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3938/app_latitude-20-1__1_.jpeg"
+        }
+      }
+    ],
+    "geoloc_address": "134 Quai de Bacalan, 33300 Bordeaux, France",
+    "has_offer": false,
+    "id": 537,
+    "latitude": 44.8622486,
+    "longitude": -0.549994999999967,
+    "name": "Latitude 20",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3939/app_latitude-20-2.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3940/app_latitude-20-5.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3938/app_latitude-20-1__1_.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3952/app_latitude-20-9.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3941/app_latitude-20-8.jpeg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "15 Rue des Grands Augustins, 75006 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3358/app_Oboose_Bar-1.png"
+        }
+      }
+    ],
+    "geoloc_address": "15 Rue des Grands Augustins, 75006 Paris, France",
+    "has_offer": false,
+    "id": 402,
+    "latitude": 48.8542889,
+    "longitude": 2.34067920000007,
+    "name": "Oboose",
+    "nfc_tag": "3CC16F96-11DE-4BB2-BF0A-6FD08E9B8063",
+    "open": false,
+    "open?": false,
+    "payment_available": true,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3358/app_Oboose_Bar-1.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3361/app_Oboose_Bar-4.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3362/app_Oboose_Bar-5.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3397/app_Oboose_Bar-2.png"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3398/app_Oboose_Bar-3.jpg"
+        }
+      }
+    ],
+    "tracking": true,
+    "visit_price": "1.0"
+  },
+  {
+    "display_address": "34 Rue Amelot, 75011 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2151/app_10708594_356727081162028_8382955516959835695_o.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "34 Rue Amelot, 75011 Paris, France",
+    "has_offer": false,
+    "id": 115,
+    "latitude": 48.8580252,
+    "longitude": 2.36870239999996,
+    "name": "Maison Bastille",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1907/app_brunch-maison-bastille-paris-la-godiche-1-707x470.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1908/app_IMG_0064-450x679.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/1909/app_IMG_6592.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2151/app_10708594_356727081162028_8382955516959835695_o.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2152/app_10593090_352990768202326_7047293440693822341_n.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "109 Rue de Bagnolet, 75020 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/167/app_mama-shelter-paris-bar-2.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "109 Rue de Bagnolet, 75020 Paris, France",
+    "has_offer": false,
+    "id": 7,
+    "latitude": 48.8597079,
+    "longitude": 2.40283249999993,
+    "name": "Mama Shelter",
+    "nfc_tag": "",
+    "open": false,
+    "open?": false,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/167/app_mama-shelter-paris-bar-2.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/168/app_mama-shelter-paris-bar-1.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/169/app_mama-shelter-paris-restaurant-3.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/170/app_mama-shelter-lyon-bar-cocktails__30_.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/171/app_mama-shelter-lyon-bar-cocktails__29_.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "6 Rue de Lota, 75116 Paris, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3026/app_Caf%C3%A9-new-.jpg"
+        }
+      }
+    ],
+    "geoloc_address": "6 Rue de Lota, 75116 Paris, France",
+    "has_offer": false,
+    "id": 386,
+    "latitude": 48.8673907,
+    "longitude": 2.27589820000003,
+    "name": "Café Harcourt",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2989/app_CAFE_HARCOURT_Panorama.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3026/app_Caf%C3%A9-new-.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3027/app_IMG_0755.JPG"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/3028/app_Burger.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/2990/app_CAFE_HARCOURT_9283.jpg"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  },
+  {
+    "display_address": "1 Avenue Foch, 94160 Saint-Mandé, France",
+    "first_picture": [
+      {
+        "picture_file": {
+          "order": 0,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5397/app_SAM_1201.JPG"
+        }
+      }
+    ],
+    "geoloc_address": "1 Avenue Foch, 94160 Saint-Mandé, France",
+    "has_offer": false,
+    "id": 659,
+    "latitude": 48.8462392,
+    "longitude": 2.4183682,
+    "name": "La Tourelle.",
+    "nfc_tag": null,
+    "open": true,
+    "open?": true,
+    "payment_available": false,
+    "pictures": [
+      {
+        "picture_file": {
+          "order": 9,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5406/app_2017-08-15.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 8,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5405/app_72452B4C-00D3-4BC7-BB9D-995C0FA4BBE6.jpeg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 7,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5404/app_20171214_133733.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 6,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5403/app_2017-08-20.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 5,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5402/app_2017-11-30.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 4,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5401/app_2018-06-26.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 3,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5400/app_IMG_20190527_130005.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 2,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5399/app_2017-08-27.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 1,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5398/app_2016-09-25.jpg"
+        }
+      },
+      {
+        "picture_file": {
+          "order": 0,
+          "url": "https://barnaby-development.s3.amazonaws.com/uploads/picture/picture_file/5397/app_SAM_1201.JPG"
+        }
+      }
+    ],
+    "tracking": false,
+    "visit_price": null
+  }
+]

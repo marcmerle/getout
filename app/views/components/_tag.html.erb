@@ -1,0 +1,12 @@
+<%#
+  Usage:
+
+  <%= render 'components/tag', text: "ButtonText", class: "Classes" % >
+%>
+
+<% text = local_assigns.fetch(:text, "Tag") %>
+<% classes = local_assigns.fetch(:class, "") %>
+
+<div class="place-tag <%= classes %> ">
+  <%= text %>
+</div>
