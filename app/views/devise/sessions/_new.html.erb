@@ -1,0 +1,7 @@
+<div class="sessions-new">
+  <div class="vertical-logo">
+    <%= image_tag 'vertical_logo.svg' %>
+  </div>
+  <p class="white-text">GO party with your friends tonight!</p>
+  <%= render 'components/button_link', text: "Sign in with spotify", class: "btn-signin", link: "#{user_spotify_omniauth_authorize_path}" %>
+</div>
