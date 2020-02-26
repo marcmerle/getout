@@ -1,23 +1,63 @@
-// Specific CSS for your home-page
-.grid-content {
-  height: 100vh;
+.home-grid {
+  background: linear-gradient(167.94deg, $my-green -7.36%, $my-black 19.42%);
   display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:  "header"
-                        "content"
-                        "footer";
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+
+  grid-template-rows: 25fr 20fr 25fr 20fr 20fr;
+  height: 100%;
+  grid-gap: 24px;
+
+  .home-header {
+    color: $white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 32px 24px 0;
+  }
+
+  .title {
+    position: relative;
+    z-index: 5;
+
+    img {
+      height: 28px;
+      margin-bottom: 16px;
+      width: 22px;
+    }
+
+    .title2 {
+      // display: flex;
+      align-items: center;
+    }
+
+    span {
+      color: $my-sand;
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 44px;
+    }
+  }
+
+  .search {
+    color: $white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 24px;
+    z-index: 5;
+
+    div {
+      margin-bottom: 4px;
+      width: 100%;
+    }
+  }
+
+  section {
+    .cat-title {
+      color: $white;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 0 24px;
+    }
+  }
 }
-
-.header {
-  grid-area: "header"
-}
-
-.footer {
-  grid-area: "footer"
-}
-
-.content {
-  grid-area: "content"
-}
-
-

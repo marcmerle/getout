@@ -7,6 +7,9 @@
     <%= favicon_link_tag %>
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
 
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="<%= meta_title %>" />
@@ -24,16 +27,14 @@
 
   </head>
 
-  <body>
+  <body id="<%= controller.controller_name%>-<%= controller.action_name%>">
     <div class="grid-content">
-      <div class="header">
+      <div class="content">
         <%= render 'shared/flashes' %>
         <%= render 'shared/avatar' if current_user && current_user.avatar.attached? %>
-      </div>
-      <div class="content">
         <%= yield %>
       </div>
-      <div class="footer">
+      <div class="app-navbar">
         <%= render 'shared/bottom_navbar' %>
       </div>
     </div>

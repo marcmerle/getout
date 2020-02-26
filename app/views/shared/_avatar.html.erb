@@ -1,1 +1,3 @@
-<img class="avatar" src="<%= cl_image_path(current_user.avatar.key, width: 400, height: 400, crop: :fill, gravity: :face) %>">
+<% url = current_user.avatar.attachment ? cl_image_path(current_user.avatar.key, width: 400, height: 400, crop: :fill, gravity: :face) : gravatar_url(current_user) %>
+
+<img class="avatar" src="<%= url %>">

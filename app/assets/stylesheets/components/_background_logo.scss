@@ -1,0 +1,15 @@
+.background-logo {
+  height: 80vh;
+  opacity: 0.5;
+  overflow: hidden;
+  position: absolute;
+  right: -20vh;
+  top: -38vh;
+  width: 65vh;
+
+  img {
+    height: 100%;
+    transform: rotate(115deg);
+    width: 100%;
+  }
+}

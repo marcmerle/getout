@@ -12,6 +12,30 @@
 @import "components/index";
 @import "pages/index";
 
+html,
 body {
-  font-family: "Hind"
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Hind";
+}
+
+.grid-content {
+  display: grid;
+  grid-template-areas:
+    "content"
+    "navbar";
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+}
+
+.app-navbar {
+  grid-area: navbar;
+}
+
+.content {
+  grid-area: content;
 }

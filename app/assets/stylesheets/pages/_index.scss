@@ -1,8 +1,60 @@
 @import "home";
 
+.top-search {
+  border-bottom: $my-white 1px solid;
+  color: $my-green;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+
+  i {
+    color: $my-green;
+    margin-left: 5px;
+  }
+
+  .index-search {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .logo-back {
+    width: 25px;
+    height: 25px;
+    transform: rotate(180deg);
+    filter: contrast(150%);
+  }
+}
+
+.title-section {
+  width: 360px;
+  margin: 0 auto;
+}
+
 .places {
   display: grid;
   grid-column: 1fr;
   grid-gap: 8px;
   justify-content: center;
+}
+
+.index-container {
+  background: #00171f;
+  height: 100%;
+
+  h4 {
+    color: $my-white;
+    font-size: 18px;
+    margin-top: 12px;
+  }
+}
+
+.filter-search {
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+
+  .place-tag {
+    margin: 5px;
+  }
 }
