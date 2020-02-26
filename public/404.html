@@ -1,67 +1,199 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>The page you were looking for doesn't exist (404)</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
-  .rails-default-error-page {
-    background-color: #EFEFEF;
-    color: #2E2F30;
-    text-align: center;
-    font-family: arial, sans-serif;
-    margin: 0;
-  }
+  <head>
+    <title>GetOut - Error: Not Found (404)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
-  .rails-default-error-page div.dialog {
-    width: 95%;
-    max-width: 33em;
-    margin: 4em auto 0;
-  }
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Hind:300,400,600,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
 
-  .rails-default-error-page div.dialog > div {
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #BBB;
-    border-top: #B00100 solid 4px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    background-color: white;
-    padding: 7px 12% 0;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
 
-  .rails-default-error-page h1 {
-    font-size: 100%;
-    color: #730E15;
-    line-height: 1.5em;
-  }
+      body {
+        font-family: "Hind";
+      }
 
-  .rails-default-error-page div.dialog > p {
-    margin: 0 0 1em;
-    padding: 1em;
-    background-color: #F7F7F7;
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #999;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-color: #DADADA;
-    color: #666;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
-  </style>
-</head>
+      .grid-content {
+        display: grid;
+        grid-template-areas:
+          "content"
+          "navbar";
+        grid-template-rows: 1fr 56px;
+        height: 100vh;
+      }
 
-<body class="rails-default-error-page">
-  <!-- This file lives in public/404.html -->
-  <div class="dialog">
-    <div>
-      <h1>The page you were looking for doesn't exist.</h1>
-      <p>You may have mistyped the address or the page may have moved.</p>
+      .app-navbar {
+        grid-area: navbar;
+      }
+
+      .content {
+        grid-area: content;
+      }
+
+      .home-grid {
+        background: linear-gradient(167.94deg, #49af91 -7.36%, #00171f 19.42%);
+        display: grid;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+
+        grid-template-rows: 25fr 20fr 45fr 20fr;
+        height: 100%;
+        grid-gap: 24px;
+      }
+
+      .home-header {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 32px 24px 0;
+      }
+
+      .cat-title {
+        text-align: center;
+        color: #fff;
+        font-size: 96px;
+        font-weight: bold;
+        padding: 0 24px;
+      }
+
+      .cat-description {
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 0 24px;
+      }
+
+      .background-logo {
+        height: 80vh;
+        opacity: 0.5;
+        overflow: hidden;
+        position: absolute;
+        right: -20vh;
+        top: -38vh;
+        width: 65vh;
+      }
+
+      .background-logo svg {
+        height: 100%;
+        transform: rotate(115deg);
+        width: 100%;
+      }
+
+      .bottom-navbar {
+        background: #00171f;
+        font-size: 25px;
+        height: 56px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 25px;
+        text-decoration: none;
+      }
+
+      .navbar-button {
+        color: #fffdf7;
+      }
+
+      .navbar-button.active {
+        color: #49af91;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- This file lives in public/404.html -->
+    <div class="grid-content">
+      <div class="content">
+        <div class="home-grid">
+          <section class="home-header">
+            <div class="background-logo">
+              <svg
+                width="364"
+                height="449"
+                viewBox="0 0 364 449"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M145.101 83.0212L36.7818 154.869L36.7818 11.1732L145.101 83.0212Z"
+                  fill="#C4C4C4"
+                />
+                <path
+                  d="M252.388 153.54L144.069 225.388L144.069 81.6917L252.388 153.54Z"
+                  fill="#49AF91"
+                />
+                <path
+                  d="M359.676 224.058L251.357 295.906L251.357 152.21L359.676 224.058Z"
+                  fill="#49AF91"
+                />
+                <path
+                  d="M252.388 294.577L144.069 366.425L144.069 222.729L252.388 294.577Z"
+                  fill="#EF798A"
+                />
+                <path
+                  d="M145.101 83.0212L36.7818 154.869L36.7818 11.1732L145.101 83.0212Z"
+                  fill="#07536B"
+                />
+                <path
+                  d="M37.8136 153.54L146.133 81.6917L146.133 225.388L37.8136 153.54Z"
+                  fill="#EF798A"
+                />
+                <path
+                  d="M145.101 224.058L253.42 152.21L253.42 295.906L145.101 224.058Z"
+                  fill="#DBCAA2"
+                />
+                <path
+                  d="M37.8136 294.577L146.133 222.729L146.133 366.425L37.8136 294.577Z"
+                  fill="#07536B"
+                />
+                <path
+                  d="M145.101 224.058L36.7818 295.906L36.7818 152.21L145.101 224.058Z"
+                  fill="#07536B"
+                />
+                <path
+                  d="M145.101 365.095L36.7818 436.943L36.7818 293.247L145.101 365.095Z"
+                  fill="#49AF91"
+                />
+              </svg>
+            </div>
+          </section>
+
+          <section></section>
+
+          <section>
+            <div class="cat-title">404</div>
+            <div class="cat-description">Resource not found :(</div>
+          </section>
+        </div>
+        <div class="app-navbar">
+          <div class="bottom-navbar">
+            <a href="#" class="navbar-button"><i class="fas fa-home"></i></a>
+            <a href="#" class="navbar-button"><i class="fas fa-search"></i></a>
+            <a href="#" class="navbar-button"
+              ><i class="fas fa-map-marker-alt"></i
+            ></a>
+            <a href="#" class="navbar-button"
+              ><i class="fas fa-headphones-alt"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </div>
-    <p>If you are the application owner check the logs for more information.</p>
-  </div>
-</body>
+  </body>
 </html>
