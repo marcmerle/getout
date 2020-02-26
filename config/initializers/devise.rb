@@ -296,4 +296,14 @@ Devise.setup do |config|
   # When set to false, does not sign a user in automatically after their password is
   # changed. Defaults to true, so a user is signed in automatically after changing a password.
   # config.sign_in_after_change_password = true
+
+  ## We setup the omniauth config and determine scopes regarding Spotify's authorizations here:
+  # user-read-recently-played: This is to get the recent history (50 tracks but I think we will rather use the following item)
+  # user-top-read: We will probably want to use this one as it returns the 50 most listened to tracks ** and we can pass a timeframe as a param to get only the top from previous X weeks **
+  # user-read-email: Needed for devise
+  config.omniauth :spotify, ENV['SPOTIFY_CLIENT_ID'], ENV['SPOTIFY_CLIENT_SECRET'], scope: %w(
+    user-read-recently-played
+    user-top-read
+    user-read-email
+  ).join(' ')
 end

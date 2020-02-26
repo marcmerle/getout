@@ -1,0 +1,22 @@
+<%#
+  Usage:
+  <%= render 'components/primary_button', text: "button text", class: "classes", form: "form_id", type: "type" %>
+
+<% text = yield.presence || local_assigns.fetch(:text, "OK") %>
+<% classes = local_assigns.fetch(:class, "") %>
+<% action = local_assigns.fetch(:action, "") %>
+<% target = local_assigns.fetch(:target, "") %>
+<% form = local_assigns.fetch(:form, "") %>
+<% type = local_assigns.fetch(:type, "button") %>
+
+
+
+<button
+  type="<%= type %>"
+  data-action="<%= action %>"
+  data-target="<%= target %>"
+  form="<%= form %>"
+  class="btn btn-primary <%= classes %>"
+>
+  <%= text %>
+</button>
