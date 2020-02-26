@@ -39,6 +39,7 @@ body {
 
 .content {
   grid-area: content;
+  overflow-y: scroll;
 }
 
 #sessions-new {
