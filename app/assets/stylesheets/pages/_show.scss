@@ -92,3 +92,18 @@
   transform: rotate(180deg);
 }
 
+.carousel-photos {
+  display: flex;
+
+  overflow-x: scroll;
+
+  .place-photo {
+    width: 410px;
+
+
+    img {
+    width: 100vw;
+    height: 240px;
+    }
+  }
+}
