@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'open-uri'
 
 class User < ApplicationRecord
@@ -20,9 +22,11 @@ class User < ApplicationRecord
     user = find_or_initialize_by(email: auth.info.email) # Checking if Spotify User already exists in our DB
     if user.persisted? # If it does
       user.assign_attributes(
-      nickname: auth.info.nickname,
-      provider: auth.provider,
-      uid: auth.uid
+        nickname: auth.info.nickname,
+        provider: auth.provider,
+        uid: auth.uid,
+        access_token: auth.credentials.token,
+        refresh_token: auth.credentials.refresh_token
       ) # Add a nickname to the user
     else # If it doesn't
       user.assign_attributes(
@@ -30,7 +34,9 @@ class User < ApplicationRecord
         nickname: auth.info.nickname,
         password: Devise.friendly_token[0, 20],
         provider: auth.provider,
-        uid: auth.uid
+        uid: auth.uid,
+        access_token: auth.credentials.token,
+        refresh_token: auth.credentials.refresh_token
       )
     end
     user.replace_user_picture(auth) if auth.info.image
