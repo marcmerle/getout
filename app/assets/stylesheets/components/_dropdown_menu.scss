@@ -3,15 +3,16 @@
 }
 
 .menu {
-  border-radius: 4px;
-  padding: 3px;
-  opacity: 0.8;
-  text-align: center;
-  position: absolute;
-  top: 61px;
-  right: 18px;
-  z-index: 100;
   background: $my-black;
+  border-radius: 4px;
+  display: none;
+  opacity: 0.8;
+  padding: 3px;
+  position: absolute;
+  right: 18px;
+  text-align: center;
+  top: 61px;
+  z-index: 100;
 
   .dropdown-item {
     padding: 4px 8px;
@@ -23,8 +24,7 @@
     &.dropdown-item:hover,
     &.dropdown-item:active,
     &.dropdown-item:focus {
-    color: $my-pink;
+      color: $my-pink;
     }
   }
 }
-
