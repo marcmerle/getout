@@ -1,0 +1,17 @@
+.horizontal-scroll {
+  ul {
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+    padding-left: 0;
+  }
+
+  li {
+    flex: 0 0 auto;
+    padding: 0 8px;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
