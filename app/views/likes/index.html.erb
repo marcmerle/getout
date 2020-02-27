@@ -1,0 +1,7 @@
+<h2 class = "text-white">My favorites places</h2>
+<div class="places">
+  <% @likes.each do |like| %>
+    <%= render "components/search-card", place: like.place %>
+  <% end %>
+</div>
+
