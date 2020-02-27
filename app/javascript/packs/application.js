@@ -23,4 +23,3 @@ require("channels")
 // ----------------------------------------------------
 import "bootstrap";
 import "controllers";
-import "../plugins/like.js";
