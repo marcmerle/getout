@@ -22,3 +22,6 @@ require("channels")
 // WRITE YOUR OWN JS STARTING FROM HERE 👇
 // ----------------------------------------------------
 import "bootstrap";
+import {initFillTag} from "../plugins/tastes.js";
+
+initFillTag();
