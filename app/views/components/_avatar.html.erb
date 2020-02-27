@@ -1,11 +1,10 @@
 <% url = current_user.avatar.attachment ? cl_image_path(current_user.avatar.key, width: 400, height: 400, crop: :fill, gravity: :face) : gravatar_url(current_user) %>
 
-<div class="dropdown">
-  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <img class="avatar" src="<%= url %>">
-  </a>
-
-  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+<div class="dropdown-container" data-controller="avatar">
+  <div class="toggle">
+    <img class="avatar" data-action="click->avatar#toggleDropdown" src="<%= url %>">
+  </div>
+  <div class="menu" data-target="avatar.menu">
     <%= link_to 'My favorites places', dashboard_likes_path, class: 'dropdown-item' %>
     <%= link_to 'Edit my musical taste', "#", class: 'dropdown-item' %>
     <div class="dropdown-divider"></div>
