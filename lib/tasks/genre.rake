@@ -45,7 +45,6 @@ namespace :genre do
     sub_genres = YAML.safe_load(File.read('lib/genres.yml'))
 
     sub_genres.each do |sub_genre|
-      sub_genre.gsub!('&', '-n-')
       sub_genre.gsub!('hip hop', 'hip-hop')
       sub_genre.gsub!('rap', 'hip-hop')
 
