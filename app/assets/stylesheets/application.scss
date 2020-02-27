@@ -24,6 +24,10 @@ body {
   font-family: "Hind";
 }
 
+h3 {
+  font-size: 36px;
+}
+
 .grid-content {
   display: grid;
   grid-template-areas:
@@ -42,8 +46,8 @@ body {
   overflow-y: scroll;
 }
 
-#sessions-new {
-  .grid-content .app-navbar .bottom-navbar {
-    visibility: hidden;
+#sessions-new, #pages-tastes {
+  .grid-content .app-navbar {
+    display: none;
   }
 }
