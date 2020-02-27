@@ -5,10 +5,7 @@
     <img class="avatar" data-action="click->avatar#toggleDropdown" src="<%= url %>">
   </div>
   <div class="menu" data-target="avatar.menu">
-    <%= link_to 'My favorites places', dashboard_likes_path, class: 'dropdown-item' %>
-    <%= link_to 'Edit my musical taste', "#", class: 'dropdown-item' %>
-    <div class="dropdown-divider"></div>
-    <%= link_to 'SignOut', destroy_user_session_path, method: :delete, class: 'dropdown-item' %>
+    <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'dropdown-item' %>
   </div>
 </div>
 
