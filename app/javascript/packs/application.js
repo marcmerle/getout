@@ -22,5 +22,5 @@ require("channels")
 // WRITE YOUR OWN JS STARTING FROM HERE 👇
 // ----------------------------------------------------
 import "bootstrap";
+import "controllers":
 
-import "controllers"
