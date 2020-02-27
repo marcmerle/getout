@@ -43,6 +43,16 @@ ActiveRecord::Schema.define(version: 2020_02_27_113553) do
     t.string "color_hex"
   end
 
+  create_table "likes", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "place_id", null: false
+    t.boolean "liked", default: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["place_id"], name: "index_likes_on_place_id"
+    t.index ["user_id"], name: "index_likes_on_user_id"
+  end
+
   create_table "place_genres", force: :cascade do |t|
     t.float "broadcasting_percentage"
     t.bigint "place_id", null: false
@@ -93,6 +103,8 @@ ActiveRecord::Schema.define(version: 2020_02_27_113553) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "likes", "places"
+  add_foreign_key "likes", "users"
   add_foreign_key "place_genres", "genres"
   add_foreign_key "place_genres", "places"
   add_foreign_key "user_genres", "genres"
