@@ -1,13 +1,13 @@
 .btn {
   line-height: 31px;
-  padding: 5px 22px;
+  padding: 5px 32px;
   border: 0;
   margin: 10px;
   cursor: pointer;
   border-radius: 100px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   outline: none !important;
   transition: 0.2s ease-out;
   vertical-align: middle;
@@ -16,8 +16,11 @@
 .btn-default {
   color: $my-white;
   background-color: $my-pink;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-width: 160px;
-  min-height: 64px;
 }
 
 .btn-signin {
