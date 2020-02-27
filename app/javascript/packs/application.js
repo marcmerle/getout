@@ -23,7 +23,8 @@ require("channels")
 // ----------------------------------------------------
 import "bootstrap";
 import "controllers";
-
+// import Rails from '@rails/ujs';
 import {initFillTag} from "../plugins/tastes.js";
 
+// Rails.start();
 initFillTag();

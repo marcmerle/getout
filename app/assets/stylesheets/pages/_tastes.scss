@@ -8,38 +8,43 @@
     grid-template-rows: 1fr auto;
     height: 100vh;
 
+    .logo {
+      width: 100%;
+      height: 148px;
+      display: flex;
+      justify-content: center;
+    }
+
+    h3 {
+      color: $my-white;
+      font-weight: 600;
+    }
+
+    .headers {
+      display: flex;
+
+      .headers-content {
+        margin-left: 28px;
+        flex-grow: 1;
+
+        #tastes-header-1 {
+          text-align: left;
+        }
+        #tastes-header-2 {
+          text-align: right;
+        }
+      }
+
+      .question-mark h3 {
+        font-size: 96px;
+        margin-right: 28px;
+      }
+    }
+
     .scrollable {
 
       overflow-y: scroll;
       overflow-x: hidden;
-
-      .logo {
-        width: 100%;
-        height: 190px;
-        display: flex;
-        justify-content: center;
-      }
-
-      h3 {
-        color: $my-white;
-        font-weight: 600;
-      }
-
-      .headers {
-        display: flex;
-
-        .headers-content {
-          margin-left: 7vw;
-
-          #tastes-header-2 {
-            margin-left: 45vw;
-          }
-        }
-
-        .question-mark h3 {
-          font-size: 96px;
-        }
-      }
 
       .tags {
         display: flex;
