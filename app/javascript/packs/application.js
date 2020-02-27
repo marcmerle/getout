@@ -23,4 +23,6 @@ require("channels")
 // ----------------------------------------------------
 import "bootstrap";
 import "controllers";
-import "../plugins/like.js";
+import {initFillTag} from "../plugins/tastes.js";
+
+initFillTag();
