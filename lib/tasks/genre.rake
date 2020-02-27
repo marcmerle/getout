@@ -77,8 +77,6 @@ namespace :genre do
     require 'yaml'
     sub_genres = YAML.safe_load(File.read('lib/genres.yml'))
 
-    sub_genres.each do |sub_genre|
-      SubGenre.create_and_match(sub_genre)
-    end
+    sub_genres.each { |sub_genre| SubGenre.create_and_match(sub_genre) }
   end
 end
