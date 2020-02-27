@@ -39,4 +39,17 @@ namespace :genre do
 
     genres.sort.each_with_index { |genre, i| Genre.create(name: genre, color_hex: hex_colors[i % hex_colors.size]) }
   end
+
+  task sub_seed: :environment do
+    require 'yaml'
+    sub_genres = YAML.safe_load(File.read('lib/genres.yml'))
+
+    sub_genres.each do |sub_genre|
+      sub_genre.gsub!('&', '-n-')
+      sub_genre.gsub!('hip hop', 'hip-hop')
+      sub_genre.gsub!('rap', 'hip-hop')
+
+      SubGenre.create_and_match(sub_genre)
+    end
+  end
 end
