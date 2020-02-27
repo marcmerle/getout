@@ -3,23 +3,28 @@
 }
 
 .menu {
-  border-radius: 8px;
+  background: $my-black;
+  border-radius: 4px;
+  display: none;
+  opacity: 0.8;
   padding: 3px;
-  opacity: 0.9;
-  text-align: center;
   position: absolute;
-  top: 61px;
   right: 18px;
+  text-align: center;
+  top: 61px;
   z-index: 100;
-  background: $my-green;
+
+  .dropdown-item {
+    padding: 4px 8px;
+  }
+
   a {
     color: $my-white;
 
     &.dropdown-item:hover,
     &.dropdown-item:active,
     &.dropdown-item:focus {
-    color: $my-pink;
+      color: $my-pink;
     }
   }
 }
-
