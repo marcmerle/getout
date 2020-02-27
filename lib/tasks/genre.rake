@@ -6,11 +6,10 @@ namespace :genre do
     genres = [
       'r&b',
       'urban',
-      'hip hop',
+      'hip-hop',
       'soul',
       'pop',
       'dance',
-      'rap',
       'funk',
       'indie',
       'blues',
@@ -79,9 +78,9 @@ namespace :genre do
     sub_genres = YAML.safe_load(File.read('lib/genres.yml'))
 
     sub_genres.each do |sub_genre|
-      sub_genre.gsub!('hip hop', 'hip-hop')
-      sub_genre.gsub!('rap', 'hip-hop')
-
+      # sub_genre.gsub('hip hop', 'hip-hop')
+      # sub_genre.gsub('rap', 'hip-hop')
+      # sub_genre.gsub('thip-hop', 'trap')
       SubGenre.create_and_match(sub_genre)
     end
   end
