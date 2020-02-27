@@ -1,0 +1,18 @@
+<%#
+Horizontal Scroll Component
+
+Usage:
+<%= render "components/horizontal_scroll" do % >
+  <li>Element</li>
+  <li>Element</li>
+  ...
+<% end % >
+%>
+
+<% content = yield.presence %>
+
+<div class="horizontal-scroll">
+  <ul>
+    <%= content %>
+  </ul>
+</div>

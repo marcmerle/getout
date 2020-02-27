@@ -17,13 +17,13 @@
       <div class="place-name"><h2><%= @place.name %></h2></div>
       <div class="place-like">
         <%= render 'components/tag', text: "Open", class: "pop-tag selected" %>
-      <% unless @like %>
-        <%= link_to likes_path(place_id: @place.id), method:'post', remote: true do %>
-          <%= icon("far", "heart") %>
-        <% end %>
-      <% else %>
+      <% if @like %>
         <%= link_to like_path(@like), method:'delete', remote: true do  %>
           <%= icon("fas", "heart") %>
+        <% end %>
+      <% else %>
+        <%= link_to likes_path(place_id: @place.id), method:'post', remote: true do %>
+          <%= icon("far", "heart") %>
         <% end %>
       <% end %>
 

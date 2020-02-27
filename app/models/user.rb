@@ -13,7 +13,7 @@ class User < ApplicationRecord
 
   has_many :user_genres, dependent: :destroy, inverse_of: :user
   has_many :genres, through: :user_genres
-  has_many :likes
+  has_many :likes, dependent: :destroy, inverse_of: :user
   has_one_attached :avatar
 
   def self.from_omniauth(auth)
