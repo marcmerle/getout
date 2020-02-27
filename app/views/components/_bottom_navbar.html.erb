@@ -5,10 +5,7 @@
     <%= link_to places_path, class:'navbar-button' do %>
       <%= icon("fas", "search") %>
     <% end %>
-    <%= link_to "#", class:'navbar-button' do %>
-      <%= icon("fas", "map-marker-alt") %>
-    <% end %>
-    <%= link_to "#", class:'navbar-button' do %>
-      <%= icon("fas", "headphones-alt") %>
+    <%= link_to dashboard_likes_path, class:'navbar-button' do %>
+      <%= image_tag "pin-heart.png", alt: "pin-heart" %>
     <% end %>
 </div>
