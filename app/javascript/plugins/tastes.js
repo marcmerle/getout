@@ -3,15 +3,21 @@ const initFillTag = () => {
 
     const tags = document.querySelectorAll(".tag");
 
+    const toggleTagStyle = (tag, setup) => {
+      console.log(tag.dataset.chosen === setup)
+      if (tag.dataset.chosen === "true") {
+        tag.setAttribute("style", `border: 1px solid ${tag.dataset.color}; color: #fffdf7; box-shadow: 0 0px 4px 0px ${tag.dataset.color}; background: ${tag.dataset.color}`);
+        tag.dataset.chosen = "false"
+      } else {
+        tag.setAttribute("style", `border: 1px solid #ef798a; color: #ef798a; box-shadow: 0 0px 4px 0px #ef798a;`);
+        tag.dataset.chosen = "true"
+      }
+    }
+
     tags.forEach((tag) => {
+      toggleTagStyle(tag, "true");
       tag.addEventListener('click', (event) => {
-        if (tag.dataset.chosen === "true") {
-          event.currentTarget.setAttribute("style", "border: 1px solid #ef798a; color: #ef798a; box-shadow: 0 0px 4px 0px #ef798a;");
-          tag.dataset.chosen = false
-        } else {
-          event.currentTarget.setAttribute("style", "border: 1px solid #251351; color: #fffdf7; box-shadow: 0 0px 4px 0px #251351; background: #251351");
-          tag.dataset.chosen = true
-        }
+        toggleTagStyle(event.currentTarget, "false");
       });
     });
   };
