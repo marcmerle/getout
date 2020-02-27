@@ -1,3 +1,14 @@
 <% url = current_user.avatar.attachment ? cl_image_path(current_user.avatar.key, width: 400, height: 400, crop: :fill, gravity: :face) : gravatar_url(current_user) %>
 
-<img class="avatar" src="<%= url %>">
+<div class="dropdown-container" data-controller="avatar">
+  <div class="toggle">
+    <img class="avatar" data-target="avatar.button" data-action="click->avatar#toggleDropdown click@window->avatar#hide" src="<%= url %>">
+  </div>
+  <div class="menu" data-target="avatar.menu">
+    <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'dropdown-item' %>
+  </div>
+</div>
+
+
+
+
