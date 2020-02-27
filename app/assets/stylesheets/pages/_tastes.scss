@@ -1,0 +1,80 @@
+.tastes {
+  .tastes-content {
+    display: grid;
+    grid-template-areas:
+      "scrollable"
+      "sticky-button";
+
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+
+    .scrollable {
+
+      overflow-y: scroll;
+      overflow-x: hidden;
+
+      .logo {
+        width: 100%;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+      }
+
+      h3 {
+        color: $my-white;
+        font-weight: 600;
+      }
+
+      .headers {
+        display: flex;
+
+        .headers-content {
+          margin-left: 7vw;
+
+          #tastes-header-2 {
+            margin-left: 45vw;
+          }
+        }
+
+        .question-mark h3 {
+          font-size: 96px;
+        }
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 16px;
+        justify-content: center;
+
+        .tag {
+          padding: 4px 12px;
+          margin: 8px 4px;
+          border-radius: 100px;
+        }
+      }
+    }
+
+    .sticky-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 24px 0;
+      position: relative;
+
+      .skip-link {
+        position: absolute;
+        right: 32px;
+        bottom: 16px;
+        a {
+          color: $my-pink;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -22,6 +22,21 @@ namespace :genre do
       'techno', 'trance', 'trip-hop', 'turkish', 'work-out', 'world-music'
     ]
 
-    genres.each { |genre| Genre.create(name: genre) }
+    hex_colors = [
+      '#7FCA74',
+      '#E5CE3B',
+      '#FCB255',
+      '#EF7A6D',
+      '#CE93E7',
+      '#3C93CD',
+      '#46CEE7',
+      '#2CA569',
+      '#FB93D5',
+      '#5C6A83',
+      '#C2C8D1',
+      '#828891'
+    ]
+
+    genres.sort.each_with_index { |genre, i| Genre.create(name: genre, color_hex: hex_colors[i % hex_colors.size]) }
   end
 end
