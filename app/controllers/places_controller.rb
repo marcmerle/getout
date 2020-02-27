@@ -7,6 +7,7 @@ class PlacesController < ApplicationController
 
   def show
     @place = Place.find(params[:id])
+    @like = Like.where(user: current_user, place: @place).first
     authorize @place
   end
 end

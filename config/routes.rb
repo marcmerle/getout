@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   get '/dashboard/likes', to: 'likes#index', as: "dashboard_likes"
 
+  resources :likes, only: %i[create destroy]
   resources :places, only: %i[index show]
 end

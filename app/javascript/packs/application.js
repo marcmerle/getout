@@ -24,4 +24,4 @@ require("channels")
 import "bootstrap";
 import initLike from '../plugins/like';
 
-initLike()
+// initLike()
