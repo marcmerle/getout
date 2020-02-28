@@ -18,75 +18,41 @@
     <section class="selection">
       <div class="cat-title">Selection of bars for me</div>
       <%= render "components/horizontal_scroll" do %>
-          <% @places.each do |place| %>
-            <li><%= render "components/place_card", place: place %></li>
-          <% end %>
+        <% @places.each do |place| %>
+          <li>
+            <%= link_to place do %>
+              <%= render "components/place_card", place: place, type: :square %>
+            <% end %>
+          </li>
+        <% end %>
       <% end %>
     </section>
 
 
     <section class="artists">
       <div class="cat-title">Where to listen to them</div>
-        <%= render "components/horizontal_scroll" do %>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>Machin</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
-          <li>truc</li>
+      <%= render "components/horizontal_scroll" do %>
+        <% @places.each do |place| %>
+          <li>
+            <%= link_to place do %>
+              <%= render "components/place_card", place: place, type: :circle %>
+            <% end %>
+          </li>
         <% end %>
+      <% end %>
     </section>
 
 
     <section class="events">
       <div class="cat-title">Around me</div>
       <%= render "components/horizontal_scroll" do %>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
+        <% @places.each do |place| %>
+          <li>
+            <%= link_to place do %>
+              <%= render "components/place_card", place: place, type: :small_square %>
+            <% end %>
+          </li>
+        <% end %>
       <% end %>
     </section>
   </div>

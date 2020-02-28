@@ -1,16 +1,41 @@
 .place-card {
-  width: 160px;
-
-  img {
-    height: 160px;
-    width: 100%;
-  }
-
   .name {
     color: $white;
-    font-size: 16px;
     font-weight: bold;
     padding-top: 6px;
     text-align: center;
+  }
+
+  &.square {
+    width: 160px;
+
+    .name {
+      font-size: 16px;
+    }
+
+    img {
+      height: 160px;
+      width: 160px;
+    }
+  }
+
+  &.circle,
+  &.small_square {
+    width: 100px;
+
+    .name {
+      font-size: 12px;
+    }
+
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  &.circle {
+    img {
+      border-radius: 50%;
+    }
   }
 }

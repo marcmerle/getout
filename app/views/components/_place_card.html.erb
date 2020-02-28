@@ -1,8 +1,9 @@
 <%
     image = !place.photos.first ? image_path("logo_with_arrow") : cl_image_path(place.photos.first.key)
-  %>
+    type = local_assigns.fetch(:type, :square)
+%>
 
-<div class="place-card">
+<div class="place-card <%= type.to_s %>">
   <%= image_tag image, alt: "Photo of place" %> 
   <div class="name">
     <%= place.name %>
