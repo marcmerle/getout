@@ -5,14 +5,13 @@
 <div class="search-card">
   <%= image_tag image, alt: "place_photo" %>
   <div class="search-card-infos">
-    <div class="place-type"><%= icon("fas", "cocktail") %></div>
     <div class="place-details d-flex justify-content-between">
       <h2><%= place.name %></h2>
-      <div class="place-distance"><%= icon("fas", "map-marker-alt") %> 300 m</div>
+      <div class="place-distance"><%= icon("fas", "map-marker-alt") %> 200 m</div>
     </div>
     <p><%= place.address %></p>
     <div class="place-infos d-flex justify-content-between align-items-center">
-      <div class="place-rating"><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star-half-alt") %></div>
+      <div class="place-rating"><%= icon("fas", "star") %> 4.6</div>
       <div class="place-tags d-flex flex-end">
         <%= render 'components/tag', text: "Rock", class:'rock-tag selected' %>
         <%= render 'components/tag', text: "Electro", class:'electro-tag selected' %>
