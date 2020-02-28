@@ -2,7 +2,16 @@
 
 class SubGenre < ApplicationRecord
   belongs_to :genre, optional: true
-  validates :name, uniqueness: { scope: [:genre_id] }
+
+  validates :name, uniqueness: { scope: [:genre] }
+
+  def self.fetch_spotify_genres(artists)
+    sub_genres = artists.each_with_object([]) do |artist, genres|
+      artist['genres'].each { |genre| genres << genre }
+    end
+
+    Genre.includes(:sub_genres).references(:sub_genres).where(sub_genres: { name: sub_genres })
+  end
 
   def self.create_and_match(sub_genre)
     modified_sub_genre = sub_genre
