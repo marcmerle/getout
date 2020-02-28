@@ -106,6 +106,15 @@
     margin-top: 36px;
   }
 
+  .place-tag-open {
+    border: 1px solid #49af91;
+    color: #fffdf7;
+    box-shadow: 0 0px 4px 0px #49af91;
+    background: #49af91;
+    position: absolute;
+    top: 12px;
+    right: 28px;
+  }
   .place-distance {
     display:flex;
     justify-content: space-between;
@@ -176,6 +185,7 @@
     img {
     width: 100vw;
     height: 240px;
+    object-fit: cover;
     }
   }
 
