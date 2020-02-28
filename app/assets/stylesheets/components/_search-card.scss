@@ -7,12 +7,6 @@
   border-bottom: 1px solid $my-green;
   color: $my-white;
 
-  img {
-    height: 100px;
-    object-fit: cover;
-    width: 100px;
-  }
-
   h2 {
     font-size: 18px;
     font-weight: bold;
@@ -31,7 +25,8 @@
     height: 100px;
     position: relative;
     margin-left: 15px;
-    width: 100%;
+    // width: 100%;
+    flex-grow: 1;
   }
 }
 
