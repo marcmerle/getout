@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'open-uri'
+
 class String
   def green
     "\e[32m#{self}\e[0m"
