@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_27_161018) do
+ActiveRecord::Schema.define(version: 2020_02_27_210951) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -76,6 +76,14 @@ ActiveRecord::Schema.define(version: 2020_02_27_161018) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "sub_genres", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.bigint "genre_id"
+    t.index ["genre_id"], name: "index_sub_genres_on_genre_id"
+  end
+
   create_table "user_genres", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "genre_id", null: false
@@ -109,6 +117,7 @@ ActiveRecord::Schema.define(version: 2020_02_27_161018) do
   add_foreign_key "likes", "users"
   add_foreign_key "place_genres", "genres"
   add_foreign_key "place_genres", "places"
+  add_foreign_key "sub_genres", "genres"
   add_foreign_key "user_genres", "genres"
   add_foreign_key "user_genres", "users"
 end
