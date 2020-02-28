@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'open-uri'
 
 class User < ApplicationRecord
@@ -16,13 +18,22 @@ class User < ApplicationRecord
   has_many :likes, dependent: :destroy, inverse_of: :user
   has_one_attached :avatar
 
+  def add_spotify_genres
+    artists = SpotifyTopArtists.call(self)['items']
+    return artists if artists.empty?
+
+    genres = SubGenre.genres_from_sub_genres(artists)
+
+    genres.each { |genre| UserGenre.create(user: current_user, genre: genre) }
+  end
+
   def self.from_omniauth(auth)
     user = find_or_initialize_by(email: auth.info.email) # Checking if Spotify User already exists in our DB
     if user.persisted? # If it does
       user.assign_attributes(
-      nickname: auth.info.nickname,
-      provider: auth.provider,
-      uid: auth.uid
+        nickname: auth.info.nickname,
+        provider: auth.provider,
+        uid: auth.uid
       ) # Add a nickname to the user
     else # If it doesn't
       user.assign_attributes(
