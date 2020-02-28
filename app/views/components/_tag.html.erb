@@ -5,8 +5,9 @@
 %>
 
 <% text = local_assigns.fetch(:text, "Tag") %>
+<% background_color = local_assigns.fetch(:background_color, "Tag") %>
 <% classes = local_assigns.fetch(:class, "") %>
 
-<div class="place-tag <%= classes %> ">
+<div class="place-tag <%= classes %> " style="border: 1px solid <%= background_color %>; color: #fffdf7; box-shadow: 0 0px 4px 0px <%= background_color %>; background: <%= background_color %>">
   <%= text %>
 </div>

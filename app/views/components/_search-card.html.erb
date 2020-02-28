@@ -2,20 +2,23 @@
     image = !place.photos.first ? image_path("logo_with_arrow.svg") : cl_image_path(place.photos.first.key)
 %>
 
-<div class="search-card">
-  <%= image_tag image, alt: "place_photo" %>
-  <div class="search-card-infos">
-    <div class="place-details d-flex justify-content-between">
-      <h2><%= place.name %></h2>
-      <div class="place-distance"><%= icon("fas", "map-marker-alt") %> 200 m</div>
-    </div>
-    <p><%= place.address %></p>
-    <div class="place-infos d-flex justify-content-between align-items-center">
-      <div class="place-rating"><%= icon("fas", "star") %> 4.6</div>
-      <div class="place-tags d-flex flex-end">
-        <%= render 'components/tag', text: "Rock", class:'rock-tag selected' %>
-        <%= render 'components/tag', text: "Electro", class:'electro-tag selected' %>
+<%= link_to place_path(place) do  %>
+  <div class="search-card">
+    <%= image_tag image, class:'fill', alt: "place_photo" %>
+    <div class="search-card-infos">
+      <div class="place-details d-flex justify-content-between">
+        <h2><%= place.name %></h2>
+        <div class="place-distance"><%= icon("fas", "map-marker-alt") %> 200 m</div>
+      </div>
+      <p><%= place.address %></p>
+      <div class="place-infos d-flex justify-content-between">
+        <div class="place-rating"><%= icon("fas", "star") %> 4.6</div>
+        <div class="place-tags d-flex flex-end">
+          <% place.genres.sort.each do |genre| %>
+            <%= render 'components/tag',background_color:"#{genre.color_hex}", text: "#{genre.name.capitalize}", class: "search-place-tag" %>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
-</div>
+<% end %>

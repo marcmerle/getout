@@ -25,103 +25,103 @@ PLACE_GENRES = []
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "ambient"), Genre.find_by(name: "chill")],
-  0,
+  PLACE_GENRES.size,
   2
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "classical")],
-  0,
+  PLACE_GENRES.size,
   1
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "chill")],
-  0,
+  PLACE_GENRES.size,
   4
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "chill"), Genre.find_by(name: "electronica")],
-  0,
+  PLACE_GENRES.size,
   4
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "dance"), Genre.find_by(name: "pop")],
-  0,
+  PLACE_GENRES.size,
   5
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "disco")],
-  0,
+  PLACE_GENRES.size,
   4
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "edm"), Genre.find_by(name: "electro")],
-  0,
+  PLACE_GENRES.size,
   10
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "electro")],
-  0,
+  PLACE_GENRES.size,
   10
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "electronica"), Genre.find_by(name: "electro")],
-  0,
+  PLACE_GENRES.size,
   8
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "hip-hop")],
-  0,
+  PLACE_GENRES.size,
   20
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "house"), Genre.find_by(name: "electro")],
-  0,
+  PLACE_GENRES.size,
   10
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "jazz")],
-  0,
+  PLACE_GENRES.size,
   20
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "pop")],
-  0,
+  PLACE_GENRES.size,
   20
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "r&b"), Genre.find_by(name: "hip-hop")],
-  0,
+  PLACE_GENRES.size,
   8
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "rock"), Genre.find_by(name: "pop")],
-  0,
+  PLACE_GENRES.size,
   8
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "rock")],
-  0,
+  PLACE_GENRES.size,
   20
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: "techno"), Genre.find_by(name: "electro")],
-  0,
+  PLACE_GENRES.size,
   15
 )
 
