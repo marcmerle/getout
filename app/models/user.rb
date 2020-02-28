@@ -21,15 +21,13 @@ class User < ApplicationRecord
   def self.from_omniauth(auth)
     user = find_or_initialize_by(email: auth.info.email)
 
-    user.persisted? ? update_user_from_spotify(auth) : create_user_from_spotify(auth)
+    user.persisted? ? update_user_from_spotify(user, auth) : create_user_from_spotify(user, auth)
     user.replace_user_picture(auth) if auth.info.image
 
     user
   end
 
-  private
-
-  def create_user_from_spotify(auth)
+  def self.create_user_from_spotify(user, auth)
     user.assign_attributes(
       email: auth.info.email,
       nickname: auth.info.nickname,
@@ -41,7 +39,7 @@ class User < ApplicationRecord
     )
   end
 
-  def update_user_from_spotify(auth)
+  def self.update_user_from_spotify(user, auth)
     user.assign_attributes(
       nickname: auth.info.nickname,
       provider: auth.provider,
@@ -50,6 +48,8 @@ class User < ApplicationRecord
       refresh_token: auth.credentials.refresh_token
     )
   end
+
+  private
 
   def replace_user_picture(auth)
     url = auth.info.image

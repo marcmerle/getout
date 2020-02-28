@@ -13,7 +13,7 @@ class SpotifyConnector < ApplicationService
   end
 
   def call
-    api_call
+    JSON.parse(api_call.body)
   end
 
   private
