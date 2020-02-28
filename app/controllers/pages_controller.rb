@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: [:home]
 
   def home
-    if current_user.genres.present?
+    if current_user&.genres.present?
       sql = <<-SQL
         SELECT pg.place_id FROM user_genres AS ug
         LEFT JOIN place_genres AS pg ON pg.genre_id = ug.genre_id
