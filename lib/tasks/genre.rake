@@ -70,9 +70,7 @@ namespace :genre do
       '#828891'
     ]
 
-    genres.sort.each_with_index do |genre, i|
-      Genre.create(name: genre, color_hex: hex_colors[i % hex_colors.size])
-    end
+    genres.sort.each_with_index { |genre, i| Genre.create(name: genre, color_hex: hex_colors[i % hex_colors.size]) }
   end
 
   task sub_seed: :environment do

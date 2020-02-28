@@ -18,8 +18,6 @@ class SubGenre < ApplicationRecord
       create(name: sub_genre, genre: genre)
     end
 
-    return if has_genre
-
-    create(name: sub_genre)
+    create(name: sub_genre) unless has_genre
   end
 end
