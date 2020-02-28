@@ -39,6 +39,7 @@ gem 'pundit'
 gem 'omniauth-spotify'
 gem 'faker'
 gem 'httparty'
+gem 'geocoder'
 
 group :development, :test do
   gem 'pry-byebug'
