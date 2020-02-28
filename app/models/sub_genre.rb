@@ -6,11 +6,15 @@ class SubGenre < ApplicationRecord
   validates :name, uniqueness: { scope: [:genre] }
 
   def self.genres_from_sub_genres(artists)
-    sub_genres = artists.each_with_object([]) do |artist, genres|
-      artist['genres'].each { |genre| genres << genre }
+    sub_genres = artists.each_with_object([]) do |artist, user_sub_genres|
+      artist['genres'].each { |sub_genre| user_sub_genres << sub_genre }
     end
 
-    Genre.includes(:sub_genres).references(:sub_genres).where(sub_genres: { name: sub_genres })
+    sub_genres.map! do |sub_genre|
+      Genre.includes(:sub_genres).references(:sub_genres).where(sub_genres: { name: sub_genre })
+    end
+
+    sub_genres.flatten.group_by { |i| i }.sort_by { |_, a| -a.count }.map(&:first).first(5)
   end
 
   def self.create_and_match(sub_genre)
