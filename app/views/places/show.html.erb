@@ -45,6 +45,7 @@
         <% end %>
       </div>
     </div>
+    <div class="height-between"></div>
 
 
 
@@ -52,81 +53,114 @@
       <%= render 'components/tag', text: "Jazz", class: "jazz-tag selected" %>
       <%= render 'components/tag', text: "Techno", class: "techno-tag selected" %>
     </div>
-    <h3>On Air previously</h3>
-    <div class="place-on-air">
-      <div class="place-music">
-        <div class="before-music">
-          <%= image_tag "https://static.actu.fr/uploads/2018/10/25061-181029164228186-0-854x942.jpg", class:"playing-img" %>
-          <p>La Compagnie Cré..</p>
-          <p>Ca fait rire les ois..</p>
-        </div>
-        <div class="now-music">
-          <%= image_tag "soulwax.jpg", class:"playing-img" %>
-          <p>Soulwax</p>
-          <p>Close to paradise</p>
-        </div>
-        <div class="next-music">
-          <%= image_tag "https://img.discogs.com/TBN_nuyviiYIj8Uj5vUQu4M2pSM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10321142-1495286691-4531.jpeg.jpg", class:"playing-img" %>
-          <p>Jacques</p>
-          <p>Tout est magnifique</p>
+
+    <div class="place-on-air-bar">
+      <h3>On Air previously</h3>
+      <div class="place-on-air">
+        <div class="place-music">
+          <div class="before-music">
+            <%= image_tag "https://static.actu.fr/uploads/2018/10/25061-181029164228186-0-854x942.jpg", class:"playing-img" %>
+            <p>La Compagnie Cré..</p>
+            <p>Ca fait rire les ois..</p>
+          </div>
+          <div class="now-music">
+            <%= image_tag "soulwax.jpg", class:"playing-img" %>
+            <p>Soulwax</p>
+            <p>Close to paradise</p>
+          </div>
+          <div class="next-music">
+            <%= image_tag "https://img.discogs.com/TBN_nuyviiYIj8Uj5vUQu4M2pSM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10321142-1495286691-4531.jpeg.jpg", class:"playing-img" %>
+            <p>Jacques</p>
+            <p>Tout est magnifique</p>
+          </div>
         </div>
       </div>
     </div>
     <div class="place-top-tracks">
       <h4>Top tracks you like played here recently</h4>
-      <div class="row">
+
+      <div class="row align-items-center">
         <div class="col-1">
           1
         </div>
-        <div class="col-7">
-          Titre
+        <div class="place-top-tracks-infos col-7">
+          <div class="place-top-tracks-title">
+            Artist
+          </div>
+          <div class="place-top-tracks-group">
+            <p>Title</p>
+          </div>
         </div>
         <div class="col">
           2 hours ago
         </div>
       </div>
-      <div class="row">
+
+      <div class="row align-items-center">
         <div class="col-1">
           2
         </div>
-        <div class="col-7">
-          Titre
+        <div class="place-top-tracks-infos col-7">
+          <div class="place-top-tracks-title">
+            <p>Artist</p>
+          </div>
+          <div class="place-top-tracks-group">
+            <p>Title</p>
+          </div>
         </div>
         <div class="col">
-          yesterday
+          2 hours ago
         </div>
       </div>
-      <div class="row">
+
+      <div class="row align-items-center">
         <div class="col-1">
           3
         </div>
-        <div class="col-7">
-          Titre
+        <div class="place-top-tracks-infos col-7">
+          <div class="place-top-tracks-title">
+            <p>Artist</p>
+          </div>
+          <div class="place-top-tracks-group">
+            <p>Title</p>
+          </div>
         </div>
         <div class="col">
-          2 days ago
+          2 hours ago
         </div>
       </div>
-      <div class="row">
+
+      <div class="row align-items-center">
         <div class="col-1">
           4
         </div>
-        <div class="col-7">
-          Titre
+        <div class="place-top-tracks-infos col-7">
+          <div class="place-top-tracks-title">
+            <p>Artist</p>
+          </div>
+          <div class="place-top-tracks-group">
+            <p>Title</p>
+          </div>
         </div>
         <div class="col">
-          3 days ago
+          2 hours ago
         </div>
       </div>
-      <div class="row">
+
+      <div class="row align-items-center">
         <div class="col-1">
           5
         </div>
-        <div class="col-7">
-          Titre
+        <div class="place-top-tracks-infos col-7">
+          <div class="place-top-tracks-title">
+            <p>Artist</p>
+          </div>
+          <div class="place-top-tracks-group">
+            <p>Title</p>
+          </div>
         </div>
         <div class="col">
-          1 week ago
+          2 hours ago
         </div>
       </div>
 
