@@ -10,8 +10,6 @@ class SubGenre < ApplicationRecord
       artist['genres'].each { |genre| genres << genre }
     end
 
-    sub_genres
-
     Genre.includes(:sub_genres).references(:sub_genres).where(sub_genres: { name: sub_genres })
   end
 
