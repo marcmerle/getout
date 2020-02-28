@@ -1,9 +1,8 @@
 .home-grid {
   background: linear-gradient(167.94deg, $my-green -7.36%, $my-black 19.42%);
   display: grid;
-  grid-gap: 56px;
-  grid-template-rows: 30fr 15fr 25fr 20fr 20fr;
-  height: 100%;
+  grid-gap: 30px;
+  grid-template-rows: 15fr 5fr 20fr 15fr 15fr;
   overflow-x: hidden;
   overflow-y: scroll;
   position: relative;
