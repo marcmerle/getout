@@ -1,21 +1,23 @@
 .place-card {
   .name {
     color: $white;
-    font-weight: bold;
+    font-weight: 600;
     padding-top: 6px;
     text-align: center;
   }
 
   &.square {
-    width: 160px;
+    width: 140px;
 
     .name {
       font-size: 16px;
+      font-weight: 400;
     }
 
     img {
-      height: 160px;
-      width: 160px;
+      height: 140px;
+      width: 140px;
+
     }
   }
 
@@ -25,6 +27,7 @@
 
     .name {
       font-size: 12px;
+      font-weight: 400;
     }
 
     img {
