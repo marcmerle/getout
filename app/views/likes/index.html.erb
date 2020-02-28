@@ -1,5 +1,15 @@
 <div class="likes-index">
-  <h2 class = "text-white">My List</h2>
+  <h3>My List</h3>
+  <div class="tabs-search">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link selected", data: {turbolinks: false}, href="#">Spots</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Friends</a>
+      </li>
+    </ul>
+  </div>
   <div class="places">
     <% @likes.each do |like| %>
       <%= render "components/search-card", place: like.place %>

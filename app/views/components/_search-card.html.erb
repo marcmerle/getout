@@ -5,13 +5,15 @@
 <%= link_to place_path(place) do  %>
   <div class="search-card">
     <%= image_tag image, class:'fill', alt: "place_photo" %>
-    <div class="search-card-infos">
-      <div class="place-details d-flex justify-content-between">
-        <h2><%= place.name %></h2>
-        <div class="place-distance"><%= icon("fas", "map-marker-alt") %> 200 m</div>
+    <div class="search-card-infos d-flex flex-column">
+      <div class="search-card-details">
+        <div class="place-details d-flex justify-content-between">
+          <h2><%= place.name %></h2>
+          <div class="place-distance"><%= icon("fas", "map-marker-alt") %> 200 m</div>
+        </div>
+        <p><%= place.address %></p>
       </div>
-      <p><%= place.address %></p>
-      <div class="place-infos d-flex justify-content-between">
+      <div class="place-infos mt-auto d-flex justify-content-between">
         <div class="place-rating"><%= icon("fas", "star") %> 4.6</div>
         <div class="place-tags d-flex flex-end">
           <% place.genres.sort.each do |genre| %>
