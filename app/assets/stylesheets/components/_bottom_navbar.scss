@@ -11,10 +11,10 @@
 
   .navbar-button {
     color: $my-white;
+    display: flex;
   }
 
   .navbar-button.active {
     color: $my-green;
   }
-
 }
