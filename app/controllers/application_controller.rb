@@ -23,8 +23,8 @@ class ApplicationController < ActionController::Base
     if resource.viewed_tastes_screen
       super
     else
-      tastes_path
       resource.add_spotify_genres
+      tastes_path
     end
   end
 end
