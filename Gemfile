@@ -38,6 +38,7 @@ gem 'cloudinary', '~> 1.12.0'
 gem 'pundit'
 gem 'omniauth-spotify'
 gem 'faker'
+gem 'httparty'
 
 group :development, :test do
   gem 'pry-byebug'
