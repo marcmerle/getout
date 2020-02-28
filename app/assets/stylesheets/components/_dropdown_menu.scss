@@ -1,0 +1,30 @@
+.dropdown-container {
+  position: relative;
+}
+
+.menu {
+  background: $my-black;
+  border-radius: 4px;
+  display: none;
+  opacity: 0.8;
+  padding: 3px;
+  position: absolute;
+  right: 18px;
+  text-align: center;
+  top: 61px;
+  z-index: 100;
+
+  .dropdown-item {
+    padding: 4px 8px;
+  }
+
+  a {
+    color: $my-white;
+
+    &.dropdown-item:hover,
+    &.dropdown-item:active,
+    &.dropdown-item:focus {
+      color: $my-pink;
+    }
+  }
+}

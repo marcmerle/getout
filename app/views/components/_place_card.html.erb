@@ -1,0 +1,10 @@
+<%
+    image = !place.photos.first ? image_path("logo_with_arrow") : cl_image_path(place.photos.first.key)
+  %>
+
+<div class="place-card">
+  <%= image_tag image, alt: "Photo of place" %> 
+  <div class="name">
+    <%= place.name %>
+  </div>
+</div>

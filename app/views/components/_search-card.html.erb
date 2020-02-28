@@ -14,8 +14,9 @@
     <div class="place-infos d-flex justify-content-between align-items-center">
       <div class="place-rating"><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star") %><%= icon("fas", "star-half-alt") %></div>
       <div class="place-tags d-flex flex-end">
-        <%= render 'components/tag', text: "Rock", class:'rock-tag selected' %>
-        <%= render 'components/tag', text: "Electro", class:'electro-tag selected' %>
+        <% place.genres.sort.each do |genre| %>
+          <%= render 'components/tag',background_color:"#{genre.color_hex}", text: "#{genre.name.capitalize}", class: "search-place-tag" %>
+        <% end %>
       </div>
     </div>
   </div>

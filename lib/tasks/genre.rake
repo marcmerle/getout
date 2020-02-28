@@ -4,22 +4,54 @@ namespace :genre do
   desc 'Seed the Genre database'
   task seed: :environment do
     genres = [
-      'acoustic', 'afrobeat', 'alt-rock', 'alternative', 'ambient', 'anime', 'black-metal', 'bluegrass',
-      'blues', 'bossanova', 'brazil', 'breakbeat', 'british', 'cantopop', 'chicago-house', 'children',
-      'chill', 'classical', 'club', 'comedy', 'country', 'dance', 'dancehall', 'death-metal',
-      'deep-house', 'detroit-techno', 'disco', 'disney', 'drum-and-bass', 'dub', 'dubstep', 'edm',
-      'electro', 'electronic', 'emo', 'folk', 'forro', 'french', 'funk', 'garage',
-      'german', 'gospel', 'goth', 'grindcore', 'groove', 'grunge', 'guitar', 'happy',
-      'hard-rock', 'hardcore', 'hardstyle', 'heavy-metal', 'hip-hop', 'holidays', 'honky-tonk', 'house',
-      'idm', 'indian', 'indie', 'indie-pop', 'industrial', 'iranian', 'j-dance', 'j-idol',
-      'j-pop', 'j-rock', 'jazz', 'k-pop', 'kids', 'latin', 'latino', 'malay',
-      'mandopop', 'metal', 'metal-misc', 'metalcore', 'minimal-techno', 'movies', 'mpb', 'new-age',
-      'new-release', 'opera', 'pagode', 'party', 'philippines-opm', 'piano', 'pop', 'pop-film',
-      'post-dubstep', 'power-pop', 'progressive-house', 'psych-rock', 'punk', 'punk-rock', 'r-n-b', 'rainy-day',
-      'reggae', 'reggaeton', 'road-trip', 'rock', 'rock-n-roll', 'rockabilly', 'romance', 'sad',
-      'salsa', 'samba', 'sertanejo', 'show-tunes', 'singer-songwriter', 'ska', 'sleep', 'songwriter',
-      'soul', 'soundtracks', 'spanish', 'study', 'summer', 'swedish', 'synth-pop', 'tango',
-      'techno', 'trance', 'trip-hop', 'turkish', 'work-out', 'world-music'
+      'r&b',
+      'urban',
+      'hip-hop',
+      'soul',
+      'pop',
+      'dance',
+      'funk',
+      'indie',
+      'blues',
+      'rock',
+      'trap',
+      'reggae',
+      'reggaeton',
+      'jazz',
+      'country',
+      'techno',
+      'electro',
+      'house',
+      'electronica',
+      'dub',
+      'dubstep',
+      'chill',
+      'punk',
+      'metal',
+      'prog',
+      'folk',
+      'experimental',
+      'ambient',
+      'acoustic',
+      'afrobeat',
+      'alternative',
+      'bossanova',
+      'classical',
+      'deep-house',
+      'disco',
+      'edm',
+      'garage',
+      'gospel',
+      'goth',
+      'grunge',
+      'hardcore',
+      'latin',
+      'minimal',
+      'progressive',
+      'samba',
+      'ska',
+      'trance',
+      'world'
     ]
 
     hex_colors = [
@@ -38,5 +70,12 @@ namespace :genre do
     ]
 
     genres.sort.each_with_index { |genre, i| Genre.create(name: genre, color_hex: hex_colors[i % hex_colors.size]) }
+  end
+
+  task sub_seed: :environment do
+    require 'yaml'
+    sub_genres = YAML.safe_load(File.read('lib/genres.yml'))
+
+    sub_genres.each { |sub_genre| SubGenre.create_and_match(sub_genre) }
   end
 end

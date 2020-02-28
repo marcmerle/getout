@@ -50,9 +50,14 @@ h3 {
 .content {
   grid-area: content;
   overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-#sessions-new, #pages-tastes {
+#sessions-new,
+#pages-tastes {
   .grid-content .app-navbar {
     display: none;
   }

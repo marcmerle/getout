@@ -5,6 +5,10 @@ class PlacePolicy < ApplicationPolicy
     true
   end
 
+  def home?
+    true
+  end
+
   def show?
     true
   end

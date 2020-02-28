@@ -18,38 +18,15 @@
     <section class="selection">
       <div class="cat-title">Selection of bars for me</div>
       <%= render "components/horizontal_scroll" do %>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>Machin</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
-        <li>truc</li>
+          <% @places.each do |place| %>
+            <li><%= render "components/place_card", place: place %></li>
+          <% end %>
       <% end %>
     </section>
 
 
     <section class="artists">
-      <div class="cat-title">Go and listen to these artists</div>
+      <div class="cat-title">Where to listen to them</div>
         <%= render "components/horizontal_scroll" do %>
           <li>Machin</li>
           <li>Machin</li>
@@ -78,7 +55,6 @@
           <li>truc</li>
           <li>truc</li>
         <% end %>
-      </div>
     </section>
 
 
