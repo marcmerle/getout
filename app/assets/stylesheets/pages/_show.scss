@@ -3,9 +3,59 @@
   height: 100%;
   color: $my-white;
   overflow-y: scroll;
+  position: relative;
+
+  .place-top-tracks-title {
+    font-weight: 700;
+    font-size: 12px;
+  }
 
   .place-details {
-    margin: 25px 25px 0px 25px;
+    margin: 25px 28px 0px 28px;
+
+    h4 {
+      margin-top: 36px;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 29px;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 38px;
+      margin-top: 52px;
+    }
+
+    .place-pin-me {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .place-pin {
+      color: #ef798a;
+      font-size: 28px;
+      text-shadow: 0px 0px 4px #ef798a;
+      padding-left: 15px;
+    }
+  }
+
+  .place-stars {
+    color: #49AF91;
+    position: relative;
+    color: #49AF91;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    i {
+      display: block;
+    }
+  }
+
+  .place-name {
+    position: relative;
   }
 
   .general-infos {
@@ -26,12 +76,13 @@
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
   }
 
   h4 {
     font-size: 18px;
-    margin-top: 12px;
 
     &.now {
       color: $my-pink;
@@ -52,23 +103,44 @@
   .place-tags {
     width: 200px;
     display: flex;
+    margin-top: 36px;
   }
 
   .place-distance {
     display:flex;
+    justify-content: space-between;
+    margin-top: 12px;
   }
 
   .link-map {
     color: $my-pink;
     text-shadow: 0px 0px 4px $my-pink;
-    font-size: 20px;
-    margin: 20px;
+    font-size: 28px;
+  }
+
+  .place-on-air {
+    height: 322px;
+    background: url("linear-show.png");
+    margin: -74px -28px -92px -28px;
+
+    h4 {
+      margin-left: 28px;
+    }
   }
 
   .place-music {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -96px;
+
+    h4 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 38px;
+    }
   }
 
   ol {
@@ -105,5 +177,17 @@
     width: 100vw;
     height: 240px;
     }
+  }
+
+  .align-items-center {
+    align-items: center;
+  }
+
+  .place-top-tracks-infos {
+    line-height: 1px !important;
+  }
+
+  .height-between {
+    height: 52px;
   }
 }
