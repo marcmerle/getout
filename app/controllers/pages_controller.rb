@@ -11,7 +11,6 @@ class PagesController < ApplicationController
 
   def tastes
     current_user.viewed_tastes_screen = true
-    current_user.add_spotify_genres
 
     current_user.save
     @genres = Genre

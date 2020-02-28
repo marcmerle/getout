@@ -9,7 +9,14 @@
       <div class="search-card-details">
         <div class="place-details d-flex justify-content-between">
           <h2><%= place.name %></h2>
-          <div class="place-distance"><%= icon("fas", "map-marker-alt") %> 200 m</div>
+          <% if @query.present? && place.distance.round < 1000 %>
+            <% place_distance = "#{place.distance.round} m" %>
+          <% elsif @query.present? %>
+            <% place_distance = "#{(place.distance.to_i.fdiv(1000)).round(1)} km" %>
+          <% else %>
+            <% place_distance = "" %>
+          <% end %>
+          <div class="place-distance"><%= place_distance %></div>
         </div>
         <p><%= place.address %></p>
       </div>
