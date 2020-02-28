@@ -1,14 +1,11 @@
 <div class="bottom-navbar">
-    <%= link_to "/", class:'navbar-button active' do %>
+    <%= link_to "/", class:'navbar-button active', data: {turbolinks: false} do %>
       <%= icon("fas", "home") %>
     <% end %>
-    <%= link_to places_path, class:'navbar-button' do %>
+    <%= link_to places_path, class:'navbar-button', data: {turbolinks: false} do %>
       <%= icon("fas", "search") %>
     <% end %>
-    <%= link_to "#", class:'navbar-button' do %>
-      <%= icon("fas", "map-marker-alt") %>
-    <% end %>
-    <%= link_to "#", class:'navbar-button' do %>
-      <%= icon("fas", "headphones-alt") %>
+    <%= link_to dashboard_likes_path, class:'navbar-button', data: {turbolinks: false} do %>
+      <%= image_tag "pin-heart.png", alt: "pin-heart" %>
     <% end %>
 </div>
