@@ -40,7 +40,6 @@ namespace :genre do
       'deep-house',
       'disco',
       'edm',
-      'electronic',
       'garage',
       'gospel',
       'goth',

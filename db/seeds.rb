@@ -2,36 +2,6 @@
 
 require 'open-uri'
 
-# Uncomment following line once Geocoder is implemented:
-# Geocoder.configure(timeout: 60, lookup: :ban_data_gouv_fr)
-
-USER_PICTURE_URLS = [
-  "https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1115&q=80",
-  "https://images.unsplash.com/photo-1541418950054-c12804e149d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80",
-  "https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80",
-  "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1179&q=80",
-  "https://images.unsplash.com/photo-1553267751-1c148a7280a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1244&q=80",
-  "https://images.unsplash.com/photo-1548372290-8d01b6c8e78c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1504911539020-cfb0f7887a5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80",
-  "https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=702&q=80",
-  "https://images.unsplash.com/photo-1486074051793-e41332bf18fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1514448553123-ddc6ee76fd52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80",
-  "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-]
-
 class String
   def green
     "\e[32m#{self}\e[0m"
@@ -42,11 +12,118 @@ class String
   end
 end
 
+# Uncomment following line once Geocoder is implemented:
+# Geocoder.configure(timeout: 60, lookup: :ban_data_gouv_fr)
+
 `rails genre:seed`
 puts "\n#{Genre.count} genres were created\n".green
 
 `rails genre:sub_seed`
 puts "\n#{SubGenre.count} sub_genres were created\n".green
+
+PLACE_GENRES = []
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "ambient"), Genre.find_by(name: "chill")],
+  0,
+  2
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "classical")],
+  0,
+  1
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "chill")],
+  0,
+  4
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "chill"), Genre.find_by(name: "electronica")],
+  0,
+  4
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "dance"), Genre.find_by(name: "pop")],
+  0,
+  5
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "disco")],
+  0,
+  4
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "edm"), Genre.find_by(name: "electro")],
+  0,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "electro")],
+  0,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "electronica"), Genre.find_by(name: "electro")],
+  0,
+  8
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "hip-hop")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "house"), Genre.find_by(name: "electro")],
+  0,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "jazz")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "pop")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "r&b"), Genre.find_by(name: "hip-hop")],
+  0,
+  8
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "rock"), Genre.find_by(name: "pop")],
+  0,
+  8
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "rock")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "techno"), Genre.find_by(name: "electro")],
+  0,
+  15
+)
 
 places_file = File.read("db/places.json")
 places_data = JSON.parse(places_file)
@@ -71,6 +148,11 @@ places_data.first(100).each_with_index do |place_data, i|
   end
 
   place.save!
-  puts "Place ##{i + 1} was created (#{place.photos.count} picture(s))".blue
+
+  PLACE_GENRES.sample.each do |genre|
+    PlaceGenre.create(place: place, genre: genre)
+  end
+
+  puts "Place ##{i + 1} was created (#{place.photos.count} picture(s), #{place.genres.count} genres.)".blue
 end
 puts "\n#{Place.count} places were created\n".green
