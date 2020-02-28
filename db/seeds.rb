@@ -2,8 +2,24 @@
 
 require 'open-uri'
 
+class String
+  def green
+    "\e[32m#{self}\e[0m"
+  end
+
+  def blue
+    "\e[34m#{self}\e[0m"
+  end
+end
+
 # Uncomment following line once Geocoder is implemented:
 # Geocoder.configure(timeout: 60, lookup: :ban_data_gouv_fr)
+
+`rails genre:seed`
+puts "\n#{Genre.count} genres were created\n".green
+
+`rails genre:sub_seed`
+puts "\n#{SubGenre.count} sub_genres were created\n".green
 
 USER_PICTURE_URLS = [
   "https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1115&q=80",
@@ -32,38 +48,112 @@ USER_PICTURE_URLS = [
   "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
 ]
 
-class String
-  def green
-    "\e[32m#{self}\e[0m"
-  end
+PLACE_GENRES = []
 
-  def blue
-    "\e[34m#{self}\e[0m"
-  end
-end
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "ambient"), Genre.find_by(name: "chill")],
+  0,
+  2
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "classical")],
+  0,
+  1
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "chill")],
+  0,
+  4
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "chill"), Genre.find_by(name: "electronica")],
+  0,
+  4
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "dance"), Genre.find_by(name: "pop")],
+  0,
+  5
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "disco")],
+  0,
+  4
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "edm"), Genre.find_by(name: "electro")],
+  0,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "electro")],
+  0,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "electronica"), Genre.find_by(name: "electro")],
+  0,
+  8
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "hip-hop")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "house"), Genre.find_by(name: "electro")],
+  0,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "jazz")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "pop")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "r&b"), Genre.find_by(name: "hip-hop")],
+  0,
+  8
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "rock"), Genre.find_by(name: "pop")],
+  0,
+  8
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "rock")],
+  0,
+  20
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: "techno"), Genre.find_by(name: "electro")],
+  0,
+  15
+)
 
 places_file = File.read("db/places.json")
 places_data = JSON.parse(places_file)
-##
-# User DB Seed
-
-password = "123456"
-50.times do
-  user = User.new(
-    email: Faker::Internet.unique.email,
-    password: password,
-    nickname: Faker::Internet.unique.username
-  )
-
-  user.save!
-
-  url = USER_PICTURE_URLS.sample
-  file = URI.open(url)
-  user.avatar.attach(io: file, filename: "user_#{user.id}_avatar.png", content_type: 'image/png') if user.id == 1 || rand() > 0.25 # a quarter of users with no avatar
-  with_avatar = user.avatar.attached? ? " with an avatar" : ""
-  puts "User ##{user.id} was created#{with_avatar}.".blue
-end
-puts "\n#{User.count} users have been seeded with password #{password}\n".green
 
 ##
 # Place DB Seed
@@ -85,6 +175,11 @@ places_data.first(100).each_with_index do |place_data, i|
   end
 
   place.save!
-  puts "Place ##{i + 1} was created (#{place.photos.count} picture(s))".blue
+
+  PLACE_GENRES.sample.each do |genre|
+    PlaceGenre.create(place: place, genre: genre)
+  end
+
+  puts "Place ##{i + 1} was created (#{place.photos.count} picture(s), #{place.genres.count} genres.)".blue
 end
 puts "\n#{Place.count} places were created\n".green
