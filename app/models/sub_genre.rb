@@ -5,10 +5,12 @@ class SubGenre < ApplicationRecord
 
   validates :name, uniqueness: { scope: [:genre] }
 
-  def self.fetch_spotify_genres(artists)
+  def self.genres_from_sub_genres(artists)
     sub_genres = artists.each_with_object([]) do |artist, genres|
       artist['genres'].each { |genre| genres << genre }
     end
+
+    sub_genres
 
     Genre.includes(:sub_genres).references(:sub_genres).where(sub_genres: { name: sub_genres })
   end

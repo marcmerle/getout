@@ -24,7 +24,7 @@ class User < ApplicationRecord
 
     genres = SubGenre.genres_from_sub_genres(artists)
 
-    genres.each { |genre| UserGenre.create(user: current_user, genre: genre) }
+    genres.each { |genre| UserGenre.create(user: self, genre: genre) }
   end
 
   def self.from_omniauth(auth)
@@ -57,8 +57,6 @@ class User < ApplicationRecord
       refresh_token: auth.credentials.refresh_token
     )
   end
-
-  private
 
   def replace_user_picture(auth)
     url = auth.info.image
