@@ -5,11 +5,16 @@
   overflow-y: scroll;
   position: relative;
 
+  .place-top-tracks-title {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
   .place-details {
     margin: 25px 28px 0px 28px;
 
     h4 {
-      margin-top: 52px;
+      margin-top: 36px;
       font-style: normal;
       font-size: 16px;
       line-height: 29px;
@@ -21,21 +26,36 @@
       line-height: 38px;
       margin-top: 52px;
     }
+
+    .place-pin-me {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .place-pin {
+      color: #ef798a;
+      font-size: 28px;
+      text-shadow: 0px 0px 4px #ef798a;
+      padding-left: 15px;
+    }
   }
 
   .place-stars {
-    top: -7px;
     color: #49AF91;
     position: relative;
+    color: #49AF91;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    i {
+      display: block;
+    }
   }
 
   .place-name {
     position: relative;
-  }
-
-  .place-stars {
-    color: #49AF91;
-    width: 200px;
   }
 
   .general-infos {
@@ -83,12 +103,13 @@
   .place-tags {
     width: 200px;
     display: flex;
-    position: absolute;
+    margin-top: 36px;
   }
 
   .place-distance {
     display:flex;
     justify-content: space-between;
+    margin-top: 12px;
   }
 
   .link-map {
@@ -164,5 +185,9 @@
 
   .place-top-tracks-infos {
     line-height: 1px !important;
+  }
+
+  .height-between {
+    height: 52px;
   }
 }
