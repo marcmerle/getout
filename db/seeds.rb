@@ -42,28 +42,14 @@ class String
   end
 end
 
+`rails genre:seed`
+puts "\n#{Genre.count} genres were created\n".green
+
+`rails genre:sub_seed`
+puts "\n#{SubGenre.count} sub_genres were created\n".green
+
 places_file = File.read("db/places.json")
 places_data = JSON.parse(places_file)
-##
-# User DB Seed
-
-password = "123456"
-50.times do
-  user = User.new(
-    email: Faker::Internet.unique.email,
-    password: password,
-    nickname: Faker::Internet.unique.username
-  )
-
-  user.save!
-
-  url = USER_PICTURE_URLS.sample
-  file = URI.open(url)
-  user.avatar.attach(io: file, filename: "user_#{user.id}_avatar.png", content_type: 'image/png') if user.id == 1 || rand() > 0.25 # a quarter of users with no avatar
-  with_avatar = user.avatar.attached? ? " with an avatar" : ""
-  puts "User ##{user.id} was created#{with_avatar}.".blue
-end
-puts "\n#{User.count} users have been seeded with password #{password}\n".green
 
 ##
 # Place DB Seed
@@ -81,7 +67,7 @@ places_data.first(100).each_with_index do |place_data, i|
   place_data["pictures"].each_with_index do |place_picture, i|
     url = place_picture["picture_file"]["url"]
     file = URI.open(url)
-    place.photos.attach(io: file, filename: "place_#{place.id}_#{i + 1}.png", content_type: 'image/png') if i == 0 # remove if to get more than 1 picture per place
+    place.photos.attach(io: file, filename: "place_#{place.id}_#{i + 1}.png", content_type: 'image/png')
   end
 
   place.save!
