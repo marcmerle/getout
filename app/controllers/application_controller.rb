@@ -20,6 +20,11 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(resource)
-    resource.viewed_tastes_screen ? super : tastes_path
+    if resource.viewed_tastes_screen
+      super
+    else
+      resource.add_spotify_genres
+      tastes_path
+    end
   end
 end
