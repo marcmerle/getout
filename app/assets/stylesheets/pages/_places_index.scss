@@ -1,18 +1,25 @@
 .index-container {
+  background: #00171f;
   color: $my-white;
+  height: 100%;
+
+  h3 {
+    font-size: 24px;
+    margin: 10px 0 0;
+  }
 
   .tabs-search {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
     margin-bottom: 5px;
+    padding: 10px;
 
     a {
-      text-decoration: none;
       color: $my-pink;
-      text-shadow: 0px 0px 4px $my-pink;
       text-align: center;
+      text-decoration: none;
+      text-shadow: 0 0 4px $my-pink;
 
       &.selected {
         border-bottom: 1px solid $my-pink;
@@ -21,43 +28,42 @@
   }
 
   .display-search {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
     margin-bottom: 5px;
+    padding: 10px;
 
     ul {
       border: 1px solid $my-pink;
       border-radius: 20px;
-      font-weight: 300;
       font-size: 16px;
+      font-weight: 300;
     }
 
     a {
-      text-decoration: none;
       color: $my-pink;
       text-align: center;
+      text-decoration: none;
 
       &.selected {
-        border: 1px solid $my-pink;
         background: $my-pink;
-        color: $my-white;
+        border: 1px solid $my-pink;
         border-radius: 20px;
+        color: $my-white;
       }
     }
   }
 }
 
-
 .bar-search {
-  background: #03272F;
+  background: #03272f;
   height: 56px;
 }
 
 .title-section {
-  width: 360px;
   margin: 0 auto;
+  width: 360px;
 }
 
 .places {
@@ -65,23 +71,23 @@
   grid-column: 1fr;
   grid-gap: 8px;
   justify-content: center;
-}
 
-.index-container {
-  background: #00171f;
-  height: 100%;
+  a {
+    text-decoration: none;
 
-  h3 {
-    font-size: 24px;
-    margin: 10px 0px 0px 0px;
+    &:hover,
+    &:focus,
+    &:active {
+      outline: none;
+    }
   }
 }
 
 .filter-search {
+  display: flex;
   margin: 0 auto;
   padding-top: 5px;
   width: 200px;
-  display: flex;
 
   .place-tag {
     margin: 5px;
