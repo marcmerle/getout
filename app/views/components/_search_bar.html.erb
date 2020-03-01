@@ -1,4 +1,8 @@
- <!-- render "components/search_bar" -->
+ <!-- render "components/search_bar", value: "Value" -->
+
+ <% 
+     value = local_assigns.fetch(:value, "")
+ %>
 
 <div class="search-bar-container">
   <div class="search-bar">
@@ -11,6 +15,7 @@
                data-target="places-search.input"
                name="query"
                id="search_query" 
+               value="<%= value %>"
                >
       </div>
     </form>

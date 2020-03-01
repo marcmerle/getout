@@ -11,7 +11,8 @@
     </ul>
   </div>
   <div class="bar-search">
-    Search
+    <% previous_search = params[:query] ? params[:query] : "" %>
+    <div><%= render "components/search_bar", value: previous_search %></div>
   </div>
   <div class="display-search">
     <ul class="nav nav-pills">
