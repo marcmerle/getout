@@ -28,8 +28,9 @@
       <h3>Results for #</h3>
     </div>
     <div class="places">
-      <% @places.each do |place| %>
-        <%= render "components/search-card", place: place %>
+      <% @places.each_with_index do |place, i| %>
+        <% last = :last if i == @places.count - 1 %>
+        <%= render "components/search-card", place: place, last: last %>
       <% end %>
     </div>
   </div>
