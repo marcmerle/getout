@@ -49,9 +49,8 @@
   }
 }
 
-
 .bar-search {
-  background: #03272F;
+  background: #03272f;
   height: 56px;
 }
 
@@ -86,4 +85,9 @@
   .place-tag {
     margin: 5px;
   }
+}
+
+.place-tag {
+  align-items: center;
+  display: flex;
 }
