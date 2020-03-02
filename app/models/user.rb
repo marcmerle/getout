@@ -14,17 +14,32 @@ class User < ApplicationRecord
           omniauth_providers: %i[spotify]
 
   has_many :user_genres, dependent: :destroy, inverse_of: :user
+  has_many :user_artists, dependent: :destroy, inverse_of: :user
   has_many :genres, through: :user_genres
   has_many :likes, dependent: :destroy, inverse_of: :user
   has_one_attached :avatar
 
   def add_spotify_genres
-    artists = SpotifyTopArtists.call(self)['items']
-    return artists if artists.empty?
-
-    genres = SubGenre.genres_from_sub_genres(artists)
+    return user_artists if user_artists.empty?
+    genres = SubGenre.genres_from_sub_genres(user_artists)
 
     genres.each { |genre| UserGenre.create(user: self, genre: genre) }
+  end
+
+  def add_spotify_artists
+    artists = SpotifyTopArtists.call(self)['items'].first(8)
+    return UserArtist.seed(self) unless artists
+
+    artists.map do |artist|
+      user_artist = UserArtist.new(
+        name: artist['name'],
+        image_url: artist['images'].first['url']
+      )
+
+      user_artist.user = self
+      user_artist.save
+      user_artist.destroy_and_create_genres(artist)
+    end
   end
 
   def self.from_omniauth(auth)
