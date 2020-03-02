@@ -31,4 +31,7 @@ class PagesController < ApplicationController
     @genres = Genre.all.select('genres.*, user_genres.user_id')
                    .joins(sql).order('user_genres.user_id, genres.name ASC')
   end
+
+  def loading
+  end
 end
