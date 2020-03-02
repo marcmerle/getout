@@ -15,6 +15,10 @@
     font-size: 18px;
     font-weight: bold;
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 49vw;
   }
 
   p {
