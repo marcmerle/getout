@@ -11,7 +11,8 @@
     </ul>
   </div>
   <div class="bar-search">
-    Search
+    <% previous_search = params[:query] ? params[:query] : "" %>
+    <div><%= render "components/search_bar", value: previous_search %></div>
   </div>
   <div class="display-search">
     <ul class="nav nav-pills">
@@ -25,11 +26,12 @@
   </div>
   <div class="search-results mb-3">
     <div class="title-section">
-      <h3>Results for #</h3>
+      <h3>Results for <%= @query %></h3>
     </div>
     <div class="places">
-      <% @places.each do |place| %>
-        <%= render "components/search-card", place: place %>
+      <% @places.each_with_index do |place, i| %>
+        <% last = :last if i == @places.count - 1 %>
+        <%= render "components/search-card", place: place, last: last %>
       <% end %>
     </div>
   </div>

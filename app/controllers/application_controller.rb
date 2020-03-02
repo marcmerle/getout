@@ -6,11 +6,11 @@ class ApplicationController < ActionController::Base
   include Pundit
 
   # Pundit: white-list approach.
-  after_action :verify_authorized, except: :index, unless: :skip_pundit?
-  after_action :verify_policy_scoped, only: :index, unless: :skip_pundit?
+  after_action :verify_authorized, except: %i[index home], unless: :skip_pundit?
+  after_action :verify_policy_scoped, only: %i[index home], unless: :skip_pundit?
 
   def default_url_options
-    { host: ENV["DOMAIN"] || "localhost:3000" }
+    { host: ENV['DOMAIN'] || 'localhost:3000' }
   end
 
   private
