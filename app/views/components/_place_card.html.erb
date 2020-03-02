@@ -1,11 +1,11 @@
 <%
     image = !item.photos&.first ? image_path("logo_with_arrow") : cl_image_path(item.photos.first.key)
-    image = item.picture if item.respond_to?(:picture)
+    image = item.image_url if item.respond_to?(:image_url)
     type = local_assigns.fetch(:type, :square)
 %>
 
 <div class="place-card <%= type.to_s %>">
-  <%= image_tag image, alt: "Photo of place" %> 
+  <%= image_tag image, alt: "Photo of place" %>
   <div class="name">
     <%= item.name %>
   </div>
