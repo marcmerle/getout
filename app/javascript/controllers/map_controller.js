@@ -34,7 +34,7 @@ export default class extends Controller {
         .addTo(map);
     });
 
-    this.fitMapToMarkers(map, markers);
+    this.fitMapToMarkers(map, markers.slice(0, 2));
   }
 
   fitMapToMarkers(map, markers) {
