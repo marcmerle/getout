@@ -21,7 +21,6 @@ class User < ApplicationRecord
 
   def add_spotify_genres
     return user_artists if user_artists.empty?
-
     genres = SubGenre.genres_from_sub_genres(user_artists)
 
     genres.each { |genre| UserGenre.create(user: self, genre: genre) }
@@ -39,6 +38,7 @@ class User < ApplicationRecord
 
       user_artist.user = self
       user_artist.save
+      user_artist.destroy_and_create_genres(artist)
     end
   end
 

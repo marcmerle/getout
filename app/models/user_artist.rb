@@ -3,6 +3,7 @@
 class UserArtist < ApplicationRecord
   attr_reader :photos
   belongs_to :user
+  has_many :user_artist_genres, dependent: :destroy
 
   class << self
     def seed(user)
@@ -34,6 +35,16 @@ class UserArtist < ApplicationRecord
         user_artist.user = user
         user_artist.save
       end
+    end
+  end
+
+  def destroy_and_create_genres(artist)
+    UserArtistGenre.where(user_artist: self).destroy_all
+
+    artist['genres'].each do |genre_name|
+      user_artist_genre = UserArtistGenre.new(name: genre_name)
+      user_artist_genre.user_artist = self
+      user_artist_genre.save
     end
   end
 end

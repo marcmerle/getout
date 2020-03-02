@@ -7,7 +7,7 @@ class SubGenre < ApplicationRecord
 
   def self.genres_from_sub_genres(artists)
     sub_genres = artists.each_with_object([]) do |artist, user_sub_genres|
-      artist['genres'].each { |sub_genre| user_sub_genres << sub_genre }
+      artist.user_artist_genres.each { |sub_genre| user_sub_genres << sub_genre.name }
     end
 
     sub_genres.map! do |sub_genre|
