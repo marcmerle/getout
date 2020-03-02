@@ -162,6 +162,12 @@
     border-radius: 50%;
     margin-bottom: 5px;
   }
+
+  .place-opening-info-green {
+    position: absolute;
+    bottom: -390px;
+    left: 130px;
+  }
 }
 
 .logo-back {
@@ -199,5 +205,22 @@
 
   .height-between {
     height: 52px;
+  }
+}
+
+.place-opening-info {
+  position: relative;
+  z-index: 1;
+  &:after {
+    position: absolute;
+    content: "";
+    background: url(opening_infos.png);
+    height: 56px;
+    width: 189px;
+    top: 22px;
+    right: 22px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
   }
 }
