@@ -1,0 +1,91 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1600 1600"
+    id="vector"
+    width="1600px"
+    height="1600px">
+    <g
+        id="group"
+        transform="translate(700 550) rotate(293.1955041643865 0 0)">
+        <g
+            id="group_1"
+            transform="rotate(293.1955041643865 293.1955041643865 293.1955041643865) translate(293.1955041643865 293.1955041643865) scale(0.8144319560121847 0.8144319560121847) translate(-293.1955041643865 -293.1955041643865)">
+            <g id="group_4">
+                <path
+                    id="path_7"
+                    d="M 37.814 294.577 L 146.133 222.729 L 146.133 366.425 L 37.814 294.577 Z"
+                    fill="#07536b"
+                    fill-opacity="0.9042189128685021"
+                    stroke-width="1"/>
+            </g>
+            <g id="group_5">
+                <path
+                    id="path_1"
+                    d="M 252.388 153.54 L 144.069 225.388 L 144.069 81.692 L 252.388 153.54 Z"
+                    fill="#49af91"
+                    fill-opacity="0.9042189128685021"
+                    stroke-width="1"/>
+            </g>
+            <g id="group_6">
+                <path
+                    id="path_4"
+                    d="M 145.101 83.021 L 36.782 154.869 L 36.782 11.173 L 145.101 83.021 Z"
+                    fill="#07536b"
+                    fill-opacity="0.7595685765893744"
+                    stroke-width="1"/>
+            </g>
+        </g>
+        <g
+            id="group_2"
+            transform="rotate(161.18487661182243 400.96 100.35261820799997) translate(400.96 100.35261820799997) scale(0.5522642316338265 0.5522642316338265) translate(-400.96 -100.35261820799997)">
+            <g id="group_7">
+                <path
+                    id="path_9"
+                    d="M 145.101 365.095 L 36.782 436.943 L 36.782 293.247 L 145.101 365.095 Z"
+                    fill="#49af91"
+                    fill-opacity="0.9042189128685021"
+                    stroke-width="1"/>
+            </g>
+            <g id="group_8">
+                <path
+                    id="path_3"
+                    d="M 252.388 294.577 L 144.069 366.425 L 144.069 222.729 L 252.388 294.577 Z"
+                    fill="#ef798a"
+                    fill-opacity="0.9042189128685021"
+                    stroke-width="1"/>
+            </g>
+            <g id="group_9">
+                <path
+                    id="path_6"
+                    d="M 145.101 224.058 L 253.42 152.21 L 253.42 295.906 L 145.101 224.058 Z"
+                    fill="#dbcaa2"
+                    fill-opacity="0.9042189128685021"
+                    stroke-width="1"/>
+            </g>
+            <g id="group_10">
+                <path
+                    id="path_5"
+                    d="M 37.814 153.54 L 146.133 81.692 L 146.133 225.388 L 37.814 153.54 Z"
+                    fill="#ef798a"
+                    fill-opacity="0.9042189128685021"
+                    stroke-width="1"/>
+            </g>
+        </g>
+        <g
+            id="group_3"
+            transform="translate(18.556804398781537 18.556804398781537) rotate(326.5977520821932 0 0)">
+            <path
+                id="path_8"
+                d="M 145.101 224.058 L 36.782 295.906 L 36.782 152.21 L 145.101 224.058 Z"
+                fill="#07536b"
+                fill-opacity="0.8790484614560563"
+                stroke-width="1"/>
+            <path
+                id="path_2"
+                d="M 359.676 224.058 L 251.357 295.906 L 251.357 152.21 L 359.676 224.058 Z"
+                fill="#49af91"
+                fill-opacity="0.8790484614560563"
+                stroke-width="1"/>
+        </g>
+    </g>
+</svg>

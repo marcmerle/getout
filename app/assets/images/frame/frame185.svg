@@ -1,0 +1,102 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1600 1600"
+    id="vector"
+    width="1600px"
+    height="1600px">
+    <g
+        id="group"
+        transform="translate(700 550) rotate(360 0 0)">
+        <g
+            id="group_1"
+            transform="rotate(360 360 360)">
+            <g
+                id="group_4"
+                transform="translate(521.5233611872216 297.45039833418775)">
+                <path
+                    id="path_7"
+                    d="M 37.814 294.577 L 146.133 222.729 L 146.133 366.425 L 37.814 294.577 Z"
+                    fill="#07536b"
+                    fill-opacity="0"
+                    stroke-width="1"/>
+            </g>
+            <g
+                id="group_5"
+                transform="translate(-330.29812875190703 521.5233611872216)">
+                <path
+                    id="path_1"
+                    d="M 252.388 153.54 L 144.069 225.388 L 144.069 81.692 L 252.388 153.54 Z"
+                    fill="#49af91"
+                    fill-opacity="0"
+                    stroke-width="1"/>
+            </g>
+            <g
+                id="group_6"
+                transform="translate(-695.3644815829622 0) rotate(169.49509238584702 0 0)">
+                <path
+                    id="path_4"
+                    d="M 145.101 83.021 L 36.782 154.869 L 36.782 11.173 L 145.101 83.021 Z"
+                    fill="#07536b"
+                    fill-opacity="0"
+                    stroke-width="1"/>
+            </g>
+        </g>
+        <g id="group_2">
+            <g
+                id="group_7"
+                transform="scale(0.13079439802129733 0.13079439802129733)">
+                <path
+                    id="path_9"
+                    d="M 145.101 365.095 L 36.782 436.943 L 36.782 293.247 L 145.101 365.095 Z"
+                    fill="#49af91"
+                    fill-opacity="0"
+                    stroke-width="1"/>
+            </g>
+            <g
+                id="group_8"
+                transform="translate(521.5233611872216 -782.2850417808324)">
+                <path
+                    id="path_3"
+                    d="M 252.388 294.577 L 144.069 366.425 L 144.069 222.729 L 252.388 294.577 Z"
+                    fill="#ef798a"
+                    fill-opacity="0"
+                    stroke-width="1"/>
+            </g>
+            <g
+                id="group_9"
+                transform="translate(0 -347.6822407914811) rotate(-169.49509238584702 0 0)">
+                <path
+                    id="path_6"
+                    d="M 145.101 224.058 L 253.42 152.21 L 253.42 295.906 L 145.101 224.058 Z"
+                    fill="#dbcaa2"
+                    fill-opacity="0"
+                    stroke-width="1"/>
+            </g>
+            <g
+                id="group_10"
+                transform="scale(0.07885285301299272 0.07885285301299272)">
+                <path
+                    id="path_5"
+                    d="M 37.814 153.54 L 146.133 81.692 L 146.133 225.388 L 37.814 153.54 Z"
+                    fill="#ef798a"
+                    stroke-width="1"/>
+            </g>
+        </g>
+        <g
+            id="group_3"
+            transform="rotate(360 0 0) scale(0.13079439802129733 0.13079439802129733)">
+            <path
+                id="path_8"
+                d="M 145.101 224.058 L 36.782 295.906 L 36.782 152.21 L 145.101 224.058 Z"
+                fill="#07536b"
+                fill-opacity="0"
+                stroke-width="1"/>
+            <path
+                id="path_2"
+                d="M 359.676 224.058 L 251.357 295.906 L 251.357 152.21 L 359.676 224.058 Z"
+                fill="#49af91"
+                fill-opacity="0"
+                stroke-width="1"/>
+        </g>
+    </g>
+</svg>
