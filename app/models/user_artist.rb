@@ -42,7 +42,10 @@ class UserArtist < ApplicationRecord
     UserArtistGenre.where(user_artist: self).destroy_all
 
     artist['genres'].each do |genre_name|
-      user_artist_genre = UserArtistGenre.new(name: genre_name)
+      next unless SubGenre.find_by(name: genre_name)
+
+      user_artist_genre = UserArtistGenre.new
+      user_artist_genre.sub_genre = SubGenre.find_by(name: genre_name)
       user_artist_genre.user_artist = self
       user_artist_genre.save
     end

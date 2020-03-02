@@ -2,12 +2,15 @@
 
 class SubGenre < ApplicationRecord
   belongs_to :genre, optional: true
+  has_many :user_artist_genres, dependent: :destroy
 
   validates :name, uniqueness: { scope: [:genre] }
 
   def self.genres_from_sub_genres(artists)
     sub_genres = artists.each_with_object([]) do |artist, user_sub_genres|
-      artist.user_artist_genres.each { |sub_genre| user_sub_genres << sub_genre.name }
+      artist.user_artist_genres.each do |user_artist_sub_genre|
+        user_sub_genres << user_artist_sub_genre.sub_genre.name
+      end
     end
 
     sub_genres.map! do |sub_genre|
