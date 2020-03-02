@@ -1,9 +1,10 @@
 <%
     image = !place.photos.first ? image_path("logo_with_arrow.svg") : cl_image_path(place.photos.first.key)
+    last = local_assigns.fetch(:last, "")
 %>
 
 <%= link_to place_path(place) do  %>
-  <div class="search-card">
+  <div class="search-card <%= last.to_s %>">
     <%= image_tag image, :width=>100, :height=>100, :crop=>"crop", alt: "place_photo" %>
     <div class="search-card-infos d-flex flex-column">
       <div class="search-card-details">
@@ -24,7 +25,10 @@
         <div class="place-rating"><%= icon("fas", "star") %> 4.6</div>
         <div class="place-tags d-flex flex-end">
           <% place.genres.sort.each do |genre| %>
-            <%= render 'components/tag',background_color:"#{genre.color_hex}", text: "#{genre.name.capitalize}", class: "search-place-tag" %>
+            <%= render 'components/tag',
+              background_color: "#{genre.color_hex}",
+              text: "#{genre.name.capitalize}",
+              class: "search-place-tag" %>
           <% end %>
         </div>
       </div>
