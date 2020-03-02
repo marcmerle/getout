@@ -14,14 +14,22 @@ const initMapbox = () => {
     mapboxgl.accessToken = mapElement.dataset.mapboxApiKey;
     const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v10'
+      style: 'mapbox://styles/marcmerle/ck7abhm2303ag1iqj43fcw0pw',
+      zoom: 4
     });
 
     const markers = JSON.parse(mapElement.dataset.markers);
     markers.forEach((marker) => {
       const popup = new mapboxgl.Popup().setHTML(marker.infoWindow); // add this
 
-      new mapboxgl.Marker()
+      const element = document.createElement('div');
+      element.className = 'marker';
+      element.style.backgroundImage = `url('${marker.image_url}')`;
+      element.style.backgroundSize = 'contain';
+      element.style.width = '35px';
+      element.style.height = '35px';
+
+      new mapboxgl.Marker(element)
         .setLngLat([ marker.lng, marker.lat ])
         .setPopup(popup)
         .addTo(map);
