@@ -2,7 +2,6 @@
 
 class PlacesController < ApplicationController
   def index
-    # binding.pry
     @query = params[:query]
     current_scope = policy_scope(Place)
     current_scope = Place.policy_scope_by_distance(@query, current_scope) if @query.present?
