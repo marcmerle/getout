@@ -8,6 +8,11 @@
     margin: 10px 0 0;
   }
 
+  .bar-search {
+    height: 56px;
+    padding: 0 24px;
+  }
+
   .tabs-search {
     align-items: center;
     display: flex;
@@ -54,11 +59,6 @@
       }
     }
   }
-}
-
-.bar-search {
-  background: #03272f;
-  height: 56px;
 }
 
 .title-section {
