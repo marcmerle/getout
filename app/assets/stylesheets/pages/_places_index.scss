@@ -20,14 +20,18 @@
     margin-bottom: 5px;
     padding: 10px;
 
-    a {
-      color: $my-pink;
-      text-align: center;
-      text-decoration: none;
-      text-shadow: 0 0 4px $my-pink;
+    .nav {
 
-      &.selected {
-        border-bottom: 1px solid $my-pink;
+      .nav-link {
+        color: $my-pink;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0 0 4px $my-pink;
+
+        &.active {
+          background: none;
+          border-bottom: 1px solid $my-pink;
+        }
       }
     }
   }

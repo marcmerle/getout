@@ -1,39 +1,40 @@
 <%= render 'components/back_arrow', link: root_path %>
 <div class="index-container">
   <div class="tabs-search">
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="#">By genres</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link selected" href="#">By location</a>
-      </li>
-    </ul>
-  </div>
-  <div class="bar-search">
-    <% previous_search = params[:query] ? params[:query] : "" %>
-    <div><%= render "components/search_bar", value: previous_search %></div>
-  </div>
-  <div class="display-search">
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link selected" href="#">List</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Map</a>
-      </li>
-    </ul>
-  </div>
-  <div class="search-results mb-3">
-    <div class="title-section">
-      <h3>Near this address</h3>
+    <div class="nav nav-pills" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-location-tab" data-toggle="tab" href="#nav-location" role="tab" aria-controls="nav-location" aria-selected="true">By location</a>
+      <a class="nav-item nav-link" id="nav-genres-tab" data-toggle="tab" href="#nav-genres" role="tab" aria-controls="nav-genres" aria-selected="false">By genres</a>
     </div>
-    <div class="places">
-      <% @places.each_with_index do |place, i| %>
-        <% last = :last if i == @places.count - 1 %>
-        <%= render "components/search-card", place: place, last: last %>
-      <% end %>
+  </div>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-location" role="tabpanel" aria-labelledby="nav-location-tab">
+      <div class="bar-search">
+        <% previous_search = params[:query] ? params[:query] : "" %>
+        <div><%= render "components/search_bar", value: previous_search %></div>
+      </div>
+      <div class="display-search">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link selected" href="#">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Map</a>
+          </li>
+        </ul>
+      </div>
+      <div class="search-results mb-3">
+        <div class="title-section">
+          <h3>Near this address</h3>
+        </div>
+        <div class="places">
+          <% @places.each_with_index do |place, i| %>
+            <% last = :last if i == @places.count - 1 %>
+            <%= render "components/search-card", place: place, last: last %>
+          <% end %>
+        </div>
+      </div>
     </div>
+    <div class="tab-pane fade" id="nav-genres" role="tabpanel" aria-labelledby="nav-genres-tab">...</div>
   </div>
 </div>
 
