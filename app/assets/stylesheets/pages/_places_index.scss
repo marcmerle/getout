@@ -102,3 +102,78 @@
   align-items: center;
   display: flex;
 }
+
+.genres-search {
+    padding: 0 24px;
+    height: 56px;
+
+  .fas.fa-search {}
+
+  form {
+    width: 100%;
+    height: 100%;
+
+    .select2.select2-container.select2-container--default {
+      width: 100% !important;
+      position: relative;
+
+      .select2-dropdown.select2-dropdown--below {
+        position: absolute;
+        border-radius: 4px;
+        margin-top: 10px;
+        background-color: #ffffff2b;
+        color: white;
+      }
+
+      .selection {
+        .select2-selection.select2-selection--multiple {
+          border: 0;
+          border-radius: 4px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 16px 8px;
+          background-color: #ffffff2b;
+
+          ul {
+            height: 100%;
+            text-align: center;
+
+            .select2-search.select2-search--inline {
+              display: none;
+            }
+
+            li {
+
+              .select2-search__field {
+              width: 100% !important;
+              }
+
+              &.select2-selection__choice {
+                border-radius: 100px;
+                margin: 4px;
+                padding: 4px 12px;
+                border: none;
+                color: $my-white;
+
+                .select2-selection__choice__remove {
+                  margin-right: 5px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.select2-dropdown {
+  background-color: #ffffff2b !important;
+  color: white !important;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+}
