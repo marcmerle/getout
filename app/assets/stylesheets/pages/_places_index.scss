@@ -1,6 +1,11 @@
 .index-container {
   color: $my-white;
 
+  .bar-search {
+    height: 56px;
+    padding: 0 24px;
+  }
+
   .tabs-search {
     display: flex;
     justify-content: center;
@@ -47,12 +52,6 @@
       }
     }
   }
-}
-
-
-.bar-search {
-  background: #03272F;
-  height: 56px;
 }
 
 .title-section {
