@@ -29,7 +29,8 @@
       <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
         <div class="places">
           <div class="title-section">
-            <h3>Near this address</h3>
+            <% loc = params[:query].present? ?  "this address" : "my position" %>
+            <h3>Near <%= loc %></h3>
           </div>
           <% @places.each_with_index do |place, i| %>
             <% last = :last if i == @places.count - 1 %>
@@ -43,7 +44,8 @@
                style="width: 100%;
                height: 550px;"
                data-markers="<%= @markers.to_json %>"
-               data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+               data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+               >
           </div>
         </div>
       </div>
