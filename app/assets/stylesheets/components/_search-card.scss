@@ -7,6 +7,10 @@
   border-bottom: 1px solid $my-green;
   color: $my-white;
 
+  &.last {
+    border-bottom: 0;
+  }
+
   h2 {
     font-size: 18px;
     font-weight: bold;
@@ -22,11 +26,10 @@
   }
 
   .search-card-infos {
-    height: 100px;
-    position: relative;
-    margin-left: 15px;
-    // width: 100%;
     flex-grow: 1;
+    height: 100px;
+    margin-left: 15px;
+    position: relative;
   }
 }
 
@@ -42,4 +45,3 @@
 .place-distance {
   font-size: 13px;
 }
-

@@ -1,20 +1,26 @@
 .bottom-navbar {
+  align-items: center;
   background: $my-black;
+  border-top: $my-green 1px solid;
+  display: flex;
   font-size: 25px;
   height: 56px;
-  display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 0px 25px;
-  text-decoration: none;
-  border-top: $my-green 1px solid;
+  padding: 0 25px;
 
   .navbar-button {
     color: $my-white;
     display: flex;
-  }
+    text-decoration: none;
 
-  .navbar-button.active {
-    color: $my-green;
+    &.active {
+      color: $my-green;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline: none;
+    }
   }
 }

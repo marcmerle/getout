@@ -16,8 +16,8 @@
 
     img {
       height: 140px;
-      width: 140px;
       object-fit: cover;
+      width: 140px;
     }
   }
 
@@ -32,15 +32,14 @@
 
     img {
       height: 100px;
-      width: 100px;
       object-fit: cover;
+      width: 100px;
     }
   }
 
   &.circle {
     img {
       border-radius: 50%;
-      object-fit: cover;
     }
   }
 }
