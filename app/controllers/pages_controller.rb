@@ -31,4 +31,7 @@ class PagesController < ApplicationController
               .joins("left join user_genres on user_genres.genre_id = genres.id and user_genres.user_id = #{current_user.id}")
               .order('user_genres.user_id, genres.name ASC')
   end
+
+  def loading
+  end
 end
