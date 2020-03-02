@@ -15,12 +15,12 @@
     <div><%= render "components/search_bar", value: previous_search %></div>
   </div>
   <div class="display-search">
-    <ul class="nav nav-pills">
+    <ul class="nav nav-tabs id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link selected" href="#">List</a>
+        <a class="nav-link active" id="list-tab" data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="true">List</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Map</a>
+        <a class="nav-link" id="map-result-tab" data-toggle="tab" href="#map-result" role="tab" aria-controls="map-result" aria-selected="false">Map</a>
       </li>
     </ul>
   </div>
@@ -28,11 +28,25 @@
     <div class="title-section">
       <h3>Results for <%= @query %></h3>
     </div>
-    <div class="places">
-      <% @places.each_with_index do |place, i| %>
-        <% last = :last if i == @places.count - 1 %>
-        <%= render "components/search-card", place: place, last: last %>
-      <% end %>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
+        <div class="places">
+          <% @places.each_with_index do |place, i| %>
+            <% last = :last if i == @places.count - 1 %>
+            <%= render "components/search-card", place: place, last: last %>
+          <% end %>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="map-result" role="tabpanel" aria-labelledby="map-tab">
+        <div class="map-results">
+          <div id="map"
+               style="width: 100%;
+               height: 600px;"
+               data-markers="<%= @markers.to_json %>"
+               data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

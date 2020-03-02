@@ -12,6 +12,14 @@ class PlacesController < ApplicationController
 
     @places.each { |place| place.distance_from(@query) }
            .sort_by!(&:distance)
+
+    @markers = @places.map do |place|
+      {
+        lat: place.latitude,
+        lng: place.longitude,
+        infoWindow: render_to_string(partial: 'info_window', locals: { place: place })
+      }
+    end
   end
 
   def show

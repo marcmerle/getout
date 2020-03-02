@@ -1,0 +1,4 @@
+<div class="img-map" style="background-image: url(<%= cl_image_path(place.photos.first.key) %>)"></div>
+<h2><%= place.name %></h2>
+<p class="m-0 text-muted"><%= place.address %></p>
+<%= render 'components/button_link', text: "Voir le bar", link: place_path(place) %>
