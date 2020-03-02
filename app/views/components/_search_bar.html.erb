@@ -6,18 +6,25 @@
 
 <div class="search-bar-container">
   <div class="search-bar">
-    <form action="/places" id="search-form" method="get" accept-charset="utf-8">
-      <div class="search-bar-all" data-controller="places-search">
-        <%= icon("fas", "search") %>
-        <input class="search-bar-input"
-               type="search"
-               placeholder="Enter an address..."
-               data-target="places-search.input"
-               name="query"
-               id="search_query" 
-               value="<%= value %>"
-               >
-      </div>
+    <form action="/places"
+          data-controller="places-search"
+          data-target="places-search.form"
+          id="search-form"
+          method="get"
+          accept-charset="utf-8"
+          >
+          <div class="search-bar-all">
+            <%= icon("fas", "search") %>
+            <input class="search-bar-input"
+                  type="search"
+                  placeholder="Enter an address..."
+                  data-target="places-search.input"
+                  data-action="keydown->places-search#onKeyEnter"
+                  name="query"
+                  id="search_query"
+                  value="<%= value %>"
+                  >
+          </div>
     </form>
   </div>
 </div>
