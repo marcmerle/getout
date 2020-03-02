@@ -20,6 +20,8 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(resource)
+    UserArtist.where(user: resource).destroy_all
+    resource.add_spotify_artists
     if resource.viewed_tastes_screen
       super
     else

@@ -10,7 +10,7 @@ class PagesController < ApplicationController
 
       @places = current_scope.sample(8)
 
-      @artists = artists_events.sample(8)
+      @artists = current_user.user_artists
       # To be replaced by proper HTML 5 geolocation at some point
       location = '52 ter Rue des Vinaigriers 75010 Paris'
       current_scope = policy_scope(Place)
@@ -30,19 +30,5 @@ class PagesController < ApplicationController
     current_user.save
     @genres = Genre.all.select('genres.*, user_genres.user_id')
                    .joins(sql).order('user_genres.user_id, genres.name ASC')
-  end
-
-  private
-
-  def artists_events
-    artists = SpotifyTopArtists.call(current_user)['items']
-    return Artist.seed unless artists
-
-    artists.map do |artist|
-      Artist.new(
-        name: artist['name'],
-        picture: artist['images'].first['url']
-      )
-    end.sample(8)
   end
 end
