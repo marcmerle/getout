@@ -26,7 +26,8 @@
   </div>
   <div class="search-results mb-3">
     <div class="title-section">
-      <h3>Near this address</h3>
+      <% loc = params[:query].present? ?  "this address" : "my position" %>
+      <h3>Near <%= loc %></h3>
     </div>
     <div class="places">
       <% @places.each_with_index do |place, i| %>
