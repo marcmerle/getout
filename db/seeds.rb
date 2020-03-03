@@ -137,7 +137,8 @@ places_data.first(100).each_with_index do |place_data, i|
     description: Faker::Restaurant.description,
     category: 'bar',
     opening_start: Time.gm(2000, 'jan', 1, rand(17..20)),
-    opening_end: Time.gm(2000, 'jan', 1, rand(21..23))
+    opening_end: Time.gm(2000, 'jan', 1, rand(21..23)),
+    avg_rating: rand(3.5..5.0).round(1)
   )
 
   place_data['pictures'].each_with_index do |place_picture, i|
