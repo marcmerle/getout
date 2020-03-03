@@ -25,19 +25,61 @@ PLACE_GENRES = []
 PLACE_GENRES.fill(
   [Genre.find_by(name: 'ambient'), Genre.find_by(name: 'chill')],
   PLACE_GENRES.size,
-  2
+  10
 )
 
 PLACE_GENRES.fill(
-  [Genre.find_by(name: 'classical')],
+  [Genre.find_by(name: 'house'), Genre.find_by(name: 'techno')],
   PLACE_GENRES.size,
-  1
+  10
 )
 
 PLACE_GENRES.fill(
-  [Genre.find_by(name: 'chill')],
+  [Genre.find_by(name: 'pop'), Genre.find_by(name: 'dance')],
   PLACE_GENRES.size,
-  4
+  5
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: 'metal'), Genre.find_by(name: 'punk')],
+  PLACE_GENRES.size,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: 'dub'), Genre.find_by(name: 'dubstep')],
+  PLACE_GENRES.size,
+  5
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: 'dub'), Genre.find_by(name: 'reggae')],
+  PLACE_GENRES.size,
+  5
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: 'latin'), Genre.find_by(name: 'world')],
+  PLACE_GENRES.size,
+  10
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: 'indie'), Genre.find_by(name: 'world')],
+  PLACE_GENRES.size,
+  5
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: 'soul'), Genre.find_by(name: 'blues')],
+  PLACE_GENRES.size,
+  8
+)
+
+PLACE_GENRES.fill(
+  [Genre.find_by(name: 'rock'), Genre.find_by(name: 'blues')],
+  PLACE_GENRES.size,
+  8
 )
 
 PLACE_GENRES.fill(
@@ -53,21 +95,9 @@ PLACE_GENRES.fill(
 )
 
 PLACE_GENRES.fill(
-  [Genre.find_by(name: 'disco')],
-  PLACE_GENRES.size,
-  4
-)
-
-PLACE_GENRES.fill(
-  [Genre.find_by(name: 'edm'), Genre.find_by(name: 'electro')],
-  PLACE_GENRES.size,
-  10
-)
-
-PLACE_GENRES.fill(
   [Genre.find_by(name: 'electro')],
   PLACE_GENRES.size,
-  10
+  6
 )
 
 PLACE_GENRES.fill(
@@ -79,7 +109,7 @@ PLACE_GENRES.fill(
 PLACE_GENRES.fill(
   [Genre.find_by(name: 'hip-hop')],
   PLACE_GENRES.size,
-  20
+  16
 )
 
 PLACE_GENRES.fill(
@@ -91,13 +121,13 @@ PLACE_GENRES.fill(
 PLACE_GENRES.fill(
   [Genre.find_by(name: 'jazz')],
   PLACE_GENRES.size,
-  20
+  16
 )
 
 PLACE_GENRES.fill(
   [Genre.find_by(name: 'pop')],
   PLACE_GENRES.size,
-  20
+  16
 )
 
 PLACE_GENRES.fill(
@@ -115,7 +145,7 @@ PLACE_GENRES.fill(
 PLACE_GENRES.fill(
   [Genre.find_by(name: 'rock')],
   PLACE_GENRES.size,
-  20
+  16
 )
 
 PLACE_GENRES.fill(
@@ -123,6 +153,16 @@ PLACE_GENRES.fill(
   PLACE_GENRES.size,
   15
 )
+
+Genre.all.each do |genre|
+
+  PLACE_GENRES.fill(
+    [genre],
+    PLACE_GENRES.size,
+    4
+  )
+
+end
 
 places_file = File.read('db/places.json')
 places_data = JSON.parse(places_file)
@@ -144,7 +184,7 @@ places_data.first(100).each_with_index do |place_data, i|
   place_data['pictures'].each_with_index do |place_picture, i|
     url = place_picture['picture_file']['url']
     file = URI.open(url)
-    place.photos.attach(io: file, filename: "place_#{place.id}_#{i + 1}.png", content_type: 'image/png')
+    place.photos.attach(io: file, filename: "place_#{place.id}_#{i + 1}.png", content_type: 'image/png') if i == 0
   end
 
   place.save!
