@@ -1,0 +1,29 @@
+<%
+    image = !place.photos.first ? image_path("logo_with_arrow.svg") : cl_image_path(place.photos.first.key)
+    last = local_assigns.fetch(:last, "")
+%>
+
+<%= link_to place_path(place) do  %>
+  <div class="likes-card <%= last.to_s %>">
+    <%= image_tag image, :width=>80, :height=>80, :crop=>"crop", alt: "place_photo" %>
+    <div class="likes-card-infos d-flex flex-column">
+      <div class="likes-card-details">
+        <div class="place-details d-flex justify-content-between">
+          <h2 style=""><%= place.name %></h2>
+          <% if @query.present? && place.distance.round < 1_000 %>
+            <% place_distance = "#{place.distance.round} m" %>
+          <% elsif @query.present? %>
+            <% place_distance = "#{(place.distance.to_f / 1_000).round(1)} km" %>
+          <% else %>
+            <% place_distance = "" %>
+          <% end %>
+          <div class="place-distance"><%= place_distance %></div>
+        </div>
+        <p style="width: 180px; font-size: 12px;"><%= place.address %></p>
+      </div>
+      <div class="place-infos mt-auto d-flex justify-content-between">
+        <div class="place-rating"><%= icon("fas", "star") %> 4.6</div>
+      </div>
+    </div>
+  </div>
+<% end %>

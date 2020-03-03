@@ -1,0 +1,54 @@
+.likes-card {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  overflow: hidden;
+  width: 320px;
+  border-bottom: 1px solid $my-green;
+  color: $my-white;
+
+  .likes-card-infos {
+    flex-grow: 1;
+    height: 100px;
+    margin-left: 15px;
+    position: relative;
+
+    .place-rating {
+      margin-bottom: 4px;
+    }
+
+    .place-distance {
+      font-size: 10px;
+      padding-top: 8px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 0;
+      padding-top: 8px;
+    }
+
+    p {
+      margin-bottom: 0px;
+      font-weight: lighter;
+    }
+  }
+}
+
+
+.places-likes {
+  display: grid;
+  grid-column: 1fr;
+  justify-content: center;
+}
+
+img {
+  object-fit: cover;
+}
+
+.likes-index {
+
+  h3 {
+    margin-left: 8px;
+  }
+}
