@@ -15,4 +15,10 @@
       <%= render "components/likes_card", place: like.place %>
     <% end %>
   </div>
+  <div class="tags-filter">
+    <h4>Tags</h4>
+    <% @genres.uniq.each do |genre|  %>
+      <%= genre %>
+    <% end %>
+  </div>
 </div>
