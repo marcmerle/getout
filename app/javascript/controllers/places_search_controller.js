@@ -13,4 +13,8 @@ export default class extends Controller {
       this.formTarget.submit();
     }
   }
+
+  highlight() {
+    this.inputTarget.select();
+  }
 }
