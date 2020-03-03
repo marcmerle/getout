@@ -3,7 +3,7 @@
   display: flex;
   height: 128px;
   overflow: hidden;
-  width: 360px;
+  width: 320px;
   border-bottom: 1px solid $my-green;
   color: $my-white;
 
@@ -18,7 +18,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    width: 49vw;
+    width: 42vw;
   }
 
   p {
@@ -29,7 +29,7 @@
     opacity: 0.7;
   }
 
-  .likes-card-infos {
+  .search-card-infos {
     flex-grow: 1;
     height: 100px;
     margin-left: 15px;

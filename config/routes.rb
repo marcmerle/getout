@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'user_genres/destroy' # Do not remove
   resources :user_genres, only: %i[create destroy]
 
+  get 'places/genres', to: 'places#genres', as: 'places_genres'
   resources :places, only: %i[index show]
 
   get '/tastes', to: 'pages#tastes', as: 'tastes'

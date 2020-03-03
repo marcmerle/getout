@@ -40,6 +40,7 @@ gem 'omniauth-spotify'
 gem 'faker'
 gem 'httparty'
 gem 'geocoder'
+gem 'select2-rails'
 
 group :development, :test do
   gem 'pry-byebug'

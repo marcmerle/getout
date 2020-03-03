@@ -21,6 +21,10 @@ class PlacePolicy < ApplicationPolicy
     update?
   end
 
+  def genres?
+    true
+  end
+
   class Scope < Scope
     def resolve
       scope.geocoded
