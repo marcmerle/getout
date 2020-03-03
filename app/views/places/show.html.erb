@@ -23,8 +23,26 @@
       <% end %>
       </div>
     </div>
-    <div class="place-stars">
-      <%= icon("fas", "star")*5 %>
+    <div class="place-rating">
+      <% if @place.avg_rating %>
+        <% @place.avg_rating.floor.times do %>
+          <i class="fas fa-star"></i>
+        <% end %>
+        <% if @place.avg_rating % 1 > 0 %>
+          <% if @place.avg_rating % 1 < 0.25 %>
+            <i class="fas fa-star"></i>
+          <% elsif @place.avg_rating % 1 > 0.75 %>
+            <i class="far fa-star"></i>
+          <% else %>
+            <i class="fas fa-star-half-alt"></i>
+          <% end %>
+        <% end %>
+        <% (5 - @place.avg_rating.ceil).times do %>
+          <i class="far fa-star"></i>
+        <% end %>
+      <% else %>
+        <p>Pas encore d'évaluation</p>
+      <% end %>
     </div>
 
 

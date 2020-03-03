@@ -22,7 +22,7 @@
         <p><%= place.address %></p>
       </div>
       <div class="place-infos mt-auto d-flex justify-content-between">
-        <div class="place-rating"><%= icon("fas", "star") %> 4.6</div>
+        <div class="place-rating"><%= icon("fas", "star") %> <%= place.avg_rating %></div>
         <div class="place-tags d-flex flex-end">
           <% place.genres.sort.each do |genre| %>
             <%= render 'components/tag',
