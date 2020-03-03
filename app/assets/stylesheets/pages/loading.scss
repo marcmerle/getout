@@ -12,5 +12,9 @@
     font-weight: bold;
     line-height: 44px;
     color: $my-white;
+
+    .text {
+      margin-top: (-100vw / 3);
+    }
   }
 }
