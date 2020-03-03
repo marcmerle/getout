@@ -184,15 +184,21 @@ places_data.first(100).each_with_index do |place_data, i|
   place_data['pictures'].each_with_index do |place_picture, i|
     url = place_picture['picture_file']['url']
     file = URI.open(url)
-    place.photos.attach(io: file, filename: "place_#{place.id}_#{i + 1}.png", content_type: 'image/png') if i == 0
+    place.photos.attach(io: file, filename: "place_#{place.id}_#{i + 1}.png", content_type: 'image/png')
   end
 
   place.save!
 
-  PLACE_GENRES.sample.each do |genre|
-    PlaceGenre.create(place: place, genre: genre)
+  downcase_name = place.name.downcase
+
+  Genre.all.each do |genre|
+    PlaceGenre.create(place: place, genre: genre) if downcase_name.match(/#{genre.name}/)
   end
 
-  puts "Place ##{i + 1} was created (#{place.photos.count} picture(s), #{place.genres.count} genres.)".blue
+  if place.place_genres.count === 0
+    PLACE_GENRES.sample.each { |genre| PlaceGenre.create(place: place, genre: genre) }
+  end
+
+  puts "Place ##{i + 1} was created (#{place.photos.count} picture(s) with #{place.genres.count} genres)".blue
 end
 puts "\n#{Place.count} places were created\n".green
