@@ -5,43 +5,50 @@
       "scrollable"
       "sticky-button";
 
-    grid-template-rows: 1fr auto;
+    grid-template-rows: auto 1fr;
     height: 100vh;
 
-    .logo {
-      width: 100%;
-      height: 148px;
-      display: flex;
-      justify-content: center;
-    }
 
-    h3 {
-      color: $my-white;
-      font-weight: 600;
-    }
-
-    .headers {
-      display: flex;
-
-      .headers-content {
-        margin-left: 28px;
-        flex-grow: 1;
-
-        #tastes-header-1 {
-          text-align: left;
-        }
-        #tastes-header-2 {
-          text-align: right;
-        }
-      }
-
-      .question-mark h3 {
-        font-size: 96px;
-        margin-right: 28px;
-      }
-    }
 
     .scrollable {
+      .logo {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h3 {
+        color: $my-white;
+        font-weight: 600;
+      }
+      .headers {
+        display: flex;
+        align-items: center;
+
+        .headers-content {
+          margin-left: 28px;
+          flex-grow: 1;
+
+          #tastes-header-1 {
+            text-align: left;
+          }
+          #tastes-header-2 {
+            text-align: right;
+          }
+        }
+
+        .question-mark {
+          display: flex;
+          align-items: center;
+          h3 {
+            font-size: 96px;
+            margin-right: 28px;
+            margin-bottom: 0;
+          }
+        }
+      }
 
       overflow-y: scroll;
       overflow-x: hidden;
