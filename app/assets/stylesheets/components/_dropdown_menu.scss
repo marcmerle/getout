@@ -25,6 +25,7 @@
     &.dropdown-item:active,
     &.dropdown-item:focus {
       color: $my-pink;
+      background-color: $my-black;
     }
   }
 }
