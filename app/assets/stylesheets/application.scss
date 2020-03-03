@@ -51,6 +51,7 @@ h3 {
 .content {
   grid-area: content;
   overflow-y: scroll;
+  position: relative;
 
   &::-webkit-scrollbar {
     display: none;
