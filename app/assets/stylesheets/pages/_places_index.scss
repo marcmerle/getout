@@ -104,8 +104,28 @@
 }
 
 .genres-search {
-    padding: 0 24px;
-    height: 56px;
+  padding: 0 24px;
+
+  .select2-search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .search-button {
+      width: 120px;
+      min-width: 120px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+
+  .genres-search-results {
+    display: none;
+
+    &.showing {
+      display: block;
+    }
+  }
 
   form {
     width: 100%;
