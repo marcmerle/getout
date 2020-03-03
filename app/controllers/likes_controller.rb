@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class LikesController < ApplicationController
   def index
     if params[:tag].present?
@@ -28,11 +30,10 @@ class LikesController < ApplicationController
   private
 
   def set_genres
-    @genres = {}
-    Like.all.each do |like|
+    @genres = Like.all.each_with_object({}) do |like, collection|
       like.place.genres.each do |genre|
-        @genres[genre.name] = [genre] unless @genres.has_key?(genre.name)
-        @genres[genre.name] << like.place
+        collection[genre.name] = [genre, 0] unless collection.key?(genre.name)
+        collection[genre.name][1] += 1
       end
     end
   end

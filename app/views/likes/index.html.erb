@@ -17,7 +17,7 @@
       <ul>
         <% @genres.each do |genre_name, element|  %>
           <%= link_to dashboard_likes_path(tag: element.first.name) do %>
-            <li style="color: <%= element.first.color_hex %>"> <strong><%= element.count - 1 %></strong> <%= element.first.name %></li>
+            <li style="color: <%= element.first.color_hex %>"> <strong><%= element.last %></strong> <%= element.first.name %></li>
           <% end %>
         <% end %>
       </ul>
