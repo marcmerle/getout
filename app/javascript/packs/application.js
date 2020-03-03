@@ -22,7 +22,7 @@ require("channels");
 // ----------------------------------------------------
 import "controllers";
 import "bootstrap";
-import 'select2/dist/css/select2.css';
+import 'select2/dist/css/select2';
 
 import { initSelect2 } from '../components/init_select2';
 

@@ -42,5 +42,7 @@ class PlacesController < ApplicationController
 
     @places = Place.all
                    .joins(sql)
+
+    render layout: false
   end
 end
