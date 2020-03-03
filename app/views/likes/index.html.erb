@@ -3,7 +3,7 @@
   <div class="tabs-search">
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link selected", data: {turbolinks: false}, href="#">Spots <%= icon("fas", "heart") %></a>
+        <a class="nav-link selected", href="#">Spots <%= icon("fas", "heart") %></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Friends</a>
@@ -11,8 +11,9 @@
     </ul>
   </div>
   <div class="places-likes">
-    <% @likes.each do |like| %>
-      <%= render "components/likes_card", place: like.place %>
+    <% @likes.each_with_index do |like, i| %>
+      <% last = :last if i == @likes.count - 1 %>
+      <%= render "components/likes_card", place: like.place, last: last %>
     <% end %>
   </div>
 </div>
