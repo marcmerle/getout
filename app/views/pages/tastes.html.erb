@@ -19,17 +19,17 @@
   </form>
 
   <div class="tastes-content">
-    <div class="logo">
-      <%= image_tag "logo_with_arrow.svg" %>
-    </div>
-    <div class="headers">
-      <div class="headers-content">
-        <h3 id="tastes-header-1">What do you</h3>
-        <h3 id="tastes-header-2">listen to</h3>
-      </div>
-      <div class="question-mark"><h3>?</h3></div>
-    </div>
     <div class="scrollable">
+    <div class="logo">
+      <%= image_tag "logo_with_arrow.svg", height: "120"; %>
+    </div>
+      <div class="headers">
+        <div class="headers-content">
+          <h3 id="tastes-header-1">What do you</h3>
+          <h3 id="tastes-header-2">listen to</h3>
+        </div>
+        <div class="question-mark"><h3>?</h3></div>
+      </div>
       <div class="tags">
         <% @genres.each do |genre| %>
           <div class="tag"
