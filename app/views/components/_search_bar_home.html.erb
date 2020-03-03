@@ -1,0 +1,41 @@
+ <!-- render "components/search_bar", value: "Value" -->
+
+ <%
+     value = local_assigns.fetch(:value, "")
+ %>
+
+<div class="search-bar-container">
+  <div class="search-bar">
+    <form action="/places"
+          data-controller="places-search"
+          data-target="places-search.form"
+          id="search-form"
+          method="get"
+          accept-charset="utf-8"
+          >
+          <div class="search-bar-all-home">
+            <%= icon("fas", "search") %>
+            <input class="search-bar-input-home"
+                  type="search"
+                  placeholder="Enter an address..."
+                  data-target="places-search.input"
+                  data-action="keydown->places-search#onKeyEnter"
+                  name="query"
+                  id="search_query"
+                  value="<%= value %>"
+                  >
+          </div>
+    </form>
+  </div>
+</div>
+
+<!-- <script>
+  console.log("hello");
+  const query = document.querySelector("#search_query").value;
+  console.log(query);
+  document.getElementById("map-result-tab");
+  console.log(document.getElementById("map-result-tab"));
+  if (query.length > 0) {
+    document.querySelector("#map-result-tab").click();
+  }
+</script> -->
