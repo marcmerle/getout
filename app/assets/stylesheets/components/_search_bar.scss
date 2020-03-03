@@ -4,7 +4,7 @@
 
 .search-bar-all {
   box-shadow: none;
-  color: $white;
+  color: $gray;
   display: flex;
   font-size: 12px;
   height: 56px;
@@ -44,4 +44,8 @@
 
 .search-bar-input:focus {
   outline: none;
+}
+
+.ap-footer {
+  display: none;
 }

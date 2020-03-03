@@ -1,11 +1,17 @@
 .likes-card {
   align-items: center;
+  border-bottom: 1px solid $my-green;
+  color: $my-white;
   display: flex;
   height: 100px;
   overflow: hidden;
   width: 328px;
   border-bottom: 1px solid $my-green;
   color: $my-white;
+
+  &.last {
+    border-bottom: 0;
+  }
 
   .likes-card-infos {
     flex-grow: 1;
@@ -29,12 +35,11 @@
     }
 
     p {
-      margin-bottom: 0px;
       font-weight: lighter;
+      margin-bottom: 0;
     }
   }
 }
-
 
 .places-likes {
   display: grid;
@@ -47,7 +52,6 @@ img {
 }
 
 .likes-index {
-
   h3 {
     margin-left: 8px;
   }
