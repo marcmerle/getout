@@ -195,7 +195,7 @@ places_data.first(100).each_with_index do |place_data, i|
     PlaceGenre.create(place: place, genre: genre) if downcase_name.match(/#{genre.name}/)
   end
 
-  if place.place_genres.count === 0
+  if place.place_genres.count == 0
     PLACE_GENRES.sample.each { |genre| PlaceGenre.create(place: place, genre: genre) }
   end
 
