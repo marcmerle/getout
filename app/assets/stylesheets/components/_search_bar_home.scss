@@ -1,20 +1,21 @@
-.search-bar-container {
+.search-bar-container-home {
   width: 100%;
 }
 
-.search-bar-all {
+.search-bar-all-home {
   box-shadow: none;
   color: $gray;
   display: flex;
   font-size: 12px;
   height: 56px;
   width: 100%;
+  background-color: $white;
 
   .fas.fa-search {
     align-items: center;
     background: $white;
-    background-color: $my-gray;
-    color: $gray;
+    background-color: $white;
+    color: $my-green;
     display: flex;
     flex-direction: column;
     font-size: 20px;
@@ -22,20 +23,27 @@
     justify-content: center;
     text-align: center;
     width: 15%;
+    border-radius: 4px 0 0 4px;
+    border-top: 2px solid $my-green;
+    border-left: 2px solid $my-green;
+    border-bottom: 2px solid $my-green;
   }
 }
 
-.search-bar-input {
-  background-color: $my-gray;
+.search-bar-input-home {
+  background-color: $white;
   border: 0;
-  color: $white;
+  color: $my-green;
   height: 100%;
   margin: 0;
   padding: 20px;
-  border-radius: 0;
+  border-radius: 0 4px 4px 0;
+  border-top: 2px solid $my-green;
+  border-right: 2px solid $my-green;
+  border-bottom: 2px solid $my-green;
+  font-size: 14px;
   padding-left: 10px;
-  padding-right: 44px;
-  font-size: 15px;
+  padding-right: 36px;
 
   &::-webkit-search-decoration,
   &::-webkit-search-cancel-button,
@@ -45,10 +53,6 @@
   }
 }
 
-.search-bar-input:focus {
+.search-bar-input-home:focus {
   outline: none;
-}
-
-.ap-footer {
-  display: none;
 }

@@ -7,11 +7,12 @@
     font-size: 24px;
     margin: 10px 0 0;
     font-weight: 700;
+    padding: 0 18px;
   }
 
   .bar-search {
     height: 56px;
-    padding: 0 24px;
+    padding: 0 0px;
   }
 
   .tabs-search {
@@ -24,14 +25,18 @@
     .nav {
 
       .nav-link {
-        color: $my-pink;
+        color: rgba($my-pink, 0.3);
         text-align: center;
         text-decoration: none;
-        text-shadow: 0 0 4px $my-pink;
+        text-shadow: 0 0 2px rgba($my-pink, 0.3);
 
         &.active {
+          color: $my-pink;
+          text-align: center;
+          text-decoration: none;
+          text-shadow: 0 0 4px $my-pink;
           background: none;
-          border-bottom: 2px solid $my-pink;
+          border-bottom: 2px solid;
         }
       }
     }
@@ -41,7 +46,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
+    margin: 5px 0;
     padding: 10px;
 
     ul {
@@ -76,7 +81,7 @@
   display: grid;
   grid-column: 1fr;
   justify-content: center;
-  margin-left: 32px;
+  justify-items: center;
 
   a {
     text-decoration: none;
