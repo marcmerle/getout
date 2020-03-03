@@ -1,0 +1,17 @@
+<% if @query_genres.present? %>
+  <div class="places">
+    <div class="title-section">
+      <% if @genres.count <= 2 %>
+        <% genres_list = @genres.map {|genre| genre.name.capitalize }.join(" & ") %>
+      <% else %>
+        <% genres_list = @genres.first(2).map {|genre| genre.name.capitalize }.join(", ") %>
+        <% genres_list += " & more" %>
+      <% end %>
+      <h3>For <%= genres_list %></h3>
+    </div>
+    <% @places.each_with_index do |place, i| %>
+      <% last = :last if i == @places.count - 1 %>
+      <%= render "components/search-card", place: place, last: last %>
+    <% end %>
+  </div>
+<% end %>

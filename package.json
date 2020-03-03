@@ -12,6 +12,7 @@
     "places.js": "^1.18.1",
     "popper.js": "^1.16.1",
     "rails-ujs": "^5.2.4-1",
+    "select2": "^4.0.13",
     "stimulus": "^1.1.1",
     "turbolinks": "^5.2.0"
   },
