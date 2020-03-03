@@ -85,28 +85,39 @@
         </div>
       </div>
     </div>
-    <div class="tab-pane fade" id="nav-genres" role="tabpanel" aria-labelledby="nav-genres-tab">
+    <div class="tab-pane fade"
+         id="nav-genres"
+         role="tabpanel"
+         aria-labelledby="nav-genres-tab"
+         data-controller="select2search"
+         >
       <% genres = Genre.all.map { |genre| genre.name.capitalize }.join(",") %>
       <% colors = Genre.all.map { |genre| genre.color_hex }.join(",") %>
       <div class="genres-search"
            data-genres = "<%= genres %>"
            data-colors="<%= colors %>"
-           data-controller="select2search">
+           data-target="select2search.genres"
+           >
         <form class="genres-search-form"
-              action="#">
+              action="#"
+              data-target="select2search.form"
+              >
           <select id="genres-search-bar-select"
                   class="select2"
-                  multiple="multiple">
+                  multiple="multiple"
+                  data-target="select2search.input"
+                  data-action="select_change@window->select2search#tagChange"
+                  >
           </select>
           <input type="hidden"
                  name="genres"
                  id="hidden-select-2"
                  value=""
                  data-target="select2search.searchSelect"
-                 data-action="input->select2search#triggerSearch">
+                 >
           <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
         </form>
-        <div class="genres-search-results">
+        <div class="genres-search-results" data-target="select2search.results">
         </div>
       </div>
     </div>
