@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_02_105901) do
+ActiveRecord::Schema.define(version: 2020_03_02_114803) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -86,9 +86,10 @@ ActiveRecord::Schema.define(version: 2020_03_02_105901) do
 
   create_table "user_artist_genres", force: :cascade do |t|
     t.bigint "user_artist_id", null: false
-    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.bigint "sub_genre_id"
+    t.index ["sub_genre_id"], name: "index_user_artist_genres_on_sub_genre_id"
     t.index ["user_artist_id"], name: "index_user_artist_genres_on_user_artist_id"
   end
 
@@ -135,6 +136,7 @@ ActiveRecord::Schema.define(version: 2020_03_02_105901) do
   add_foreign_key "place_genres", "genres"
   add_foreign_key "place_genres", "places"
   add_foreign_key "sub_genres", "genres"
+  add_foreign_key "user_artist_genres", "sub_genres"
   add_foreign_key "user_artist_genres", "user_artists"
   add_foreign_key "user_artists", "users"
   add_foreign_key "user_genres", "genres"

@@ -1,8 +1,6 @@
 import $ from 'jquery';
 import 'select2';
 
-let i = 0
-
 const genresSearch = document.querySelector(".genres-search")
 
 const genres = genresSearch.dataset.genres.split(",")
@@ -37,7 +35,10 @@ genresForm.addEventListener("click", (event) => {
   genresSelect.addEventListener('click', (event) => {
     setColors();
   });
-  setColors();
+  document.addEventListener('keyup', (event) => {
+    setColors();
+  });
+setColors();
 });
 
 export { initSelect2 };

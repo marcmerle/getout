@@ -55,7 +55,7 @@
       text-align: center;
       text-decoration: none;
 
-      &.selected {
+      &.active {
         background: $my-pink;
         border: 1px solid $my-pink;
         border-radius: 20px;
@@ -106,8 +106,6 @@
 .genres-search {
     padding: 0 24px;
     height: 56px;
-
-  .fas.fa-search {}
 
   form {
     width: 100%;
