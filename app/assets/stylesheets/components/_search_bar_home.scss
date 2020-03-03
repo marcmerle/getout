@@ -23,6 +23,9 @@
     text-align: center;
     width: 15%;
     border-radius: 4px 0 0 4px;
+    border-top: 2px solid $my-green;
+    border-left: 2px solid $my-green;
+    border-bottom: 2px solid $my-green;
   }
 }
 
@@ -34,6 +37,9 @@
   margin: 0;
   padding: 20px;
   border-radius: 0 4px 4px 0;
+  border-top: 2px solid $my-green;
+  border-right: 2px solid $my-green;
+  border-bottom: 2px solid $my-green;
 
   &::-webkit-search-decoration,
   &::-webkit-search-cancel-button,
