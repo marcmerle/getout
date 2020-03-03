@@ -11,7 +11,7 @@ export default class extends Controller {
   initMapbox() {
     mapboxgl.accessToken = this.mapElementTarget.dataset.mapboxApiKey;
 
-    const map = new mapboxgl.Map({
+    this.map = new mapboxgl.Map({
       container: "map",
       style: "mapbox://styles/marcmerle/ck7abhm2303ag1iqj43fcw0pw",
       zoom: 4
@@ -31,15 +31,19 @@ export default class extends Controller {
       new mapboxgl.Marker(element)
         .setLngLat([marker.lng, marker.lat])
         .setPopup(popup)
-        .addTo(map);
+        .addTo(this.map);
     });
 
-    this.fitMapToMarkers(map, markers.slice(0, 2));
+    this.fitMapToMarkers(markers.slice(0, 2));
   }
 
-  fitMapToMarkers(map, markers) {
+  fitMapToMarkers(markers) {
     const bounds = new mapboxgl.LngLatBounds();
     markers.forEach(marker => bounds.extend([marker.lng, marker.lat]));
-    map.fitBounds(bounds, { padding: 70, maxZoom: 15, duration: 0 });
+    this.map.fitBounds(bounds, { padding: 70, maxZoom: 15, duration: 0 });
+  }
+
+  update() {
+    this.map.resize();
   }
 }

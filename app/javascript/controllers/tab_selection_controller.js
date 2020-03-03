@@ -35,5 +35,8 @@ export default class extends Controller {
     localStorage.mapTab = "map";
     this.tabListTarget.classList.remove("show", "active");
     this.tabMapTarget.classList.add("show", "active");
+
+    const event = new CustomEvent("map_shown");
+    window.dispatchEvent(event);
   }
 }

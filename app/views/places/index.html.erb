@@ -77,6 +77,7 @@
                   data-markers="<%= @markers.to_json %>"
                   data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
                   data-controller="map"
+                  data-action="map_shown@window->map#update"
                   data-target="map.mapElement"
                   >
              </div>
