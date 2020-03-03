@@ -1,12 +1,13 @@
 class LikesController < ApplicationController
   def index
-    if params[:query].present?
-      @likes = Like.join(places: [place_genres: :genres])
-                   .where('genres.name ILIKE ?', "%#{params[:query]}%")
+    if params[:tag].present?
+      @likes = Like.joins(place: [place_genres: :genre])
+                   .where('genres.name ILIKE ?', "%#{params[:tag]}%")
+      policy_scope(@likes)
     else
       @likes = policy_scope(Like)
     end
-    filter_by_tags
+    set_genres
   end
 
   def create
@@ -26,11 +27,12 @@ class LikesController < ApplicationController
 
   private
 
-  def filter_by_tags
-    @genres = []
-    @likes.each do |like|
-      like.place.genres.map do |genre|
-        @genres << genre.name
+  def set_genres
+    @genres = {}
+    Like.all.each do |like|
+      like.place.genres.each do |genre|
+        @genres[genre.name] = [genre] unless @genres.has_key?(genre.name)
+        @genres[genre.name] << like.place
       end
     end
   end

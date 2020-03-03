@@ -10,16 +10,24 @@
       </li>
     </ul>
   </div>
-  <div class="places-likes">
-    <% @likes.each_with_index do |like, i| %>
-      <% last = :last if i == @likes.count - 1 %>
-      <%= render "components/likes_card", place: like.place, last: last %>
-    <% end %>
-  </div>
-  <div class="tags-filter">
-    <h4>Tags</h4>
-    <% @genres.uniq.each do |genre|  %>
-      <%= genre %>
-    <% end %>
+  <div class="likes-container d-flex">
+    <label for="tab-1"><i class="fas fa-tag"></i></label>
+    <input id="tab-1" name="tabs-two" type="checkbox" checked="checked">
+    <div class="tags-filter">
+      <ul>
+        <% @genres.each do |genre_name, element|  %>
+          <%= link_to dashboard_likes_path(tag: element.first.name) do %>
+            <li style="color: <%= element.first.color_hex %>"> <strong><%= element.count - 1 %></strong> <%= element.first.name %></li>
+          <% end %>
+        <% end %>
+      </ul>
+      <%= link_to "Clear", dashboard_likes_path %>
+    </div>
+    <div class="places-likes">
+      <% @likes.each_with_index do |like, i| %>
+        <% last = :last if i == @likes.count - 1 %>
+        <%= render "components/likes_card", place: like.place, last: last %>
+      <% end %>
+    </div>
   </div>
 </div>
