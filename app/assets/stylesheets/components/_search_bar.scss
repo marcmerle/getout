@@ -10,6 +10,7 @@
   display: flex;
   font-size: 12px;
   height: 56px;
+  background-color: white;
 
   .fas.fa-search {
     align-items: center;
@@ -34,6 +35,9 @@
   height: 100%;
   margin: 0;
   padding: 20px;
+  font-size: 16px;
+  padding-right: 36px;
+  padding-left: 10px;
 
   &.ap-input {
     border-radius: 0 4px 4px 0;
