@@ -9,6 +9,7 @@
   font-size: 12px;
   height: 56px;
   width: 100%;
+  background-color: $white;
 
   .fas.fa-search {
     align-items: center;
@@ -40,6 +41,9 @@
   border-top: 2px solid $my-green;
   border-right: 2px solid $my-green;
   border-bottom: 2px solid $my-green;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 36px;
 
   &::-webkit-search-decoration,
   &::-webkit-search-cancel-button,
