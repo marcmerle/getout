@@ -6,6 +6,7 @@
   h3 {
     font-size: 24px;
     margin: 10px 0 0;
+    font-weight: 700;
   }
 
   .bar-search {
@@ -30,7 +31,7 @@
 
         &.active {
           background: none;
-          border-bottom: 1px solid $my-pink;
+          border-bottom: 2px solid $my-pink;
         }
       }
     }
@@ -45,9 +46,10 @@
 
     ul {
       border: 1px solid $my-pink;
-      border-radius: 20px;
+      border-radius: 21px;
       font-size: 16px;
       font-weight: 300;
+      height: 42px;
     }
 
     a {
@@ -57,9 +59,9 @@
 
       &.active {
         background: $my-pink;
-        border: 1px solid $my-pink;
-        border-radius: 20px;
+        border: 0px solid $my-pink;
         color: $my-white;
+        border-radius: 21px;
       }
     }
   }
@@ -73,8 +75,8 @@
 .places {
   display: grid;
   grid-column: 1fr;
-  grid-gap: 8px;
   justify-content: center;
+  margin-left: 32px;
 
   a {
     text-decoration: none;
