@@ -3,6 +3,7 @@
     display: flex;
     list-style: none;
     overflow-x: scroll;
+    overflow-y: auto;
     padding-left: 0;
 
     &::-webkit-scrollbar {

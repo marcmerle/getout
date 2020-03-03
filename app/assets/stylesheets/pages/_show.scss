@@ -42,9 +42,9 @@
   }
 
   .place-stars {
-    color: #49AF91;
+    color: #49af91;
     position: relative;
-    color: #49AF91;
+    color: #49af91;
     width: 100px;
     display: flex;
     justify-content: space-between;
@@ -116,7 +116,7 @@
     right: 28px;
   }
   .place-distance {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-top: 12px;
   }
@@ -129,7 +129,7 @@
 
   .place-on-air {
     height: 322px;
-    background: url("linear-show.png");
+    background: image-url("linear-show.png");
     margin: -74px -28px -92px -28px;
 
     h4 {
@@ -162,6 +162,12 @@
     border-radius: 50%;
     margin-bottom: 5px;
   }
+
+  .place-opening-info-green {
+    position: absolute;
+    bottom: -390px;
+    left: 130px;
+  }
 }
 
 .logo-back {
@@ -181,11 +187,10 @@
   .place-photo {
     width: 410px;
 
-
     img {
-    width: 100vw;
-    height: 240px;
-    object-fit: cover;
+      width: 100vw;
+      height: 240px;
+      object-fit: cover;
     }
   }
 
@@ -199,5 +204,22 @@
 
   .height-between {
     height: 52px;
+  }
+}
+
+.place-opening-info {
+  position: relative;
+  z-index: 1;
+  &:after {
+    position: absolute;
+    content: "";
+    background: image-url("opening_infos.png");
+    height: 56px;
+    width: 189px;
+    top: 22px;
+    right: 22px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
   }
 }
