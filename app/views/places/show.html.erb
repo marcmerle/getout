@@ -173,7 +173,8 @@
         <h3>Share this place</h3>
       </div>
       <div class="place-pin">
-        <%= icon("fas", "share-alt", {"data-target": "share.shareButton", "data-action": "click->share#triggerShare"}) %>
+        <% place_genres = @place.genres.map {|genre| genre.name.capitalize }.join(" & ")  %>
+        <%= icon("fas", "share-alt", {"data-target": "share.shareButton", "data-action": "click->share#triggerShare", "data-genres": "#{place_genres}"}) %>
       </div>
     </div>
 
