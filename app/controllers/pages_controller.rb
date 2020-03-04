@@ -20,6 +20,7 @@ class PagesController < ApplicationController
 
   def tastes
     current_user.viewed_tastes_screen = true
+    current_user.save
 
     sql = <<-SQL
         LEFT JOIN user_genres
@@ -27,9 +28,15 @@ class PagesController < ApplicationController
           AND user_genres.user_id = #{current_user.id}
     SQL
 
-    current_user.save
     @genres = Genre.all.select('genres.*, user_genres.user_id')
                    .joins(sql).order('user_genres.user_id, genres.name ASC')
+  end
+
+  def location
+    @query_location = params[:query_location].split(' ').map(&:to_f)
+    results = Geocoder.search(@query_location)
+
+    render json: { address: results.first.address }
   end
 
   def loading

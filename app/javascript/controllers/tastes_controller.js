@@ -9,6 +9,11 @@ export default class extends Controller {
         this.setTagColor(tag, "#fffdf7", tag.dataset.color, tag.dataset.color);
       }
     });
+
+    if (window.location.href.match("dashboard/likes")) {
+      const savedFlash = document.querySelector('.saved-flash')
+      $(savedFlash).hide(0)
+    }
   }
 
   setTagColor(element, fontColor, borderColor, backgroundColor) {
@@ -35,6 +40,18 @@ export default class extends Controller {
       tag.dataset.chosen = "true";
       this.addFormTarget.elements.genre_id.value = genre_id;
       Rails.fire(this.addFormTarget, "submit");
+    }
+    if (window.location.href.match("dashboard/likes")) {
+      const tastesDashboard = document.querySelector('.tastes-dashboard')
+
+      const savedFlash = document.querySelector('.saved-flash')
+
+      window.setTimeout(() => {
+        $(savedFlash).fadeIn(300);
+        window.setTimeout(() => {
+          $(savedFlash).fadeOut(500);
+        }, 1000);
+      }, 100);
     }
   }
 }

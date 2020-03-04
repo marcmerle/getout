@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get '/dashboard/likes', to: 'likes#index', as: 'dashboard_likes'
 
+  get 'likes/create' # Do not remove
+  get 'likes/destroy' # Do not remove
   resources :likes, only: %i[create destroy]
 
   get 'user_genres/create' # Do not remove
@@ -15,6 +17,7 @@ Rails.application.routes.draw do
   get 'places/genres', to: 'places#genres', as: 'places_genres'
   resources :places, only: %i[index show]
 
+  get '/location', to: 'pages#location', as: 'location'
+
   get '/tastes', to: 'pages#tastes', as: 'tastes'
-  get '/loading', to: 'pages#loading', as: 'loading'
 end

@@ -17,17 +17,25 @@
     height: 100px;
     margin-left: 15px;
     position: relative;
+    width: 50%;
 
   h2 {
     font-size: 18px;
     margin-bottom: 0;
     padding-top: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   p {
+    font-size: 12px;
     font-weight: lighter;
     margin-bottom: 0;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 64vw;
   }
 
     .place-rating {
@@ -42,7 +50,10 @@
 }
 
 #tab-1:checked + .tags-filter + .places-likes {
-  width: calc(100% - 70px);
+  position: absolute;
+  left: 160px;
+  transition: all 0.5s ease-in-out;
+  width: 194px;
 
   h2 {
     font-size: 18px;
@@ -51,7 +62,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    width: 120px;
   }
 
   p {
@@ -60,18 +70,20 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    width: 120px !important;
   }
 }
 
 .places-likes {
   color: $gray;
-  display: grid;
+  display: flex;
   grid-column: 1fr;
   justify-content: end;
   margin-top: 40px;
   transition: all 0.5s ease-in-out;
   height: 100px;
+  position: absolute;
+  left: 20px;
+  flex-direction: column;
 }
 
 img {

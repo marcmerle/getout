@@ -7,9 +7,6 @@
     <%= favicon_link_tag %>
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-
 
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="<%= meta_title %>" />
@@ -19,25 +16,35 @@
     <meta property="og:description" content="<%= meta_description %>" />
     <meta property="og:site_name" content="<%= meta_title %>" />
 
+    <!-- Power App Mobile -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="<%= asset_path 'manifest.json' %>">
+    <%= render 'shared/ios_pwa_links' %>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
-
   </head>
 
-  <body id="<%= controller.controller_name%>-<%= controller.action_name%>">
-    <div class="grid-content">
-      <div class="content">
-        <%= render 'components/flashes' %>
-        <%= yield %>
-      </div>
-      <div class="app-navbar">
-        <% if current_user %>
-          <%= render 'components/bottom_navbar' unless controller.controller_name == "pages" && !(controller.action_name == "home") %>
-        <% end %>
-      </div>
-    </div>
+  <body id="<%= controller.controller_name%>-<%= controller.action_name%>"
+        data-controller="mobile-vh"
+        data-action="resize@window->mobile-vh#updateHeight"
+        >
+        <div class="grid-content">
+          <div class="content">
+            <%= render 'components/flashes' %>
+            <%= yield %>
+          </div>
+          <div class="app-navbar">
+            <% if current_user %>
+              <%= render 'components/bottom_navbar' unless controller.controller_name == "pages" && !(controller.action_name == "home") %>
+            <% end %>
+          </div>
+        </div>
   </body>
 </html>

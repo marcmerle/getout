@@ -1,147 +1,252 @@
 .likes-index {
-  margin: 40px 20px;
   color: $my-white;
 
-  h3 {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 38px;
-    font-style: normal;
-  }
-
-  h4 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 38px;
-    font-style: normal;
-    color: white;
-    text-align-last: center;
-  }
-
-  h5 {
-    font-weight: 100;
-  }
-
   .tabs-search {
+    align-items: center;
     display: flex;
-    padding: 10px;
+    justify-content: center;
     margin-bottom: 5px;
+    padding: 10px;
 
-    a {
-      color: rgba($my-pink, 0.3);
-      text-align: center;
-      text-decoration: none;
-      text-shadow: 0 0 2px rgba($my-pink, 0.3);
+    .nav {
 
-      &.selected {
-        color: $my-pink;
+      .nav-link {
+        color: rgba($my-pink, 0.3);
         text-align: center;
         text-decoration: none;
-        text-shadow: 0 0 4px $my-pink;
-        background: none;
-        border-bottom: 2px solid;
-      }
-    }
+        text-shadow: 0 0 2px rgba($my-pink, 0.3);
 
-    i {
-      font-size: 13px;
-      padding-left: 8px;
+        &.active {
+          color: $my-pink;
+          text-align: center;
+          text-decoration: none;
+          text-shadow: 0 0 4px $my-pink;
+          background: none;
+          border-bottom: 2px solid;
+        }
+      }
     }
   }
 
-  input {
-    appearance: none;
-    transition: all 0.5s ease-in-out;
+  #nav-likes {
 
+    h3 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 38px;
+      font-style: normal;
+    }
 
-    &:checked {
+    h4 {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 38px;
+      font-style: normal;
+      color: white;
+      text-align-last: center;
+    }
+
+    h5 {
+      font-weight: 100;
+    }
+
+    input {
+      appearance: none;
+      transition: all 0.5s ease-in-out;
+
+      &:checked {
+
+        + div {
+          opacity: 1;
+          width: 150px;
+          transition: width 0.5s ease-out;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          line-height: 1.7;
+        }
+      }
 
       + div {
-        opacity: 1;
-        width: 90px;
+        width:0;
+        opacity: 0;
+        padding: 0.5rem 0;
         transition: width 0.5s ease-out;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        line-height: 1.7;
-
       }
     }
 
-    + div {
-      width:0;
-      opacity: 0;
-      padding: 0.5rem 0;
-      transition: width 0.5s ease-out;
+    .tags-filter {
+      margin-top: 40px;
+      padding-left: 20px;
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        width: 100%;
+
+        li {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 8px;
+          padding-right: 8px;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: $my-white;
+      }
     }
-  }
-
-  .tags-filter {
-    margin-top: 40px;
-
-    ul {
-      list-style: none;
-      padding-left: 0px;
-      width: 90px;
-    }
-
-    a {
-      text-decoration: none;
-      color: $my-white;
-    }
-  }
-
-
-  label {
-    position: absolute;
-    top: -30px;
-    font-size: 20px;
-    color: $my-green;
-    text-shadow: 0px 0px 4px $my-green;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .likes-container {
-    position: relative;
-    margin-top: 30px;
 
     label {
       position: absolute;
       top: -30px;
       font-size: 20px;
-      background: #49af91;
-      width: 140px;
-      position: absolute;
-      height: 36px;
-      border-radius: 0 18px 18px 0;
-      left: -115px;
-      margin-top: 20px;
-
-      &.label-active {
-        left: -20px;
-        transition: all 0.5s ease-in-out;
-
-      }
-
-      .fa-tag {
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        line-height: 1;
-        left: 108px;
-        position: absolute;
-        top: 8px;
-        color: $my-white;
-      }
+      color: $my-green;
+      text-shadow: 0px 0px 4px $my-green;
+      transition: all 0.5s ease-in-out;
     }
 
-    .check-with-label:checked + #tab-1 {
-      margin-left: -100px;
+    .likes-container {
+      position: relative;
+      margin-top: 30px;
+
+      label {
+        position: absolute;
+        top: -30px;
+        font-size: 20px;
+        background: #49af91;
+        width: 140px;
+        position: absolute;
+        height: 36px;
+        border-radius: 0 18px 18px 0;
+        left: -100px;
+        margin-top: 20px;
+
+        &.label-active {
+          left: -20px;
+          transition: all 0.5s ease-in-out;
+
+        }
+
+        .fa-tag {
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto;
+          line-height: 1;
+          left: 108px;
+          position: absolute;
+          top: 8px;
+          color: $my-white;
+        }
+      }
+
+      .check-with-label:checked + #tab-1 {
+        margin-left: -100px;
+      }
+    }
+  }
+
+  .tab-content {
+    height: 100%;
+
+    #nav-tastes {
+      height: 100%;
+
+      h2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .tastes-dashboard {
+        position: relative;
+        height: 100%;
+
+        h3 {
+          color: $my-white;
+          font-weight: 600;
+        }
+
+        .headers {
+          display: flex;
+          align-items: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+
+          .headers-content {
+            margin-left: 28px;
+            flex-grow: 1;
+
+            #tastes-header-1 {
+              text-align: left;
+            }
+            #tastes-header-2 {
+              text-align: right;
+            }
+          }
+
+          .question-mark {
+            display: flex;
+            align-items: center;
+            h3 {
+              font-size: 96px;
+              margin-right: 28px;
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        .tags {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 16px;
+          justify-content: center;
+
+          .tag {
+            padding: 4px 12px;
+            margin: 12px 8px;
+            border-radius: 100px;
+          }
+        }
+
+        .saved-flash {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          position: absolute;
+          bottom: calc(60px + 56px);
+          justify-content: center;
+          color: $my-green;
+
+          &.hidden {
+            display: none;
+          }
+
+          .flash {
+            border: 1px solid $my-green;
+            border-radius: 8px;
+            height: 40px;
+            display: flex;
+            padding: 0 8px;
+            justify-content: center;
+            align-items: center;
+
+            p {
+              margin: 0;
+            }
+
+            * {
+              padding: 0 6px;
+            }
+          }
+        }
+      }
     }
   }
 }
-
 
 .grey-tag {
   color: $gray !important;

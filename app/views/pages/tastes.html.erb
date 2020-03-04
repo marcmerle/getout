@@ -1,57 +1,41 @@
-<div class="tastes" data-controller="tastes">
-  <form action="<%= user_genres_create_path %>"
-        data-target="tastes.addForm"
-        id="add_user_genre"
-        data-remote="true"
-        >
-        <input type="hidden" name="genre_id" value="genre">
-        <input type="hidden" name="user_id" value="<%= current_user.id %>">
-        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-  </form>
-  <form action="<%= user_genres_destroy_path %>"
-        data-target="tastes.removeForm"
-        id="remove_user_genre"
-        data-remote="true"
-        >
-        <input type="hidden" name="genre_id" value="genre">
-        <input type="hidden" name="user_id" value="<%= current_user.id %>">
-        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-  </form>
+<div class="taste-selection" data-controller="animation">
+  <%= render "loading" %>
+  <div class="tastes"
+       data-controller="tastes"
+       data-target="animation.tastes"
+       >
+       <form action="<%= user_genres_create_path %>"
+             data-target="tastes.addForm"
+             id="add_user_genre"
+             data-remote="true"
+             >
+             <input type="hidden" name="genre_id" value="genre">
+             <input type="hidden" name="user_id" value="<%= current_user.id %>">
+             <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+       </form>
+       <form action="<%= user_genres_destroy_path %>"
+             data-target="tastes.removeForm"
+             id="remove_user_genre"
+             data-remote="true"
+             >
+             <input type="hidden" name="genre_id" value="genre">
+             <input type="hidden" name="user_id" value="<%= current_user.id %>">
+             <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+       </form>
 
-  <div class="tastes-content">
-    <div class="scrollable">
-    <div class="logo">
-      <%= image_tag "logo_with_arrow.svg", height: "120"; %>
-    </div>
-      <div class="headers">
-        <div class="headers-content">
-          <h3 id="tastes-header-1">What do you</h3>
-          <h3 id="tastes-header-2">listen to</h3>
-        </div>
-        <div class="question-mark"><h3>?</h3></div>
-      </div>
-      <div class="tags">
-        <% @genres.each do |genre| %>
-          <div class="tag"
-               data-target="tastes.tag"
-               data-action="click->tastes#toggleSelection"
-               data-chosen= "<%= genre.user_id.present? %>"
-               data-color="<%= genre.color_hex %>"
-               data-genre="<%= genre.id %>"
-               style="border: 1px solid #ef798a;
-                      color: #ef798a;
-                      box-shadow: 0 0px 4px 0px #ef798a;"
-               >
-               <%= genre.name.capitalize %>
-          </div>
-        <% end %>
-      </div>
-    </div>
-    <div class="sticky-button">
-      <%= render 'components/button_link', text: "Next", link: root_path %>
-      <div class="skip-link">
-        <%= link_to "Skip", root_path %>
-      </div>
-    </div>
+       <div class="tastes-content" data-target="animation.tastesContent">
+         <div class="scrollable">
+           <div class="logo">
+             <%= image_tag "logo_with_arrow.svg", height: "120"; %>
+           </div>
+           <%= render 'components/tastes' %>
+         </div>
+         <div class="sticky-button">
+           <%= render 'components/button_link', text: "Next", link: root_path %>
+           <div class="skip-link">
+             <%= link_to "Skip", root_path %>
+           </div>
+         </div>
+       </div>
   </div>
 </div>
