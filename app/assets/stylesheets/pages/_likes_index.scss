@@ -1,84 +1,189 @@
 .likes-index {
-  margin: 40px 20px;
   color: $my-white;
 
-  h3 {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 38px;
-    font-style: normal;
-  }
-
   .tabs-search {
+    align-items: center;
     display: flex;
-    padding: 10px;
+    justify-content: center;
     margin-bottom: 5px;
+    padding: 10px;
 
-    a {
-      color: rgba($my-pink, 0.3);
-      text-align: center;
-      text-decoration: none;
-      text-shadow: 0 0 2px rgba($my-pink, 0.3);
+    .nav {
 
-      &.selected {
-        color: $my-pink;
+      .nav-link {
+        color: rgba($my-pink, 0.3);
         text-align: center;
         text-decoration: none;
-        text-shadow: 0 0 4px $my-pink;
-        background: none;
-        border-bottom: 2px solid;
-      }
-    }
+        text-shadow: 0 0 2px rgba($my-pink, 0.3);
 
-    i {
-      font-size: 13px;
-      padding-left: 8px;
+        &.active {
+          color: $my-pink;
+          text-align: center;
+          text-decoration: none;
+          text-shadow: 0 0 4px $my-pink;
+          background: none;
+          border-bottom: 2px solid;
+        }
+      }
     }
   }
 
-  input {
-    appearance: none;
+  #nav-likes {
 
-    &:checked {
+    h3 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 38px;
+      font-style: normal;
+    }
+
+    input {
+      appearance: none;
+
+      &:checked {
+
+        + div {
+          opacity: 1;
+          display: block
+        }
+      }
 
       + div {
-        opacity: 1;
-        display: block
+        display: none;
+        opacity: 0;
+        padding: 0.5rem 0;
+        transition: all 0.3s ease-in-out;
       }
     }
 
-    + div {
-      display: none;
-      opacity: 0;
-      padding: 0.5rem 0;
-      transition: all 0.3s ease-in-out;
-    }
-  }
+    .tags-filter {
+      ul {
+        list-style: none;
+        padding-left: 0px;
+      }
 
-  .tags-filter {
-    ul {
-      list-style: none;
-      padding-left: 0px;
+      a {
+        text-decoration: none;
+        color: $my-white;
+      }
     }
 
-    a {
-      text-decoration: none;
-      color: $my-white;
+
+    label {
+      position: absolute;
+      top: -30px;
+      font-size: 20px;
+      color: $my-green;
+      text-shadow: 0px 0px 4px $my-green;
+
+    }
+
+    .likes-container {
+      position: relative;
+      margin-top: 30px;
     }
   }
+}
 
+.likes-index {
+  height: 100%;
 
-  label {
-    position: absolute;
-    top: -30px;
-    font-size: 20px;
-    color: $my-green;
-    text-shadow: 0px 0px 4px $my-green;
+  .tab-content {
+    height: 100%;
 
-  }
+    #nav-tastes {
+      height: 100%;
 
-  .likes-container {
-    position: relative;
-    margin-top: 30px;
+      h2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .tastes-dashboard {
+        position: relative;
+        height: 100%;
+
+        h3 {
+          color: $my-white;
+          font-weight: 600;
+        }
+
+        .headers {
+          display: flex;
+          align-items: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+
+          .headers-content {
+            margin-left: 28px;
+            flex-grow: 1;
+
+            #tastes-header-1 {
+              text-align: left;
+            }
+            #tastes-header-2 {
+              text-align: right;
+            }
+          }
+
+          .question-mark {
+            display: flex;
+            align-items: center;
+            h3 {
+              font-size: 96px;
+              margin-right: 28px;
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        .tags {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 16px;
+          justify-content: center;
+
+          .tag {
+            padding: 4px 12px;
+            margin: 12px 8px;
+            border-radius: 100px;
+          }
+        }
+
+        .saved-flash {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          position: absolute;
+          bottom: calc(60px + 56px);
+          justify-content: center;
+          color: $my-green;
+
+          &.hidden {
+            display: none;
+          }
+
+          .flash {
+            border: 1px solid $my-green;
+            border-radius: 8px;
+            height: 40px;
+            display: flex;
+            padding: 0 8px;
+            justify-content: center;
+            align-items: center;
+
+            p {
+              margin: 0;
+            }
+
+            * {
+              padding: 0 6px;
+            }
+          }
+        }
+      }
+    }
   }
 }
