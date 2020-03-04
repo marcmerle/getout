@@ -10,6 +10,12 @@ class LikesController < ApplicationController
       @likes = policy_scope(Like)
     end
     set_genres
+
+    if params[:tag].present?
+      respond_to do |format|
+        format.js
+      end
+    end
   end
 
   def create

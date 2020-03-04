@@ -5,7 +5,6 @@
   display: flex;
   height: 100px;
   overflow: hidden;
-  width: 328px;
   border-bottom: 1px solid $my-green;
   color: $my-white;
 
@@ -19,6 +18,18 @@
     margin-left: 15px;
     position: relative;
 
+  h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-top: 8px;
+  }
+
+  p {
+    font-weight: lighter;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+  }
+
     .place-rating {
       margin-bottom: 4px;
     }
@@ -27,24 +38,40 @@
       font-size: 10px;
       padding-top: 8px;
     }
+  }
+}
 
-    h2 {
-      font-size: 18px;
-      margin-bottom: 0;
-      padding-top: 8px;
-    }
+#tab-1:checked + .tags-filter + .places-likes {
+  width: calc(100% - 70px);
 
-    p {
-      font-weight: lighter;
-      margin-bottom: 0;
-    }
+  h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-top: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 120px;
+  }
+
+  p {
+    font-weight: lighter;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 120px !important;
   }
 }
 
 .places-likes {
+  color: $gray;
   display: grid;
   grid-column: 1fr;
-  justify-content: center;
+  justify-content: end;
+  margin-top: 40px;
+  transition: all 0.5s ease-in-out;
+  height: 100px;
 }
 
 img {
@@ -56,3 +83,5 @@ img {
     margin-left: 8px;
   }
 }
+
+
