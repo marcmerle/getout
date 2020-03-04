@@ -32,6 +32,13 @@ class PagesController < ApplicationController
                    .joins(sql).order('user_genres.user_id, genres.name ASC')
   end
 
+  def location
+    @query_location = params[:query_location].split(' ').map(&:to_f)
+    results = Geocoder.search(@query_location)
+
+    render json: { address: results.first.address }
+  end
+
   def loading
   end
 end
