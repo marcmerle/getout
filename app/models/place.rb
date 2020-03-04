@@ -31,7 +31,7 @@ class Place
       near_places = near(location, distance)
 
       if near_places.present?
-        current_scope.select { |place| near_places.include? place }
+        current_scope.where(id: near_places.map(&:id))
       else
         new_dist = distance < 10 ? 1 : 100
         policy_scope_by_distance(location, current_scope, distance + new_dist)
@@ -46,9 +46,9 @@ class Place
           GROUP BY 1;
       SQL
       results = ActiveRecord::Base.connection.execute(sql)
-      places = find(results.map { |place| place['place_id'] })
+      place_ids = results.pluck('place_id')
 
-      current_scope.select { |place| places.include? place }
+      current_scope.where(id: place_ids)
     end
   end
 end

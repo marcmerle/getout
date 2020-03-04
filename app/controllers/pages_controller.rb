@@ -6,14 +6,13 @@ class PagesController < ApplicationController
   def home
     if current_user
       current_scope = policy_scope(Place)
-      current_scope = Place.policy_scope_by_genre(current_user, current_scope) if current_user.genres.present?
+      current_scope_genre = Place.policy_scope_by_genre(current_user, current_scope) if current_user.genres.present?
 
-      @places = current_scope.sample(8)
+      @places = current_scope_genre.sample(8)
 
       @artists = current_user.user_artists
       # To be replaced by proper HTML 5 geolocation at some point
       location = '52 ter Rue des Vinaigriers 75010 Paris'
-      current_scope = policy_scope(Place)
       @places_nearby = Place.policy_scope_by_distance(location, current_scope).sample(8)
     end
   end
