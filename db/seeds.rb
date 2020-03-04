@@ -170,7 +170,7 @@ places_data = JSON.parse(places_file)
 ##
 # Place DB Seed
 
-places_data.first(100).each_with_index do |place_data, i|
+places_data.each_with_index do |place_data, i|
   place = Place.new(
     name: place_data['name'],
     address: place_data['geoloc_address'],
