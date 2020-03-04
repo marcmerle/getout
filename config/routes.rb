@@ -17,5 +17,7 @@ Rails.application.routes.draw do
   get 'places/genres', to: 'places#genres', as: 'places_genres'
   resources :places, only: %i[index show]
 
+  get '/location', to: 'pages#location', as: 'location'
+
   get '/tastes', to: 'pages#tastes', as: 'tastes'
 end
