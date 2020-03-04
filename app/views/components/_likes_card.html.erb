@@ -17,11 +17,10 @@
           <% else %>
             <% place_distance = "" %>
           <% end %>
-          <div class="place-distance"><%= place_distance %></div>
         </div>
-        <p style="width: 180px; font-size: 12px;"><%= place.address %></p>
+        <p><%= place.address %></p>
       </div>
-      <div class="place-infos mt-auto d-flex justify-content-between">
+      <div class="place-infos mt-auto d-flex justify-content-end">
         <div class="place-rating"><%= icon("fas", "star") %> <%= place.avg_rating %></div>
       </div>
     </div>

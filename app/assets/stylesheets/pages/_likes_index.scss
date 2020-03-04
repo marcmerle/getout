@@ -37,29 +37,59 @@
       font-style: normal;
     }
 
+    h4 {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 38px;
+      font-style: normal;
+      color: white;
+      text-align-last: center;
+    }
+
+    h5 {
+      font-weight: 100;
+    }
+
     input {
       appearance: none;
+      transition: all 0.5s ease-in-out;
 
       &:checked {
 
         + div {
           opacity: 1;
-          display: block
+          width: 150px;
+          transition: width 0.5s ease-out;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          line-height: 1.7;
         }
       }
 
       + div {
-        display: none;
+        width:0;
         opacity: 0;
         padding: 0.5rem 0;
-        transition: all 0.3s ease-in-out;
+        transition: width 0.5s ease-out;
       }
     }
 
     .tags-filter {
+      margin-top: 40px;
+      padding-left: 20px;
+
       ul {
         list-style: none;
-        padding-left: 0px;
+        padding-left: 0;
+        width: 100%;
+
+        li {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 8px;
+          padding-right: 8px;
+        }
       }
 
       a {
@@ -68,25 +98,55 @@
       }
     }
 
-
     label {
       position: absolute;
       top: -30px;
       font-size: 20px;
       color: $my-green;
       text-shadow: 0px 0px 4px $my-green;
-
+      transition: all 0.5s ease-in-out;
     }
 
     .likes-container {
       position: relative;
       margin-top: 30px;
+
+      label {
+        position: absolute;
+        top: -30px;
+        font-size: 20px;
+        background: #49af91;
+        width: 140px;
+        position: absolute;
+        height: 36px;
+        border-radius: 0 18px 18px 0;
+        left: -100px;
+        margin-top: 20px;
+
+        &.label-active {
+          left: -20px;
+          transition: all 0.5s ease-in-out;
+
+        }
+
+        .fa-tag {
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto;
+          line-height: 1;
+          left: 108px;
+          position: absolute;
+          top: 8px;
+          color: $my-white;
+        }
+      }
+
+      .check-with-label:checked + #tab-1 {
+        margin-left: -100px;
+      }
     }
   }
-}
-
-.likes-index {
-  height: 100%;
 
   .tab-content {
     height: 100%;
@@ -147,7 +207,7 @@
 
           .tag {
             padding: 4px 12px;
-            margin: 12px 8px;
+            margin: 8px 6px;
             border-radius: 100px;
           }
         }
@@ -156,7 +216,7 @@
           display: flex;
           align-items: center;
           width: 100%;
-          position: absolute;
+          margin-top: 20px;
           bottom: calc(60px + 56px);
           justify-content: center;
           color: $my-green;
@@ -186,4 +246,8 @@
       }
     }
   }
+}
+
+.grey-tag {
+  color: $gray !important;
 }

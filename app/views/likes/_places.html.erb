@@ -1,0 +1,4 @@
+<% likes.each_with_index do |like, i| %>
+  <% last = :last if i == likes.count - 1 %>
+  <%= render "components/likes_card", place: like.place, last: last %>
+<% end %>
