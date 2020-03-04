@@ -1,6 +1,15 @@
+# frozen_string_literal: true
+
 class LikesController < ApplicationController
   def index
-    @likes = policy_scope(Like)
+    if params[:tag].present?
+      @likes = Like.joins(place: [place_genres: :genre])
+                   .where('genres.name ILIKE ?', "%#{params[:tag]}%")
+      policy_scope(@likes)
+    else
+      @likes = policy_scope(Like)
+    end
+    set_genres
   end
 
   def create
@@ -18,4 +27,14 @@ class LikesController < ApplicationController
     redirect_to place_path(@place)
   end
 
+  private
+
+  def set_genres
+    @genres = Like.all.each_with_object({}) do |like, collection|
+      like.place.genres.each do |genre|
+        collection[genre.name] = [genre, 0] unless collection.key?(genre.name)
+        collection[genre.name][1] += 1
+      end
+    end
+  end
 end
