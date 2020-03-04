@@ -33,82 +33,8 @@
            role="tabpanel"
            aria-labelledby="nav-location-tab"
            data-target="tab-selection-index.tabLocation"
-      >
-        <div class="bar-search">
-          <% previous_search = params[:query] ? params[:query] : "" %>
-          <div><%= render "components/search_bar", value: previous_search %></div>
-        </div>
-        <div class="display-search">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active"
-                 id="list-tab"
-                 data-toggle="tab"
-                 href="#list"
-                 role="tab"
-                 aria-controls="list"
-                 aria-selected="true"
-                 data-action="click->tab-selection#changeTab"
-                 data-target="tab-selection.list"
-                 >
-                 List
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                 id="map-result-tab"
-                 data-toggle="tab"
-                 href="#map-result"
-                 role="tab"
-                 aria-controls="map-result"
-                 aria-selected="false"
-                 data-action="click->tab-selection#changeTab"
-                 data-target="tab-selection.map"
-                 >
-                 Map
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="search-results mb-3">
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active"
-                 id="list"
-                 role="tabpanel"
-                 aria-labelledby="list-tab"
-                 data-target="tab-selection.tabList"
-                 >
-                 <div class="places">
-                   <div class="title-section">
-                     <% loc = params[:query].present? ?  "this address" : "my position" %>
-                     <h3>Near <%= loc %></h3>
-                   </div>
-                   <% @places.each_with_index do |place, i| %>
-                     <% last = :last if i == @places.count - 1 %>
-                     <%= render "components/search-card", place: place, last: last %>
-                   <% end %>
-                 </div>
-            </div>
-            <div class="tab-pane fade"
-                 id="map-result"
-                 role="tabpanel"
-                 aria-labelledby="map-tab"
-                 data-target="tab-selection.tabMap"
-                 >
-                 <div class="map-results">
-                   <div id="map"
-                        style="width: 100%; height: 550px;"
-                        data-markers="<%= @markers.to_json %>"
-                        data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
-                        data-controller="map"
-                        data-action="map_shown@window->map#update"
-                        data-target="map.mapElement"
-                        >
-                   </div>
-                 </div>
-            </div>
-          </div>
-        </div>
+           >
+           <%= render "search_by_location_tab" %>
       </div>
       <div class="tab-pane fade"
            id="nav-genres"
@@ -117,35 +43,7 @@
            data-controller="select2search"
            data-target="tab-selection-index.tabGenres"
            >
-        <% genres = Genre.all.map { |genre| genre.name.capitalize }.join(",") %>
-        <% colors = Genre.all.map { |genre| genre.color_hex }.join(",") %>
-        <div class="genres-search"
-             data-genres = "<%= genres %>"
-             data-colors="<%= colors %>"
-             data-target="select2search.genres"
-             >
-          <form class="genres-search-form"
-                action="#"
-                data-target="select2search.form"
-                >
-            <select id="genres-search-bar-select"
-                    class="select2"
-                    multiple="multiple"
-                    data-target="select2search.input"
-                    data-action="select_change@window->select2search#tagChange"
-                    >
-            </select>
-            <input type="hidden"
-                   name="genres"
-                   id="hidden-select-2"
-                   value=""
-                   data-target="select2search.searchSelect"
-                   >
-            <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-          </form>
-          <div class="genres-search-results" data-target="select2search.results">
-          </div>
-        </div>
+           <%= render "search_by_genres_tab" %>
       </div>
     </div>
   </div>
