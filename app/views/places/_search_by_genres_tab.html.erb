@@ -1,0 +1,33 @@
+<% genres = Genre.all.map { |genre| genre.name.capitalize }.join(",") %>
+<% colors = Genre.all.map { |genre| genre.color_hex }.join(",") %>
+<div class="genres-search"
+     data-genres = "<%= genres %>"
+     data-colors="<%= colors %>"
+     data-target="select2search.genres"
+     >
+     <form class="genres-search-form"
+           action="#"
+           data-target="select2search.form"
+           >
+           <div class="search-bar-all">
+             <i class="fas fa-search" data-target="select2search.icon"></i>
+             <select id="genres-search-bar-select"
+                     class="select2"
+                     multiple="multiple"
+                     data-target="select2search.input"
+                     data-action="select_change@window->select2search#tagChange"
+                     >
+             </select>
+             <input class="search-bar-input"
+                    type="hidden"
+                    name="genres"
+                    id="hidden-select-2"
+                    value=""
+                    data-target="select2search.searchSelect"
+                    >
+                    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+           </div>
+     </form>
+     <div class="genres-search-results" data-target="select2search.results">
+     </div>
+</div>
