@@ -1,9 +1,10 @@
 import { Controller } from "stimulus";
 
 export default class extends Controller {
-  static targets = ["image"];
+  static targets = ["image", "redirection"];
 
   connect() {
+    this.redirectAfter(6, this.redirectionTarget.dataset.redirect);
     this.preloadImages();
     this.animate();
   }
@@ -32,5 +33,11 @@ export default class extends Controller {
     };
 
     requestAnimationFrame(frame);
+  }
+
+  redirectAfter(seconds, path) {
+    window.setTimeout(function() {
+      window.location.href = path;
+    }, seconds * 1000);
   }
 }
