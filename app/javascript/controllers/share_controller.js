@@ -15,7 +15,6 @@ export default class extends Controller {
           url: url
         })
         .catch(console.error);
-        // console.log(event.currentTarget.dataset.genres)
       }
     });
   }

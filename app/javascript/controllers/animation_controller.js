@@ -68,10 +68,8 @@ export default class extends Controller {
       tastes.style.opacity = parseFloat(tastes.style.opacity) + 0.02;
 
       if (tastes.style.opacity > 1) {
-        console.log("End", tastes.style.opacity);
         tastes.style.opacity = 1;
       } else {
-        console.log("Changed", tastes.style.opacity);
         window.requestAnimationFrame(changeTastesOpacity);
       }
     };

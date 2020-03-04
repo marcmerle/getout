@@ -11,8 +11,8 @@ class PlacesController < ApplicationController
     @places = Place.policy_scope_by_genre(current_user, current_scope)
 
     if @query.present?
-      @places.each { |place| place.distance_from(@query) }
-             .sort_by!(&:distance)
+      @places = @places.each { |place| place.distance_from(@query) }
+                       .sort_by(&:distance)
     end
 
     add_markers
