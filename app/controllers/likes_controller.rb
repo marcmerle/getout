@@ -5,10 +5,11 @@ class LikesController < ApplicationController
     if params[:tag].present?
       @likes = Like.joins(place: [place_genres: :genre])
                    .where('genres.name ILIKE ?', "%#{params[:tag]}%")
-      policy_scope(@likes)
+                   .where(user: current_user)
     else
-      @likes = policy_scope(Like)
+      @likes = Like.where(user: current_user)
     end
+    policy_scope(@likes)
     set_genres
   end
 
@@ -30,7 +31,7 @@ class LikesController < ApplicationController
   private
 
   def set_genres
-    @genres = Like.all.each_with_object({}) do |like, collection|
+    @genres = Like.where(user: current_user).each_with_object({}) do |like, collection|
       like.place.genres.each do |genre|
         collection[genre.name] = [genre, 0] unless collection.key?(genre.name)
         collection[genre.name][1] += 1
