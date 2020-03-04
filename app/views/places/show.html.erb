@@ -12,17 +12,32 @@
   <div class="place-details">
     <div class="general-infos">
       <div class="place-name"><h2><%= @place.name %></h2></div>
-      <div class="place-like">
+      <div class="place-like"
+           data-controller="likes">
+        <form action="<%= likes_create_path(place_id: @place.id) %>"
+              data-target="likes.addForm"
+              id="add_like"
+              data-remote="true"
+              >
+              <input type="hidden" name="place_id" value="<%= @place.id %>">
+              <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        </form>
+        <form action="<%= likes_destroy_path(@like) %>"
+              data-target="likes.removeForm"
+              id="remove_like"
+              data-remote="true"
+              >
+              <input type="hidden" name="like" value=<%= @like.id if @like %>>
+              <input type="hidden" name="place_id" value="<%= @place.id %>">
+              <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        </form>
         <%= render 'components/tag', background_color:"#49af91", text: "Open", class: "pop-tag selected place-tag-open" %>
-      <% if @like %>
-        <%= link_to like_path(@like), method:'delete', remote: true do  %>
-          <%= icon("fas", "heart") %>
-        <% end %>
-      <% else %>
-        <%= link_to likes_path(place_id: @place.id), method:'post', remote: true do %>
-          <%= icon("far", "heart") %>
-        <% end %>
-      <% end %>
+        <div class="icon-container"
+             data-target="likes.iconContainer">
+          <%= icon("far", "heart", { "data-target": "likes.icon",
+                                   "data-action": "click->likes#toggleSelection",
+                                   "data-liked":  "#{@like.present?}" }) %>
+        </div>
       </div>
     </div>
     <div class="place-rating">

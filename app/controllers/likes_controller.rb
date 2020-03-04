@@ -15,14 +15,15 @@ class LikesController < ApplicationController
 
   def create
     @place = Place.find(params[:place_id])
-    @like = Like.create(place: @place, user: current_user, liked: true)
+    @like = Like.new(place: @place, user: current_user)
     authorize @like
+    @like.save
     redirect_to place_path(@place)
   end
 
   def destroy
-    @like = Like.find(params[:id])
-    @place = @like.place
+    @place = Place.find(params[:place_id])
+    @like = Like.find_by(place: @place, user: current_user)
     authorize @like
     @like.destroy
     redirect_to place_path(@place)
