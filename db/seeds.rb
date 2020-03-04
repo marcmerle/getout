@@ -14,10 +14,10 @@ end
 
 Geocoder.configure(timeout: 60, lookup: :ban_data_gouv_fr)
 
-# `rails genre:seed`
+`rails genre:seed`
 puts "\n#{Genre.count} genres were created\n".green
 
-# `rails genre:sub_seed`
+`rails genre:sub_seed`
 puts "\n#{SubGenre.count} sub_genres were created\n".green
 
 PLACE_GENRES = []
