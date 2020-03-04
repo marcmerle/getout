@@ -1,10 +1,10 @@
 import { Controller } from "stimulus";
 
 export default class extends Controller {
-  static targets = ["image", "redirection"];
+  static targets = ["image", "loading", "tastes", "tastesContent"];
 
   connect() {
-    this.redirectAfter(6, this.redirectionTarget.dataset.redirect);
+    this.tastesTarget.style.display = "none";
     this.preloadImages();
     this.animate();
   }
@@ -22,22 +22,60 @@ export default class extends Controller {
 
   animate() {
     let counter = 0;
+    let frameCount = 0;
 
     const frame = now => {
-      this.imageTarget.setAttribute("xlink:href", this.images[counter].src);
+      this.imageTarget.setAttribute("xlink:href", this.images[frameCount].src);
 
-      counter++;
-      if (counter == 240) counter = 0;
+      frameCount++;
+      if (frameCount == 240) {
+        frameCount = 0;
+        counter++;
+      }
 
-      requestAnimationFrame(frame);
+      if (counter < 1 || frameCount < 120) {
+        requestAnimationFrame(frame);
+      } else {
+        this.fade();
+      }
     };
 
     requestAnimationFrame(frame);
   }
 
-  redirectAfter(seconds, path) {
-    window.setTimeout(function() {
-      window.location.href = path;
-    }, seconds * 1000);
+  fade() {
+    let loading = this.loadingTarget;
+    let tastes = this.tastesContentTarget;
+
+    loading.style.position = "absolute";
+    loading.style.opacity = 1;
+
+    tastes.style.opacity = 0;
+    this.tastesTarget.style.display = "block";
+
+    const changeLoadingOpacity = () => {
+      loading.style.opacity = parseFloat(loading.style.opacity) - 0.02;
+
+      if (loading.style.opacity < 0) {
+        loading.style.display = "none";
+        changeTastesOpacity();
+      } else {
+        window.requestAnimationFrame(changeLoadingOpacity);
+      }
+    };
+
+    const changeTastesOpacity = () => {
+      tastes.style.opacity = parseFloat(tastes.style.opacity) + 0.02;
+
+      if (tastes.style.opacity > 1) {
+        console.log("End", tastes.style.opacity);
+        tastes.style.opacity = 1;
+      } else {
+        console.log("Changed", tastes.style.opacity);
+        window.requestAnimationFrame(changeTastesOpacity);
+      }
+    };
+
+    changeLoadingOpacity();
   }
 }

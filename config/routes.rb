@@ -16,5 +16,4 @@ Rails.application.routes.draw do
   resources :places, only: %i[index show]
 
   get '/tastes', to: 'pages#tastes', as: 'tastes'
-  get '/loading', to: 'pages#loading', as: 'loading'
 end
