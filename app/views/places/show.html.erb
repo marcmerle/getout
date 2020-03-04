@@ -1,3 +1,5 @@
+<% require_relative "../../../db/tracks" %>
+<% sampled_tracks = TRACKS.sample(8) %>
 <div class="show-container">
 <%= render 'components/back_arrow', link: places_path %>
   <div class="carousel-photos">
@@ -79,36 +81,36 @@
       <div class="place-on-air">
         <div class="place-music">
           <div class="before-music">
-            <%= image_tag "https://static.actu.fr/uploads/2018/10/25061-181029164228186-0-854x942.jpg", class:"playing-img" %>
-            <p>La Compagnie Cré..</p>
-            <p>Ca fait rire les ois..</p>
+            <%= image_tag sampled_tracks[0][:artist_image_url], class:"playing-img" %>
+            <p class="playing-artist-name"><%= sampled_tracks[0][:artist_name] %></p>
+            <p class="playing-track-name"><%= sampled_tracks[0][:track_name] %></p>
           </div>
           <div class="now-music">
-            <%= image_tag "soulwax.jpg", class:"playing-img" %>
-            <p>Soulwax</p>
-            <p>Close to paradise</p>
+            <%= image_tag sampled_tracks[1][:artist_image_url], class:"playing-img" %>
+            <p class="playing-artist-name"><%= sampled_tracks[1][:artist_name] %></p>
+            <p class="playing-track-name"><%= sampled_tracks[1][:track_name] %></p>
           </div>
           <div class="next-music">
-            <%= image_tag "https://img.discogs.com/TBN_nuyviiYIj8Uj5vUQu4M2pSM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10321142-1495286691-4531.jpeg.jpg", class:"playing-img" %>
-            <p>Jacques</p>
-            <p>Tout est magnifique</p>
+            <%= image_tag sampled_tracks[2][:artist_image_url], class:"playing-img" %>
+            <p class="playing-artist-name"><%= sampled_tracks[2][:artist_name] %></p>
+            <p class="playing-track-name"><%= sampled_tracks[2][:track_name] %></p>
           </div>
         </div>
       </div>
     </div>
     <div class="place-top-tracks">
-      <h4>Top tracks you like played here recently</h4>
+      <h3>Top tracks played</h3>
 
       <div class="row align-items-center">
         <div class="col-1">
           1
         </div>
         <div class="place-top-tracks-infos col-7">
-          <p class="place-top-tracks-title">Mount Kimbie</p>
-          <p class="place-top-tracks-group">Made to stray</p>
+          <p class="place-top-tracks-title"><%= sampled_tracks[3][:artist_name] %></p>
+          <p class="place-top-tracks-group"><%= sampled_tracks[3][:track_name] %></p>
         </div>
         <div class="col">
-          <p>2 hours ago</p>
+          <p>Played <%= (170..200).to_a.sample %> times</p>
         </div>
       </div>
 
@@ -117,11 +119,11 @@
           2
         </div>
         <div class="place-top-tracks-infos col-7">
-          <p class="place-top-tracks-title">Desesparates</p>
-          <p class="place-top-tracks-group">2BOYS 1CLUB</p>
+          <p class="place-top-tracks-title"><%= sampled_tracks[4][:artist_name] %></p>
+          <p class="place-top-tracks-group"><%= sampled_tracks[4][:track_name] %></p>
         </div>
         <div class="col">
-          <p>4 hours ago</p>
+          <p>Played <%= (120..170).to_a.sample %> times</p>
         </div>
       </div>
 
@@ -130,11 +132,11 @@
           3
         </div>
         <div class="place-top-tracks-infos col-7">
-          <p class="place-top-tracks-title">Marie Davidson</p>
-          <p class="place-top-tracks-group">Work it</p>
+          <p class="place-top-tracks-title"><%= sampled_tracks[5][:artist_name] %></p>
+          <p class="place-top-tracks-group"><%= sampled_tracks[5][:track_name] %></p>
         </div>
         <div class="col">
-          <p>7 hours ago</p>
+          <p>Played <%= (90..120).to_a.sample %> times</p>
         </div>
       </div>
 
@@ -143,11 +145,11 @@
           4
         </div>
         <div class="place-top-tracks-infos col-7">
-          <p class="place-top-tracks-title">La Femme</p>
-          <p class="place-top-tracks-group">S.S.D</p>
+          <p class="place-top-tracks-title"><%= sampled_tracks[6][:artist_name] %></p>
+          <p class="place-top-tracks-group"><%= sampled_tracks[6][:track_name] %></p>
         </div>
         <div class="col">
-          <p>yesterday</p>
+          <p>Played <%= (50..90).to_a.sample %> times</p>
         </div>
       </div>
 
@@ -156,27 +158,27 @@
           5
         </div>
         <div class="place-top-tracks-infos col-7">
-          <p class="place-top-tracks-title">Sash!</p>
-          <p class="place-top-tracks-group">Encore une fois</p>
+          <p class="place-top-tracks-title"><%= sampled_tracks[7][:artist_name] %></p>
+          <p class="place-top-tracks-group"><%= sampled_tracks[7][:track_name] %></p>
         </div>
         <div class="col">
-          <p>2 days ago</p>
+          <p>Played <%= (30..50).to_a.sample %> times</p>
         </div>
       </div>
 
     </div>
 
-    <div class="place-pin-me place-like">
+    <div class="place-pin-me place-like" data-controller="share">
       <div>
-        <h4>Let my friends know I’m here tonight</h4>
+        <h3>Share this place</h3>
       </div>
       <div class="place-pin">
-        <%= icon("fas", "map-marker-alt") %>
+        <%= icon("fas", "share-alt", {"data-target": "share.shareButton", "data-action": "click->share#triggerShare"}) %>
       </div>
     </div>
 
     <div class="place-opening-info">
-      <h4>Opening infos</h4>
+      <h3>Opening infos</h3>
       <ul class="list-inline text-center">
         <li class="list-inline-item">Mon</li>
         <li class="list-inline-item">Tue</li>
