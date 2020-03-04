@@ -4,6 +4,9 @@
     font-weight: 600;
     padding-top: 6px;
     text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   &.square {
