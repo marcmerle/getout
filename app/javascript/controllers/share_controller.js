@@ -8,13 +8,14 @@ export default class extends Controller {
 
     shareButton.addEventListener('click', (event) => {
       if (navigator.share) {
-        const title = document.title;
         const url = document.querySelector('link[rel=canonical]') ? document.querySelector('link[rel=canonical]').href : document.location.href;
         navigator.share({
-          title: title,
+          title: "GetOut",
+          text: `Join me there tonight and we'll listen to some ${event.currentTarget.dataset.genres} together!\n`,
           url: url
         })
         .catch(console.error);
+        // console.log(event.currentTarget.dataset.genres)
       }
     });
   }
