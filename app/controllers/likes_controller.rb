@@ -5,10 +5,11 @@ class LikesController < ApplicationController
     if params[:tag].present?
       @likes = Like.joins(place: [place_genres: :genre])
                    .where('genres.name ILIKE ?', "%#{params[:tag]}%")
-      policy_scope(@likes)
+                   .where(user: current_user)
     else
-      @likes = policy_scope(Like)
+      @likes = Like.where(user: current_user)
     end
+    policy_scope(@likes)
     set_genres
   end
 
