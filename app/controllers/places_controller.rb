@@ -15,14 +15,7 @@ class PlacesController < ApplicationController
              .sort_by!(&:distance)
     end
 
-    @markers = @places.map do |place|
-      {
-        lat: place.latitude,
-        lng: place.longitude,
-        infoWindow: render_to_string(partial: 'info_window', locals: { place: place }),
-        image_url: helpers.asset_url('marker.png')
-      }
-    end
+    add_markers
   end
 
   def show
@@ -37,12 +30,25 @@ class PlacesController < ApplicationController
 
     sql = <<-SQL
         INNER JOIN place_genres ON place_genres.place_id = places.id
-          AND place_genres.genre_id IN (#{@genres.map(&:id).join(",")})
+          AND place_genres.genre_id IN (#{@genres.map(&:id).join(',')})
+        LIMIT 30
     SQL
 
-    @places = Place.all
-                   .joins(sql)
+    @places = Place.joins(sql)
 
     render layout: false
+  end
+
+  private
+
+  def add_markers
+    @markers = @places.map do |place|
+      {
+        lat: place.latitude,
+        lng: place.longitude,
+        infoWindow: render_to_string(partial: 'info_window', locals: { place: place }),
+        image_url: helpers.asset_url('marker.png')
+      }
+    end
   end
 end
