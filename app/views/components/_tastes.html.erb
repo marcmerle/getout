@@ -1,0 +1,24 @@
+<% @genres = Genre.all.select('genres.*, user_genres.user_id').joins("LEFT JOIN user_genres ON user_genres.genre_id = genres.id AND user_genres.user_id = #{current_user.id}").order('user_genres.user_id, genres.name ASC') %>
+<div class="headers">
+  <div class="headers-content">
+    <h3 id="tastes-header-1">What do you</h3>
+    <h3 id="tastes-header-2">listen to</h3>
+  </div>
+  <div class="question-mark"><h3>?</h3></div>
+</div>
+<div class="tags">
+  <% @genres.each do |genre| %>
+    <div class="tag"
+         data-target="tastes.tag"
+         data-action="click->tastes#toggleSelection"
+         data-chosen= "<%= genre.user_id.present? %>"
+         data-color="<%= genre.color_hex %>"
+         data-genre="<%= genre.id %>"
+         style="border: 1px solid #ef798a;
+         color: #ef798a;
+         box-shadow: 0 0px 4px 0px #ef798a;"
+         >
+         <%= genre.name.capitalize %>
+    </div>
+  <% end %>
+</div>

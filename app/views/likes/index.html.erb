@@ -1,33 +1,64 @@
 <div class="likes-index">
-  <h3>My List</h3>
+  <%= render 'components/back_arrow' %>
   <div class="tabs-search">
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link selected", href="#">Spots <%= icon("fas", "heart") %></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Friends</a>
-      </li>
-    </ul>
+    <nav>
+      <div class="nav nav-pills" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-likes-tab" data-toggle="tab" href="#nav-likes" role="tab" aria-controls="nav-likes" aria-selected="true">Liked places</a>
+        <a class="nav-item nav-link" id="nav-tastes-tab" data-toggle="tab" href="#nav-tastes" role="tab" aria-controls="nav-tastes" aria-selected="false">Liked genres</a>
+      </div>
+    </nav>
   </div>
-  <div class="likes-container d-flex">
-    <label for="tab-1"><i class="fas fa-tag"></i></label>
-    <input id="tab-1" name="tabs-two" type="checkbox" checked="checked">
-    <div class="tags-filter">
-      <ul>
-        <% @genres.each do |genre_name, element|  %>
-          <%= link_to dashboard_likes_path(tag: element.first.name) do %>
-            <li style="color: <%= element.first.color_hex %>"> <strong><%= element.last %></strong> <%= element.first.name %></li>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-likes" role="tabpanel" aria-labelledby="nav-likes-tab">
+      <div class="likes-container d-flex">
+        <label for="tab-1"><i class="fas fa-tag"></i></label>
+        <input id="tab-1" name="tabs-two" type="checkbox" checked="checked">
+        <div class="tags-filter">
+          <ul>
+            <% @genres.each do |genre_name, element|  %>
+              <%= link_to dashboard_likes_path(tag: element.first.name) do %>
+                <li style="color: <%= element.first.color_hex %>"> <strong><%= element.last %></strong> <%= element.first.name %></li>
+              <% end %>
+            <% end %>
+          </ul>
+          <%= link_to "Clear X", dashboard_likes_path %>
+        </div>
+        <div class="places-likes">
+          <% @likes.each_with_index do |like, i| %>
+            <% last = :last if i == @likes.count - 1 %>
+            <%= render "components/likes_card", place: like.place, last: last %>
           <% end %>
-        <% end %>
-      </ul>
-      <%= link_to "Clear X", dashboard_likes_path %>
+        </div>
+      </div>
     </div>
-    <div class="places-likes">
-      <% @likes.each_with_index do |like, i| %>
-        <% last = :last if i == @likes.count - 1 %>
-        <%= render "components/likes_card", place: like.place, last: last %>
-      <% end %>
+    <div class="tab-pane fade" id="nav-tastes" role="tabpanel" aria-labelledby="nav-tastes-tab">
+      <div class="tastes-dashboard" data-controller="tastes">
+        <form action="<%= user_genres_create_path %>"
+              data-target="tastes.addForm"
+              id="add_user_genre"
+              data-remote="true"
+              >
+              <input type="hidden" name="genre_id" value="genre">
+              <input type="hidden" name="user_id" value="<%= current_user.id %>">
+              <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        </form>
+        <form action="<%= user_genres_destroy_path %>"
+              data-target="tastes.removeForm"
+              id="remove_user_genre"
+              data-remote="true"
+              >
+              <input type="hidden" name="genre_id" value="genre">
+              <input type="hidden" name="user_id" value="<%= current_user.id %>">
+              <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        </form>
+        <%= render 'components/tastes' %>
+        <div class="saved-flash">
+          <div class="flash">
+            <i class="fas fa-check"></i>
+            <p>Saved</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
