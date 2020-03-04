@@ -7,8 +7,7 @@
 
     grid-template-rows: auto 1fr;
     height: 100vh;
-
-
+    height: calc(var(--vh, 1vh) * 100);
 
     .scrollable {
       .logo {

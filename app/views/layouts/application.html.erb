@@ -29,17 +29,20 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
 
-  <body id="<%= controller.controller_name%>-<%= controller.action_name%>">
-    <div class="grid-content">
-      <div class="content">
-        <%= render 'components/flashes' %>
-        <%= yield %>
-      </div>
-      <div class="app-navbar">
-        <% if current_user %>
-          <%= render 'components/bottom_navbar' unless controller.controller_name == "pages" && !(controller.action_name == "home") %>
-        <% end %>
-      </div>
-    </div>
+  <body id="<%= controller.controller_name%>-<%= controller.action_name%>"
+        data-controller="mobile-vh"
+        data-action="resize@window->mobile-vh#updateHeight"
+        >
+        <div class="grid-content">
+          <div class="content">
+            <%= render 'components/flashes' %>
+            <%= yield %>
+          </div>
+          <div class="app-navbar">
+            <% if current_user %>
+              <%= render 'components/bottom_navbar' unless controller.controller_name == "pages" && !(controller.action_name == "home") %>
+            <% end %>
+          </div>
+        </div>
   </body>
 </html>
