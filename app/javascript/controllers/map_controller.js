@@ -13,7 +13,7 @@ export default class extends Controller {
 
     this.map = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/marcmerle/ck7abhm2303ag1iqj43fcw0pw",
+      style: "mapbox://styles/marcmerle/ck7euepq32ock1iob3cv5bpqz",
       center: [
         this.mapElementTarget.dataset.longitude,
         this.mapElementTarget.dataset.latitude
