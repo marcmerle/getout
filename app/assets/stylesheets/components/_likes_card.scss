@@ -53,7 +53,7 @@
   position: absolute;
   left: 160px;
   transition: all 0.5s ease-in-out;
-  width: 194px;
+  width: 56vw;
 
   h2 {
     font-size: 18px;
@@ -70,6 +70,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    width: 100%;
   }
 }
 
@@ -84,6 +85,7 @@
   position: absolute;
   left: 20px;
   flex-direction: column;
+  width: 90vw;
 }
 
 img {
