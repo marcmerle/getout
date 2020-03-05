@@ -7,6 +7,14 @@
   border-bottom: 1px solid $my-green;
   color: $my-white;
 
+  img {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
   &.last {
     border-bottom: 0;
   }
