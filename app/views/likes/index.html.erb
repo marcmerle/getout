@@ -16,7 +16,7 @@
           <div class="tags-filter">
             <div class="all-tags d-flex justify-content-between">
               <%= link_to "All places", dashboard_likes_path %>
-              <%= current_user.likes.count %>
+              <strong><%= current_user.likes.count %></strong>
             </div>
             <ul>
             <% @genres.each do |genre_name, element|  %>
