@@ -61,4 +61,14 @@
     left: -1vw;
     z-index: 999;
   }
+
+  .placeholder-genre-search {
+    position: absolute;
+    top: 10.5vh;
+    left: 15.7vw;
+    z-index: 999;
+    font-size: 15px;
+    margin-bottom: 0;
+    pointer-events: none;
+  }
 }

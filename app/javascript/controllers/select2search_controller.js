@@ -9,7 +9,8 @@ export default class extends Controller {
     "genres",
     "results",
     "searchSelect",
-    "icon"
+    "icon",
+    "placeholder"
   ];
 
   connect() {
@@ -35,10 +36,12 @@ export default class extends Controller {
 
   tagChange() {
     this.iconTarget.style.display = "none";
+    this.placeholderTarget.style.display = "none";
     this.setColors();
     this.triggerSearch();
     if (this.searchSelectTarget.value === "") {
       this.iconTarget.style.display = "inherit";
+      this.placeholderTarget.style.display = "inherit";
     }
   }
 
