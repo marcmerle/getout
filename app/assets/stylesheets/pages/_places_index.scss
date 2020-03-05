@@ -5,7 +5,7 @@
 
   h3 {
     font-size: 24px;
-    margin: 35px 0 0;
+    margin: 40px 0 0;
     font-weight: 700;
     padding: 0 18px;
   }
@@ -29,6 +29,7 @@
         text-align: center;
         text-decoration: none;
         text-shadow: 0 0 2px rgba($my-pink, 0.3);
+        font-size: 18px;
 
         &.active {
           color: $my-pink;
@@ -36,7 +37,7 @@
           text-decoration: none;
           text-shadow: 0 0 4px $my-pink;
           background: none;
-          border-bottom: 2px solid;
+          border-bottom: 4px solid;
         }
       }
     }
@@ -73,7 +74,6 @@
 }
 
 .title-section {
-  margin: 0 auto;
   width: 360px;
 }
 
@@ -81,7 +81,6 @@
   display: grid;
   grid-column: 1fr;
   justify-content: center;
-  justify-items: center;
 
   a {
     text-decoration: none;
@@ -184,6 +183,7 @@
                 padding: 4px 12px;
                 border: none;
                 color: $my-white;
+                font-size: 17px;
 
                 .select2-selection__choice__remove {
                   margin-right: 5px !important;
@@ -222,3 +222,7 @@
 .select2-results {
   margin: 10px;
 }
+ #near {
+  margin: 12px 0;
+  padding: 0;
+ }
