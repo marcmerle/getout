@@ -222,6 +222,11 @@
 .select2-results {
   margin: 10px;
 }
+
+.genres-search form .select2.select2-container.select2-container--default .selection .select2-selection.select2-selection--multiple ul li.select2-selection__choice .select2-selection__choice__remove {
+  color: $my-white;
+}
+
  #near {
   margin: 12px 0;
   padding: 0;
