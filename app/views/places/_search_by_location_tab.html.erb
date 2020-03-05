@@ -45,7 +45,7 @@
                  <div class="places">
                    <div class="title-section">
                      <% loc = params[:query].present? ?  "this address" : "my position" %>
-                     <h3>Near <%= loc %></h3>
+                     <h3 id="near">Near <%= loc %></h3>
                    </div>
                    <% @places.each_with_index do |place, i| %>
                      <% last = :last if i == @places.count - 1 %>

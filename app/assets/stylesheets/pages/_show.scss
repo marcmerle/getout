@@ -16,16 +16,20 @@
     margin-bottom: 30px;
   }
 
+  #show-place-address {
+    font-size: 16px;
+  }
+
   .place-top-tracks-title {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
   }
 
   .place-top-tracks-group {
-    font-size: 12px;
+    font-size: 14px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -114,7 +118,7 @@
   }
 
   p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0px;
     font-weight: 300;
   }
@@ -207,12 +211,6 @@
     border-radius: 50%;
     margin-bottom: 5px;
   }
-
-  .place-opening-info-green {
-    position: absolute;
-    bottom: -390px;
-    left: 130px;
-  }
 }
 
 .logo-back {
@@ -255,20 +253,19 @@
 .place-opening-info {
   position: relative;
   z-index: 1;
-  &:after {
+
+  .green-open {
+    background: $my-green;
+    width: 143px;
+    height: 42px;
     position: absolute;
-    content: "";
-    background: image-url("opening_infos.png");
-    height: 56px;
-    width: 188px;
-    top: 53px;
-    right: 44px;
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-size: contain;
+    right: 86px;
+    top: 58px;
+    border-radius: 40px;
   }
 
   ul {
     margin-bottom: 40px;
+    position: relative;
   }
 }

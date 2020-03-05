@@ -15,6 +15,7 @@
         text-align: center;
         text-decoration: none;
         text-shadow: 0 0 2px rgba($my-pink, 0.3);
+        font-size: 18px;
 
         &.active {
           color: $my-pink;
@@ -22,7 +23,7 @@
           text-decoration: none;
           text-shadow: 0 0 4px $my-pink;
           background: none;
-          border-bottom: 2px solid;
+          border-bottom: 4px solid;
         }
       }
     }
@@ -129,7 +130,7 @@
         margin-top: 20px;
 
         &.label-active {
-          left: -20px;
+          left: 0px;
           transition: all 0.5s ease-in-out;
 
         }

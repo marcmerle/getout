@@ -5,10 +5,11 @@ export default class extends Controller {
   static targets = ["input", "form"];
 
   connect() {
-    places({ container: this.inputTarget });
+    if (!document.querySelector(".ap-icon-pin"))
+      places({ container: this.inputTarget });
 
-    const geoloc = document.querySelector('.ap-icon-pin');
-    geoloc.addEventListener('click', this.getGeoloc.bind(this));
+    const geoloc = document.querySelector(".ap-icon-pin");
+    geoloc.addEventListener("click", this.getGeoloc.bind(this));
   }
 
   getGeoloc(event) {
@@ -19,13 +20,15 @@ export default class extends Controller {
     function success(pos) {
       var crd = pos.coords;
 
-      fetch("/location.html?query_location=" + crd.latitude + ' ' + crd.longitude)
+      fetch(
+        "/location.html?query_location=" + crd.latitude + " " + crd.longitude
+      )
         .then(response => {
           return response.json();
         })
         .then(json => {
-          this.inputTarget.value = json.address
-          this.formTarget.submit()
+          this.inputTarget.value = json.address;
+          this.formTarget.submit();
         });
     }
 
