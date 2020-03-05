@@ -22,8 +22,7 @@
         <p><%= place.address %></p>
       </div>
       <div class="place-infos mt-auto d-flex justify-content-between">
-        <div class="place-rating"><%= icon("fas", "star") %> <%= place.avg_rating %></div>
-        <div class="place-tags d-flex flex-end">
+        <div class="place-tags d-flex">
           <% place.genres.sort.each do |genre| %>
             <%= render 'components/tag',
               background_color: "#{genre.color_hex}",
@@ -31,6 +30,7 @@
               class: "search-place-tag" %>
           <% end %>
         </div>
+        <div class="place-rating"><%= icon("fas", "star") %> <%= place.avg_rating %></div>
       </div>
     </div>
   </div>
