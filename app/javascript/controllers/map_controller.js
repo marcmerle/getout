@@ -14,7 +14,11 @@ export default class extends Controller {
     this.map = new mapboxgl.Map({
       container: "map",
       style: "mapbox://styles/marcmerle/ck7abhm2303ag1iqj43fcw0pw",
-      zoom: 4
+      center: [
+        this.mapElementTarget.dataset.longitude,
+        this.mapElementTarget.dataset.latitude
+      ],
+      zoom: 13
     });
 
     const markers = JSON.parse(this.mapElementTarget.dataset.markers);
@@ -33,14 +37,6 @@ export default class extends Controller {
         .setPopup(popup)
         .addTo(this.map);
     });
-
-    this.fitMapToMarkers(markers.slice(0, 2));
-  }
-
-  fitMapToMarkers(markers) {
-    const bounds = new mapboxgl.LngLatBounds();
-    markers.forEach(marker => bounds.extend([marker.lng, marker.lat]));
-    this.map.fitBounds(bounds, { padding: 70, maxZoom: 15, duration: 0 });
   }
 
   update() {

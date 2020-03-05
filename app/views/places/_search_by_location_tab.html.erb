@@ -67,6 +67,8 @@
                         data-controller="map"
                         data-action="map_shown@window->map#update"
                         data-target="map.mapElement"
+                        data-latitude="<%= @query_coordinates.first %>"
+                        data-longitude="<%= @query_coordinates.last %>"
                         >
                    </div>
                  </div>
