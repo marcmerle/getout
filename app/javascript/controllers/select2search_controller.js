@@ -19,7 +19,6 @@ export default class extends Controller {
     $(this.inputTarget).select2({
       width: "100%",
       data: this.genres,
-      placeholder: "Enter a genre",
       maximumSelectionLength: 60
     });
 
@@ -38,6 +37,9 @@ export default class extends Controller {
     this.iconTarget.style.display = "none";
     this.setColors();
     this.triggerSearch();
+    if (this.searchSelectTarget.value === "") {
+      this.iconTarget.style.display = "inherit";
+    }
   }
 
   triggerSearch() {
