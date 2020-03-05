@@ -1,7 +1,7 @@
 <% require_relative "../../../db/tracks" %>
 <% sampled_tracks = TRACKS.sample(8) %>
 <div class="show-container">
-<%= render 'components/back_arrow', link: places_path %>
+<%= render 'components/back_arrow' %>
   <div class="carousel-photos">
     <% @place.photos.each do |photo| %>
       <div class="place-photo">
