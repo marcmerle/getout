@@ -74,8 +74,7 @@
 
     <div class="place-distance">
       <div class="place-address-distance">
-        <p><%= @place.address %></p>
-        <p>342 m </p>
+        <p id="show-place-address"><%= @place.address %></p>
       </div>
 
       <div class="link-map">
@@ -189,12 +188,12 @@
       </div>
       <div class="place-pin">
         <% place_genres = @place.genres.map {|genre| genre.name.capitalize }.join(" & ")  %>
-        <%= icon("fas", "share-alt", {"data-target": "share.shareButton", "data-action": "click->share#triggerShare", "data-genres": "#{place_genres}"}) %>
+        <%= icon("fas", "share-alt", {"data-target": "share.shareButton", "data-action": "click->share#triggerShare", "data-genres": "#{place_genres}"}, "id": "share-icon") %>
       </div>
     </div>
 
     <div class="place-opening-info">
-      <h3>Opening infos</h3>
+      <h3 id="opening-infos">Opening infos</h3>
       <ul class="list-inline text-center">
         <li class="list-inline-item">Mon</li>
         <li class="list-inline-item">Tue</li>
