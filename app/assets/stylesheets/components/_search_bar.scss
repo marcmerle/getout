@@ -52,3 +52,13 @@
 .ap-footer {
   display: none;
 }
+
+#nav-genres {
+  .fas.fa-search {
+    position: absolute;
+    height: 54px;
+    top: 8.5vh;
+    left: -1vw;
+    z-index: 999;
+  }
+}
