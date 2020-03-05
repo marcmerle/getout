@@ -26,18 +26,18 @@ import { labelToggle } from '../controllers/tab_filters';
 
 document.addEventListener('turbolinks:load', () => {
   labelToggle();
-});
 
-const allLabels = document.querySelectorAll(".tags-filter li")
+  const allLabels = document.querySelectorAll(".tags-filter li")
 
-const toggleTag = (event) => {
+  const toggleTag = (event) => {
+    allLabels.forEach((label) => {
+      label.classList.add("grey-tag");
+    })
+    event.currentTarget.classList.remove("grey-tag")
+  }
+
+
   allLabels.forEach((label) => {
-    label.classList.add("grey-tag");
+    label.addEventListener("click", toggleTag);
   })
-  event.currentTarget.classList.remove("grey-tag")
-}
-
-
-allLabels.forEach((label) => {
-  label.addEventListener("click", toggleTag);
-})
+});
