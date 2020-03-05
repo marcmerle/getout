@@ -11,7 +11,7 @@ class PagesController < ApplicationController
       @places = current_scope_genre.sample(8)
 
       @artists = current_user.user_artists
-      # To be replaced by proper HTML 5 geolocation at some point
+
       location = '52 ter Rue des Vinaigriers 75010 Paris'
       @places_nearby = Place.policy_scope_by_distance(location, current_scope).sample(8)
     end

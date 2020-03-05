@@ -9,8 +9,10 @@ class PlacesController < ApplicationController
     current_scope = Place.policy_scope_by_distance(@query, current_scope) if @query.present?
 
     @places = Place.policy_scope_by_genre(current_user, current_scope)
+    @query_coordinates = Geocoder.search('52 ter Rue des Vinaigriers 75010 Paris').first.coordinates
 
     if @query.present?
+      @query_coordinates = Geocoder.search(@query).first.coordinates
       @places = @places.each { |place| place.distance_from(@query) }
                        .sort_by(&:distance)
     end
