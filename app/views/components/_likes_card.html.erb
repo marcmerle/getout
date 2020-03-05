@@ -10,13 +10,6 @@
       <div class="likes-card-details">
         <div class="place-details d-flex justify-content-between">
           <h2 style=""><%= place.name %></h2>
-          <% if @query.present? && place.distance.round < 1_000 %>
-            <% place_distance = "#{place.distance.round} m" %>
-          <% elsif @query.present? %>
-            <% place_distance = "#{(place.distance.to_f / 1_000).round(1)} km" %>
-          <% else %>
-            <% place_distance = "" %>
-          <% end %>
         </div>
         <p><%= place.address %></p>
       </div>
