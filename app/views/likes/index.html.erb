@@ -14,6 +14,10 @@
         <label for="tab-1" class="check-with-label"><i class="fas fa-tag"></i><h4>Tags</h4></label>
           <input id="tab-1" name="tabs-two" type="checkbox">
           <div class="tags-filter">
+            <div class="all-tags d-flex justify-content-between">
+              <%= link_to "All places", dashboard_likes_path %>
+              <%= current_user.likes.count %>
+            </div>
             <ul>
             <% @genres.each do |genre_name, element|  %>
               <%= link_to dashboard_likes_path(tag: element.first.name), remote: true do %>
@@ -21,7 +25,6 @@
               <% end %>
             <% end %>
           </ul>
-          <%= link_to "Clear X", dashboard_likes_path %>
         </div>
         <div class="places-likes">
           <%= render "places", likes: @likes %>
