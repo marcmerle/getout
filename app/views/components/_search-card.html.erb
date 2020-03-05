@@ -10,10 +10,10 @@
       <div class="search-card-details">
         <div class="place-details d-flex justify-content-between">
           <h2><%= place.name %></h2>
-          <% if @query.present? && place.distance.round < 1_000 %>
-            <% place_distance = "#{place.distance.round} m" %>
+          <% if @query.present? && place.distance_to(@query_coordinates, :km) < 1 %>
+            <% place_distance = "#{(place.distance_to(@query_coordinates, :km) * 1_000).round} m" %>
           <% elsif @query.present? %>
-            <% place_distance = "#{(place.distance.to_f / 1_000).round(1)} km" %>
+            <% place_distance = "#{place.distance_to(@query_coordinates, :km).round(1)} km" %>
           <% else %>
             <% place_distance = "" %>
           <% end %>

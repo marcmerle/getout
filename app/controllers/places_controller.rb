@@ -3,22 +3,29 @@
 class PlacesController < ApplicationController
   after_action :verify_authorized, except: %i[index home genres], unless: :skip_pundit?
 
+  # rubocop:disable Metrics/MethodLength
+  # SQL Query makes the method too long for Rubocop
   def index
-    @query = params[:query]
-    current_scope = policy_scope(Place)
-    current_scope = Place.policy_scope_by_distance(@query, current_scope) if @query.present?
+    @query = params[:query].presence || '52 ter Rue des Vinaigriers 75010 Paris'
+    @query_coordinates = Geocoder.search(@query).first.coordinates
 
-    @places = Place.policy_scope_by_genre(current_user, current_scope)
-    @query_coordinates = Geocoder.search('52 ter Rue des Vinaigriers 75010 Paris').first.coordinates
+    sql = <<-SQL
+          SELECT pg.place_id FROM user_genres AS ug
+          LEFT JOIN place_genres AS pg ON pg.genre_id = ug.genre_id
+          WHERE ug.user_id = #{current_user.id}
+          GROUP BY 1
+          LIMIT 30;
+    SQL
+    results = ActiveRecord::Base.connection.execute(sql)
+    place_ids = results.pluck('place_id')
 
-    if @query.present?
-      @query_coordinates = Geocoder.search(@query).first.coordinates
-      @places = @places.each { |place| place.distance_from(@query) }
-                       .sort_by(&:distance)
-    end
+    @places = policy_scope(Place)
+              .where(id: place_ids)
+              .sort_by { |place| place.distance_to(@query_coordinates, :km) }
 
     add_markers
   end
+  # rubocop:enable Metrics/MethodLength
 
   def show
     @place = Place.find(params[:id])
