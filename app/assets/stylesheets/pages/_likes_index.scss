@@ -39,12 +39,13 @@
     }
 
     h4 {
-      font-weight: 400;
+      font-weight: 600;
       font-size: 20px;
       line-height: 38px;
       font-style: normal;
       color: white;
       margin-left: 20px;
+      letter-spacing: 1.2px;
     }
 
     h5 {
@@ -79,11 +80,14 @@
     .tags-filter {
       margin-top: 40px;
       padding-left: 20px;
+      font-size: 18px;
+      font-weight: 700;
 
       ul {
         list-style: none;
         padding-left: 0;
         width: 100%;
+        margin-top: 20px;
 
         li {
           display: flex;
@@ -99,7 +103,7 @@
       }
 
       .all-tags {
-        margin-bottom: 18px;
+        margin-bottom: 2px;
         padding-right: 8px;
       }
     }

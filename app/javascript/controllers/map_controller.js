@@ -29,8 +29,8 @@ export default class extends Controller {
       element.className = "marker";
       element.style.backgroundImage = `url('${marker.image_url}')`;
       element.style.backgroundSize = "contain";
-      element.style.width = "35px";
-      element.style.height = "35px";
+      element.style.width = "55px";
+      element.style.height = "55px";
 
       new mapboxgl.Marker(element)
         .setLngLat([marker.lng, marker.lat])

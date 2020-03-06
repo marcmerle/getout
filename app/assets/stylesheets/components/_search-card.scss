@@ -1,17 +1,17 @@
 .search-card {
   align-items: center;
   display: flex;
-  height: 128px;
+  height: 145px;
   overflow: hidden;
   width: 90vw;
   border-bottom: 1px solid $my-green;
   color: $my-white;
 
   img {
-    min-width: 100px;
-    max-width: 100px;
-    width: 100px;
-    height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
   }
 
@@ -20,18 +20,18 @@
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    width: 50vw;
+    width: 46vw;
   }
 
   p {
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 16px;
+    line-height: 19px;
     margin-bottom: 0;
     margin-top: 4px;
     opacity: 0.7;
@@ -39,15 +39,16 @@
 
   .search-card-infos {
     flex-grow: 1;
-    height: 100px;
+    height: 100%;
     margin-left: 15px;
     position: relative;
+    padding: 12.5px 0px;
   }
 }
 
 .place-rating i {
   color: $my-green;
-  font-size: 14px;
+  font-size: 20px;
 
   .i {
     color: $white;
@@ -55,5 +56,6 @@
 }
 
 .place-distance {
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 600;
 }
