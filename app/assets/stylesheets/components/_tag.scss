@@ -2,12 +2,19 @@
   border-radius: 100px;
   margin: 4px;
   padding: 4px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 0 0 2px $my-black;
 }
 
 .search-place-tag {
   font-size: 12px;
-  padding: 0px 5px;
+  padding: 0px 10px;
   box-shadow: none !important;
-  margin: 0px 2px;
+  margin-right: 8px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
   font-size: 14px;
+  text-shadow: 0 0 10px $my-black;
 }

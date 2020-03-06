@@ -17,19 +17,19 @@
   }
 
   #show-place-address {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .place-top-tracks-title {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 17px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
   }
 
   .place-top-tracks-group {
-    font-size: 14px;
+    font-size: 15px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -189,6 +189,8 @@
       flex-grow: 0;
       flex-shrink: 0;
       max-width: 24vw;
+      font-size: 16px;
+      font-weight: 700;
     }
 
     .playing-track-name {
@@ -198,6 +200,7 @@
       flex-grow: 0;
       flex-shrink: 0;
       max-width: 24vw;
+      font-size: 15px;
     }
   }
 
@@ -268,4 +271,9 @@
     margin-bottom: 40px;
     position: relative;
   }
+}
+
+.times-played {
+  font-size: 15px !important;
+  text-align: right !important;
 }
