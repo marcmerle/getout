@@ -59,5 +59,10 @@ class PlacesController < ApplicationController
         image_url: helpers.asset_url('marker.png')
       }
     end
+    @markers << {
+      lat: @query_coordinates.first,
+      lng: @query_coordinates.last,
+      image_url: helpers.asset_url('marker_own.png')
+    }
   end
 end
