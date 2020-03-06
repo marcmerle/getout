@@ -37,13 +37,7 @@ class PlacesController < ApplicationController
     @query_genres = params[:query_genres].split(' ')
     @genres = Genre.all.where('name IN (?)', @query_genres.map(&:downcase))
 
-    sql = <<-SQL
-        INNER JOIN place_genres ON place_genres.place_id = places.id
-          AND place_genres.genre_id IN (#{@genres.map(&:id).join(',')})
-        LIMIT 30
-    SQL
-
-    @places = Place.joins(sql)
+    @places = Place.joins(:place_genres).where(place_genres: { genre_id: @genres.pluck(:id) })
 
     render layout: false
   end
