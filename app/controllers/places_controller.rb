@@ -23,7 +23,8 @@ class PlacesController < ApplicationController
               .where(id: place_ids)
               .sort_by { |place| place.distance_to(@query_coordinates, :km) }
 
-    add_markers
+    add_markers_on_map
+    add_curent_position_on_map
   end
   # rubocop:enable Metrics/MethodLength
 
@@ -44,7 +45,7 @@ class PlacesController < ApplicationController
 
   private
 
-  def add_markers
+  def add_markers_on_map
     @markers = @places.map do |place|
       {
         lat: place.latitude,
@@ -53,6 +54,9 @@ class PlacesController < ApplicationController
         image_url: helpers.asset_url('marker.png')
       }
     end
+  end
+
+  def add_curent_position_on_map
     @markers << {
       lat: @query_coordinates.first,
       lng: @query_coordinates.last,
