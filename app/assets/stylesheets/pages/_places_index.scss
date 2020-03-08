@@ -7,6 +7,7 @@
     font-size: 24px;
     margin: 40px 0 0;
     font-weight: 700;
+    padding: 0 18px;
   }
 
   .bar-search {
@@ -28,9 +29,7 @@
         text-align: center;
         text-decoration: none;
         text-shadow: 0 0 2px rgba($my-pink, 0.3);
-        font-size: 22px;
-        padding-bottom: 0.2rem;
-        margin-bottom: 10px;
+        font-size: 18px;
 
         &.active {
           color: $my-pink;
@@ -52,11 +51,11 @@
     padding: 10px;
 
     ul {
-      border: 2px solid $my-pink;
-      border-radius: 30px;
-      font-size: 20px;
-      font-weight: 600;
-      height: 50px;
+      border: 1px solid $my-pink;
+      border-radius: 21px;
+      font-size: 16px;
+      font-weight: 300;
+      height: 42px;
     }
 
     a {
@@ -68,7 +67,7 @@
         background: $my-pink;
         border: 0px solid $my-pink;
         color: $my-white;
-        border-radius: 24px;
+        border-radius: 21px;
       }
     }
   }
@@ -185,8 +184,6 @@
                 border: none;
                 color: $my-white;
                 font-size: 17px;
-                font-weight: 700;
-                text-shadow: 0 0 2px $my-black;
 
                 .select2-selection__choice__remove {
                   margin-right: 5px !important;

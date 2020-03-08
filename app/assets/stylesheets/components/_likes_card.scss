@@ -20,7 +20,7 @@
     width: 50%;
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0;
     padding-top: 8px;
     text-overflow: ellipsis;
@@ -29,19 +29,17 @@
   }
 
   p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: lighter;
     margin-bottom: 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     width: 64vw;
-    opacity: 0.7;
   }
 
     .place-rating {
       margin-bottom: 4px;
-      font-size: 18px;
     }
 
     .place-distance {
