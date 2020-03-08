@@ -63,16 +63,12 @@
       color: $my-pink;
       text-align: center;
       text-decoration: none;
-      height: 100%;
-      display: flex;
-      padding: 0 15px;
-      align-items: center;
 
       &.active {
         background: $my-pink;
         border: 0px solid $my-pink;
         color: $my-white;
-        border-radius: 25px;
+        border-radius: 24px;
       }
     }
   }
