@@ -3,21 +3,13 @@
 class PlacesController < ApplicationController
   after_action :verify_authorized, except: %i[index home genres], unless: :skip_pundit?
 
-  # rubocop:disable Metrics/MethodLength
-  # SQL Query makes the method too long for Rubocop
   def index
     @query = params[:query].presence || '52 ter Rue des Vinaigriers 75010 Paris'
     @query_coordinates = Geocoder.search(@query).first.coordinates
 
-    sql = <<-SQL
-          SELECT pg.place_id FROM user_genres AS ug
-          LEFT JOIN place_genres AS pg ON pg.genre_id = ug.genre_id
-          WHERE ug.user_id = #{current_user.id}
-          GROUP BY 1
-          LIMIT 30;
-    SQL
-    results = ActiveRecord::Base.connection.execute(sql)
-    place_ids = results.pluck('place_id')
+    place_ids = policy_scope(Place)
+                .joins(place_genres: { genre: :user_genres })
+                .pluck(:id)
 
     @places = policy_scope(Place)
               .where(id: place_ids)
@@ -26,7 +18,6 @@ class PlacesController < ApplicationController
     add_markers_on_map
     add_curent_position_on_map
   end
-  # rubocop:enable Metrics/MethodLength
 
   def show
     @place = Place.find(params[:id])
@@ -36,8 +27,7 @@ class PlacesController < ApplicationController
 
   def genres
     @query_genres = params[:query_genres].split(' ')
-    @genres = Genre.all.where('name IN (?)', @query_genres.map(&:downcase))
-
+    @genres = Genre.where(name: @query_genres.map(&:downcase))
     @places = Place.joins(:place_genres).where(place_genres: { genre_id: @genres.pluck(:id) })
 
     render layout: false
